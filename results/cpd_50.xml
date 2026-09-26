@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.7.0"
+         timestamp="2026-09-25T17:48:07.059981733+09:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="Src/Newtonsoft.Json/Serialization/DefaultContractResolver.cs"
+         totalNumberOfTokens="7446"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonContract.cs"
+         totalNumberOfTokens="924"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonProperty.cs"
+         totalNumberOfTokens="620"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalBase.cs"
+         totalNumberOfTokens="534"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"
+         totalNumberOfTokens="13573"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"
+         totalNumberOfTokens="6547"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs"
+         totalNumberOfTokens="2314"/>
+   <duplication lines="22" tokens="98">
+      <file begintoken="25454"
+            column="17"
+            endcolumn="14"
+            endline="524"
+            endtoken="25551"
+            line="503"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"/>
+      <file begintoken="28098"
+            column="21"
+            endcolumn="18"
+            endline="992"
+            endtoken="28195"
+            line="971"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"/>
+      <codefragment><![CDATA[                try
+                {
+                    if (!CalculatePropertyValues(writer, value, contract, member, property, out JsonContract? memberContract, out object? memberValue))
+                    {
+                        continue;
+                    }
+
+                    property.WritePropertyName(writer);
+                    SerializeValue(writer, memberValue, memberContract, property, contract, member);
+                }
+                catch (Exception ex)
+                {
+                    if (IsErrorHandled(value, contract, property.PropertyName, null, writer.ContainerPath, ex))
+                    {
+                        HandleError(writer, initialDepth);
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+            }
+]]></codefragment>
+   </duplication>
+   <duplication lines="27" tokens="90">
+      <file begintoken="4482"
+            column="40"
+            endcolumn="25"
+            endline="1070"
+            endtoken="4571"
+            line="1044"
+            path="Src/Newtonsoft.Json/Serialization/DefaultContractResolver.cs"/>
+      <file begintoken="4650"
+            column="40"
+            endcolumn="25"
+            endline="1108"
+            endtoken="4739"
+            line="1082"
+            path="Src/Newtonsoft.Json/Serialization/DefaultContractResolver.cs"/>
+      <codefragment><![CDATA[                   : typeof(IDictionary);
+
+                if (parameters.Length == 0)
+                {
+                    contract.HasParameterizedCreator = false;
+                }
+                else if (parameters.Length == 1 && expectedParameterType.IsAssignableFrom(parameters[0].ParameterType))
+                {
+                    contract.HasParameterizedCreator = true;
+                }
+                else
+                {
+                    throw new JsonException("Constructor for '{0}' must have no parameters or a single parameter that implements '{1}'.".FormatWith(CultureInfo.InvariantCulture, contract.UnderlyingType, expectedParameterType));
+                }
+
+                contract.OverrideCreator = JsonTypeReflector.ReflectionDelegateFactory.CreateParameterizedConstructor(overrideConstructor);
+            }
+
+            return contract;
+        }
+
+        /// <summary>
+        /// Creates a <see cref="JsonArrayContract"/> for the given type.
+        /// </summary>
+        /// <param name="objectType">Type of the object.</param>
+        /// <returns>A <see cref="JsonArrayContract"/> for the given type.</returns>
+        protected virtual JsonArrayContract CreateArrayContract(Type objectType)
+ ]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="87">
+      <file begintoken="26893"
+            column="17"
+            endcolumn="40"
+            endline="762"
+            endtoken="26979"
+            line="744"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"/>
+      <file begintoken="27344"
+            column="21"
+            endcolumn="44"
+            endline="851"
+            endtoken="27430"
+            line="833"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"/>
+      <codefragment><![CDATA[                try
+                {
+                    JsonContract? valueContract = contract.FinalItemContract ?? GetContractSafe(value);
+
+                    if (ShouldWriteReference(value, null, valueContract, contract, member))
+                    {
+                        WriteReference(writer, value);
+                    }
+                    else
+                    {
+                        if (CheckForCircularReference(writer, value, null, valueContract, contract, member))
+                        {
+                            SerializeValue(writer, value, valueContract, null, contract, member);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    if (IsErrorHandled(underlyingList, contract, index, null, writer.ContainerPath, ex))
+]]></codefragment>
+   </duplication>
+   <duplication lines="13" tokens="82">
+      <file begintoken="25372"
+            column="90"
+            endcolumn="68"
+            endline="502"
+            endtoken="25453"
+            line="490"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"/>
+      <file begintoken="28009"
+            column="112"
+            endcolumn="68"
+            endline="966"
+            endtoken="28090"
+            line="955"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"/>
+      <codefragment><![CDATA[        private void SerializeObject(JsonWriter writer, object value, JsonObjectContract contract, JsonProperty? member, JsonContainerContract? collectionContract, JsonProperty? containerProperty)
+        {
+            OnSerializing(writer, contract, value);
+
+            _serializeStack.Add(value);
+
+            WriteObjectStart(writer, value, contract, member, collectionContract, containerProperty);
+
+            int initialDepth = writer.Top;
+
+            for (int index = 0; index < contract.Properties.Count; index++)
+            {
+                JsonProperty property = contract.Properties[index];
+]]></codefragment>
+   </duplication>
+   <duplication lines="21" tokens="73">
+      <file begintoken="17577"
+            column="48"
+            endcolumn="18"
+            endline="1658"
+            endtoken="17649"
+            line="1638"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <file begintoken="18181"
+            column="54"
+            endcolumn="14"
+            endline="1815"
+            endtoken="18253"
+            line="1795"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <codefragment><![CDATA[                        if (IsErrorHandled(list, contract, errorPosition.Position, reader as IJsonLineInfo, reader.Path, ex))
+                        {
+                            HandleError(reader, true, initialDepth + 1);
+
+                            if (previousErrorIndex != null && previousErrorIndex == errorPosition.Position)
+                            {
+                                // reader index has not moved since previous error handling
+                                // break out of reading array to prevent infinite loop
+                                throw JsonSerializationException.Create(reader, "Infinite loop detected from error handling.", ex);
+                            }
+                            else
+                            {
+                                previousErrorIndex = errorPosition.Position;
+                            }
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                    }
+                }
+]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="62">
+      <file begintoken="17189"
+            column="25"
+            endcolumn="62"
+            endline="1565"
+            endtoken="17250"
+            line="1552"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <file begintoken="18533"
+            column="25"
+            endcolumn="62"
+            endline="1876"
+            endtoken="18594"
+            line="1863"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <codefragment><![CDATA[                        break;
+                    case JsonToken.Comment:
+                        break;
+                    case JsonToken.EndObject:
+                        finished = true;
+                        break;
+                    default:
+                        throw JsonSerializationException.Create(reader, "Unexpected token when deserializing object: " + reader.TokenType);
+                }
+            } while (!finished && reader.Read());
+
+            if (!finished)
+            {
+                ThrowUnexpectedEndException(reader, contract, underlyingDictionary, "Unexpected end when deserializing object.");
+]]></codefragment>
+   </duplication>
+   <duplication lines="6" tokens="55">
+      <file begintoken="12476"
+            column="63"
+            endcolumn="47"
+            endline="655"
+            endtoken="12530"
+            line="650"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <file begintoken="13022"
+            column="56"
+            endcolumn="47"
+            endline="744"
+            endtoken="13076"
+            line="739"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <codefragment><![CDATA[        private bool ReadMetadataPropertiesToken(JTokenReader reader, ref Type? objectType, ref JsonContract? contract, JsonProperty? member, JsonContainerContract? containerContract, JsonProperty? containerMember, object? existingValue, out object? newValue, out string? id)
+        {
+            id = null;
+            newValue = null;
+
+            if (reader.TokenType == JsonToken.StartObject)
+]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="55">
+      <file begintoken="17196"
+            column="25"
+            endcolumn="62"
+            endline="1565"
+            endtoken="17250"
+            line="1554"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <file begintoken="19333"
+            column="25"
+            endcolumn="62"
+            endline="2034"
+            endtoken="19387"
+            line="2023"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <codefragment><![CDATA[                        break;
+                    case JsonToken.EndObject:
+                        finished = true;
+                        break;
+                    default:
+                        throw JsonSerializationException.Create(reader, "Unexpected token when deserializing object: " + reader.TokenType);
+                }
+            } while (!finished && reader.Read());
+
+            if (!finished)
+            {
+                ThrowUnexpectedEndException(reader, contract, underlyingDictionary, "Unexpected end when deserializing object.");
+]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="55">
+      <file begintoken="18540"
+            column="25"
+            endcolumn="62"
+            endline="1876"
+            endtoken="18594"
+            line="1865"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <file begintoken="19333"
+            column="25"
+            endcolumn="62"
+            endline="2034"
+            endtoken="19387"
+            line="2023"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <codefragment><![CDATA[                        break;
+                    case JsonToken.EndObject:
+                        finished = true;
+                        break;
+                    default:
+                        throw JsonSerializationException.Create(reader, "Unexpected token when deserializing object: " + reader.TokenType);
+                }
+            } while (!finished && reader.Read());
+
+            if (!finished)
+            {
+                ThrowUnexpectedEndException(reader, contract, serializationInfo, "Unexpected end when deserializing object.");
+]]></codefragment>
+   </duplication>
+   <duplication lines="10" tokens="50">
+      <file begintoken="19344"
+            column="25"
+            endcolumn="14"
+            endline="2035"
+            endtoken="19393"
+            line="2026"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <file begintoken="22117"
+            column="25"
+            endcolumn="14"
+            endline="2579"
+            endtoken="22166"
+            line="2570"
+            path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"/>
+      <codefragment><![CDATA[                        break;
+                    default:
+                        throw JsonSerializationException.Create(reader, "Unexpected token when deserializing object: " + reader.TokenType);
+                }
+            } while (!finished && reader.Read());
+
+            if (!finished)
+            {
+                ThrowUnexpectedEndException(reader, contract, newObject, "Unexpected end when deserializing object.");
+            }
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

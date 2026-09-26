@@ -1,0 +1,8 @@
+is_global = true
+# turn on all Roslyn/.NET analyzer rules (CA*, IDE*) as warnings
+dotnet_analyzer_diagnostic.severity = warning
+# code metrics (thresholds live in CodeMetricsConfig.txt)
+dotnet_diagnostic.CA1501.severity = warning
+dotnet_diagnostic.CA1502.severity = warning
+dotnet_diagnostic.CA1505.severity = warning
+dotnet_diagnostic.CA1506.severity = warning

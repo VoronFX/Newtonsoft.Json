@@ -1,0 +1,3865 @@
+{
+ "cc": [
+  {
+   "name": "CreateObjectUsingCreatorWithParameters",
+   "cc": 56,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2060
+  },
+  {
+   "name": "CreateObject",
+   "cc": 32,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 468
+  },
+  {
+   "name": "PopulateDictionary",
+   "cc": 29,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1449
+  },
+  {
+   "name": "PopulateObject",
+   "cc": 27,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2462
+  },
+  {
+   "name": "CreateValueInternal",
+   "cc": 25,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 311
+  },
+  {
+   "name": "CalculatePropertyDetails",
+   "cc": 24,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1171
+  },
+  {
+   "name": "SetPropertySettingsFromAttributes",
+   "cc": 23,
+   "file": "DefaultContractResolver.cs",
+   "line": 1500
+  },
+  {
+   "name": "SerializeValue",
+   "cc": 23,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 166
+  },
+  {
+   "name": "CreateDynamic",
+   "cc": 22,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1932
+  },
+  {
+   "name": "ResolvePropertyAndCreatorValues",
+   "cc": 22,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2316
+  },
+  {
+   "name": "PopulateMultidimensionalArray",
+   "cc": 20,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1574
+  },
+  {
+   "name": "CheckForCircularReference",
+   "cc": 19,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 318
+  },
+  {
+   "name": "GetSerializableMembers",
+   "cc": 18,
+   "file": "DefaultContractResolver.cs",
+   "line": 229
+  },
+  {
+   "name": "CreateContract",
+   "cc": 18,
+   "file": "DefaultContractResolver.cs",
+   "line": 1201
+  },
+  {
+   "name": "ReadMetadataProperties",
+   "cc": 18,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 739
+  },
+  {
+   "name": "CreateList",
+   "cc": 18,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 910
+  },
+  {
+   "name": "EnsureType",
+   "cc": 18,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1010
+  },
+  {
+   "name": "EndProcessProperty",
+   "cc": 18,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2671
+  },
+  {
+   "name": "ReadMetadataPropertiesToken",
+   "cc": 17,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 650
+  },
+  {
+   "name": "ShouldWriteType",
+   "cc": 17,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1056
+  },
+  {
+   "name": "GetCallbackMethodsForType",
+   "cc": 16,
+   "file": "DefaultContractResolver.cs",
+   "line": 879
+  },
+  {
+   "name": "PopulateList",
+   "cc": 16,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1726
+  },
+  {
+   "name": "CalculatePropertyValues",
+   "cc": 16,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 566
+  },
+  {
+   "name": "CreateObjectContract",
+   "cc": 15,
+   "file": "DefaultContractResolver.cs",
+   "line": 344
+  },
+  {
+   "name": "CreateISerializable",
+   "cc": 15,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1830
+  },
+  {
+   "name": "IsValidCallback",
+   "cc": 14,
+   "file": "DefaultContractResolver.cs",
+   "line": 1331
+  },
+  {
+   "name": "Populate",
+   "cc": 14,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 69
+  },
+  {
+   "name": "ResolveTypeName",
+   "cc": 14,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 843
+  },
+  {
+   "name": "SetPropertyValue",
+   "cc": 14,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1103
+  },
+  {
+   "name": "GetPropertyName",
+   "cc": 14,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1187
+  },
+  {
+   "name": "CreatePropertyFromConstructorParameter",
+   "cc": 13,
+   "file": "DefaultContractResolver.cs",
+   "line": 755
+  },
+  {
+   "name": "CreateNewList",
+   "cc": 13,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1310
+  },
+  {
+   "name": "SerializeDictionary",
+   "cc": 13,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1102
+  },
+  {
+   "name": "SetExtensionDataDelegates",
+   "cc": 12,
+   "file": "DefaultContractResolver.cs",
+   "line": 495
+  },
+  {
+   "name": "Deserialize",
+   "cc": 12,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 154
+  },
+  {
+   "name": "WriteStartArray",
+   "cc": 11,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 870
+  },
+  {
+   "name": "SerializeDynamic",
+   "cc": 11,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 955
+  },
+  {
+   "name": "IsErrorHandled",
+   "cc": 10,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 119
+  },
+  {
+   "name": "GetConverter",
+   "cc": 10,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 429
+  },
+  {
+   "name": "CreateNewDictionary",
+   "cc": 10,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1379
+  },
+  {
+   "name": "CreateNewObject",
+   "cc": 10,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2417
+  },
+  {
+   "name": "SerializeObject",
+   "cc": 10,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 490
+  },
+  {
+   "name": "CreateDictionaryContract",
+   "cc": 9,
+   "file": "DefaultContractResolver.cs",
+   "line": 1021
+  },
+  {
+   "name": "CreateJToken",
+   "cc": 9,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 231
+  },
+  {
+   "name": "CoerceEmptyStringToNull",
+   "cc": 9,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 389
+  },
+  {
+   "name": "GetExpectedDescription",
+   "cc": 9,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 405
+  },
+  {
+   "name": "SerializeList",
+   "cc": 9,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 719
+  },
+  {
+   "name": "GetAttribute",
+   "cc": 9,
+   "file": "JsonTypeReflector.cs",
+   "line": 387
+  },
+  {
+   "name": "GetExtensionDataMemberForType",
+   "cc": 8,
+   "file": "DefaultContractResolver.cs",
+   "line": 446
+  },
+  {
+   "name": "CreateConstructorParameters",
+   "cc": 8,
+   "file": "DefaultContractResolver.cs",
+   "line": 691
+  },
+  {
+   "name": "InitializeContract",
+   "cc": 8,
+   "file": "DefaultContractResolver.cs",
+   "line": 807
+  },
+  {
+   "name": "SetPropertyPresence",
+   "cc": 8,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2726
+  },
+  {
+   "name": "SerializeMultidimensionalArray",
+   "cc": 8,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 813
+  },
+  {
+   "name": "GetDataMemberAttribute",
+   "cc": 8,
+   "file": "JsonTypeReflector.cs",
+   "line": 139
+  },
+  {
+   "name": "GetImmutableConstructor",
+   "cc": 7,
+   "file": "DefaultContractResolver.cs",
+   "line": 633
+  },
+  {
+   "name": "IsConcurrentOrObservableCollection",
+   "cc": 7,
+   "file": "DefaultContractResolver.cs",
+   "line": 945
+  },
+  {
+   "name": "ShouldSetPropertyValue",
+   "cc": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1287
+  },
+  {
+   "name": "ResolveIsReference",
+   "cc": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 238
+  },
+  {
+   "name": "ShouldWriteReference",
+   "cc": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 266
+  },
+  {
+   "name": "WriteObjectStart",
+   "cc": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 617
+  },
+  {
+   "name": "SerializeConvertable",
+   "cc": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 686
+  },
+  {
+   "name": "ResolveCallbackMethods",
+   "cc": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 843
+  },
+  {
+   "name": "CreateArrayContract",
+   "cc": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 1070
+  },
+  {
+   "name": "CanConvertToString",
+   "cc": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 1307
+  },
+  {
+   "name": "ResolvePropertyNameFromAttribute",
+   "cc": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 1646
+  },
+  {
+   "name": "CreateJObject",
+   "cc": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 267
+  },
+  {
+   "name": "CheckPropertyName",
+   "cc": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2613
+  },
+  {
+   "name": "ShouldWriteDynamicProperty",
+   "cc": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1040
+  },
+  {
+   "name": "CanTypeDescriptorConvertString",
+   "cc": 6,
+   "file": "JsonTypeReflector.cs",
+   "line": 92
+  },
+  {
+   "name": "GetCreator",
+   "cc": 6,
+   "file": "JsonTypeReflector.cs",
+   "line": 262
+  },
+  {
+   "name": "GetAttribute",
+   "cc": 6,
+   "file": "JsonTypeReflector.cs",
+   "line": 351
+  },
+  {
+   "name": "CreateProperties",
+   "cc": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 1394
+  },
+  {
+   "name": "SetIsSpecifiedActions",
+   "cc": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 1687
+  },
+  {
+   "name": "DeserializeConvertable",
+   "cc": 5,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2297
+  },
+  {
+   "name": "SerializePrimitive",
+   "cc": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 136
+  },
+  {
+   "name": "ShouldWriteProperty",
+   "cc": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 302
+  },
+  {
+   "name": "TryConvertToString",
+   "cc": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 416
+  },
+  {
+   "name": "SerializeISerializable",
+   "cc": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 908
+  },
+  {
+   "name": "GetObjectMemberSerialization",
+   "cc": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 177
+  },
+  {
+   "name": "FilterMembers",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 205
+  },
+  {
+   "name": "ShouldSerializeEntityMember",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 325
+  },
+  {
+   "name": "GetAttributeConstructor",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 609
+  },
+  {
+   "name": "MatchProperty",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 730
+  },
+  {
+   "name": "ShouldSkipDeserialized",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 965
+  },
+  {
+   "name": "ShouldSkipSerializing",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 983
+  },
+  {
+   "name": "IsIConvertible",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 1295
+  },
+  {
+   "name": "CreateProperty",
+   "cc": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 1465
+  },
+  {
+   "name": "GetResolvedDefaultValue",
+   "cc": 4,
+   "file": "JsonProperty.cs",
+   "line": 183
+  },
+  {
+   "name": "ResolvedNullValueHandling",
+   "cc": 4,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 84
+  },
+  {
+   "name": "HasNoDefinedType",
+   "cc": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 999
+  },
+  {
+   "name": "ShouldDeserialize",
+   "cc": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2596
+  },
+  {
+   "name": "HandleError",
+   "cc": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2751
+  },
+  {
+   "name": "Serialize",
+   "cc": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 63
+  },
+  {
+   "name": "ShouldSerialize",
+   "cc": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1270
+  },
+  {
+   "name": "IsSpecified",
+   "cc": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1287
+  },
+  {
+   "name": "GetAssociateMetadataTypeFromAttribute",
+   "cc": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 322
+  },
+  {
+   "name": "GetClassHierarchyForType",
+   "cc": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1000
+  },
+  {
+   "name": "CreateISerializableContract",
+   "cc": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1135
+  },
+  {
+   "name": "CreateDynamicContract",
+   "cc": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1161
+  },
+  {
+   "name": "GetClrTypeFullName",
+   "cc": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1378
+  },
+  {
+   "name": "CreateShouldSerializeTest",
+   "cc": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1672
+  },
+  {
+   "name": ".ctor",
+   "cc": 3,
+   "file": "JsonContract.cs",
+   "line": 246
+  },
+  {
+   "name": "InvokeOnSerializing",
+   "cc": 3,
+   "file": "JsonContract.cs",
+   "line": 270
+  },
+  {
+   "name": "InvokeOnSerialized",
+   "cc": 3,
+   "file": "JsonContract.cs",
+   "line": 281
+  },
+  {
+   "name": "InvokeOnDeserializing",
+   "cc": 3,
+   "file": "JsonContract.cs",
+   "line": 292
+  },
+  {
+   "name": "InvokeOnDeserialized",
+   "cc": 3,
+   "file": "JsonContract.cs",
+   "line": 303
+  },
+  {
+   "name": "InvokeOnError",
+   "cc": 3,
+   "file": "JsonContract.cs",
+   "line": 314
+  },
+  {
+   "name": "GetErrorContext",
+   "cc": 3,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 94
+  },
+  {
+   "name": "EnsureArrayContract",
+   "cc": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 889
+  },
+  {
+   "name": "AddReference",
+   "cc": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1265
+  },
+  {
+   "name": "OnDeserializing",
+   "cc": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1427
+  },
+  {
+   "name": "OnDeserialized",
+   "cc": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1437
+  },
+  {
+   "name": "CreateISerializableItem",
+   "cc": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1906
+  },
+  {
+   "name": "WriteReference",
+   "cc": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 386
+  },
+  {
+   "name": "OnSerializing",
+   "cc": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 468
+  },
+  {
+   "name": "OnSerialized",
+   "cc": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 478
+  },
+  {
+   "name": "WriteReferenceIdProperty",
+   "cc": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 643
+  },
+  {
+   "name": "WriteTypeProperty",
+   "cc": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 656
+  },
+  {
+   "name": "HandleError",
+   "cc": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1255
+  },
+  {
+   "name": "GetDataContractAttribute",
+   "cc": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 118
+  },
+  {
+   "name": "GetJsonConverter",
+   "cc": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 206
+  },
+  {
+   "name": "GetContainerNamingStrategy",
+   "cc": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 246
+  },
+  {
+   "name": "GetAttribute",
+   "cc": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 470
+  },
+  {
+   "name": "get_FullyTrusted",
+   "cc": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 533
+  },
+  {
+   "name": "GetParameterizedConstructor",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 662
+  },
+  {
+   "name": "IsJsonPrimitiveType",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1287
+  },
+  {
+   "name": "CreateMemberValueProvider",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1436
+  },
+  {
+   "name": "ResolvePropertyName",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1715
+  },
+  {
+   "name": "ResolveExtensionDataName",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1730
+  },
+  {
+   "name": "ResolveDictionaryKey",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1745
+  },
+  {
+   "name": "GetEnumerator",
+   "cc": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 595
+  },
+  {
+   "name": "set_CreatedType",
+   "cc": 2,
+   "file": "JsonContract.cs",
+   "line": 119
+  },
+  {
+   "name": "get_OnDeserializedCallbacks",
+   "cc": 2,
+   "file": "JsonContract.cs",
+   "line": 154
+  },
+  {
+   "name": "get_OnDeserializingCallbacks",
+   "cc": 2,
+   "file": "JsonContract.cs",
+   "line": 171
+  },
+  {
+   "name": "get_OnSerializedCallbacks",
+   "cc": 2,
+   "file": "JsonContract.cs",
+   "line": 188
+  },
+  {
+   "name": "get_OnSerializingCallbacks",
+   "cc": 2,
+   "file": "JsonContract.cs",
+   "line": 205
+  },
+  {
+   "name": "get_OnErrorCallbacks",
+   "cc": 2,
+   "file": "JsonContract.cs",
+   "line": 222
+  },
+  {
+   "name": "set_PropertyType",
+   "cc": 2,
+   "file": "JsonProperty.cs",
+   "line": 109
+  },
+  {
+   "name": "get_DefaultValue",
+   "cc": 2,
+   "file": "JsonProperty.cs",
+   "line": 167
+  },
+  {
+   "name": "get_Required",
+   "cc": 2,
+   "file": "JsonProperty.cs",
+   "line": 205
+  },
+  {
+   "name": "ToString",
+   "cc": 2,
+   "file": "JsonProperty.cs",
+   "line": 282
+  },
+  {
+   "name": "WritePropertyName",
+   "cc": 2,
+   "file": "JsonProperty.cs",
+   "line": 311
+  },
+  {
+   "name": "get_DefaultReferenceMappings",
+   "cc": 2,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 67
+  },
+  {
+   "name": "ClearErrorContext",
+   "cc": 2,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 109
+  },
+  {
+   "name": "GetContractSafe",
+   "cc": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 137
+  },
+  {
+   "name": "GetInternalSerializer",
+   "cc": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 221
+  },
+  {
+   "name": "GetQualifiedTypeName",
+   "cc": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 829
+  },
+  {
+   "name": "ThrowUnexpectedEndException",
+   "cc": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1705
+  },
+  {
+   "name": "SetExtensionData",
+   "cc": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2632
+  },
+  {
+   "name": "ReadExtensionDataValue",
+   "cc": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2655
+  },
+  {
+   "name": "GetInternalSerializer",
+   "cc": 2,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 111
+  },
+  {
+   "name": "GetContractSafe",
+   "cc": 2,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 121
+  },
+  {
+   "name": "HasCreatorParameter",
+   "cc": 2,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 633
+  },
+  {
+   "name": "SerializeMultidimensionalArray",
+   "cc": 2,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 791
+  },
+  {
+   "name": "get_DynamicCodeGeneration",
+   "cc": 2,
+   "file": "JsonTypeReflector.cs",
+   "line": 502
+  },
+  {
+   "name": "get_ReflectionDelegateFactory",
+   "cc": 2,
+   "file": "JsonTypeReflector.cs",
+   "line": 562
+  }
+ ],
+ "mi": [
+  {
+   "name": "DefaultContractResolver",
+   "mi": 59,
+   "file": "DefaultContractResolver.cs",
+   "line": 64
+  },
+  {
+   "name": "_instance",
+   "mi": 93,
+   "file": "DefaultContractResolver.cs",
+   "line": 66
+  },
+  {
+   "name": "BlacklistedTypeNames",
+   "mi": 88,
+   "file": "DefaultContractResolver.cs",
+   "line": 71
+  },
+  {
+   "name": "BuiltInConverters",
+   "mi": 80,
+   "file": "DefaultContractResolver.cs",
+   "line": 78
+  },
+  {
+   "name": "_nameTable",
+   "mi": 93,
+   "file": "DefaultContractResolver.cs",
+   "line": 105
+  },
+  {
+   "name": ".ctor",
+   "mi": 77,
+   "file": "DefaultContractResolver.cs",
+   "line": 180
+  },
+  {
+   "name": "ResolveContract",
+   "mi": 84,
+   "file": "DefaultContractResolver.cs",
+   "line": 198
+  },
+  {
+   "name": "FilterMembers",
+   "mi": 68,
+   "file": "DefaultContractResolver.cs",
+   "line": 205
+  },
+  {
+   "name": "GetSerializableMembers",
+   "mi": 45,
+   "file": "DefaultContractResolver.cs",
+   "line": 229
+  },
+  {
+   "name": "ShouldSerializeEntityMember",
+   "mi": 73,
+   "file": "DefaultContractResolver.cs",
+   "line": 325
+  },
+  {
+   "name": "CreateObjectContract",
+   "mi": 40,
+   "file": "DefaultContractResolver.cs",
+   "line": 344
+  },
+  {
+   "name": "ThrowUnableToSerializeError",
+   "mi": 90,
+   "file": "DefaultContractResolver.cs",
+   "line": 441
+  },
+  {
+   "name": "GetExtensionDataMemberForType",
+   "mi": 50,
+   "file": "DefaultContractResolver.cs",
+   "line": 446
+  },
+  {
+   "name": "SetExtensionDataDelegates",
+   "mi": 42,
+   "file": "DefaultContractResolver.cs",
+   "line": 495
+  },
+  {
+   "name": "GetAttributeConstructor",
+   "mi": 61,
+   "file": "DefaultContractResolver.cs",
+   "line": 609
+  },
+  {
+   "name": "GetImmutableConstructor",
+   "mi": 58,
+   "file": "DefaultContractResolver.cs",
+   "line": 633
+  },
+  {
+   "name": "GetParameterizedConstructor",
+   "mi": 74,
+   "file": "DefaultContractResolver.cs",
+   "line": 662
+  },
+  {
+   "name": "CreateConstructorParameters",
+   "mi": 55,
+   "file": "DefaultContractResolver.cs",
+   "line": 691
+  },
+  {
+   "name": "MatchProperty",
+   "mi": 69,
+   "file": "DefaultContractResolver.cs",
+   "line": 730
+  },
+  {
+   "name": "CreatePropertyFromConstructorParameter",
+   "mi": 50,
+   "file": "DefaultContractResolver.cs",
+   "line": 755
+  },
+  {
+   "name": "ResolveContractConverter",
+   "mi": 96,
+   "file": "DefaultContractResolver.cs",
+   "line": 794
+  },
+  {
+   "name": "GetDefaultCreator",
+   "mi": 93,
+   "file": "DefaultContractResolver.cs",
+   "line": 799
+  },
+  {
+   "name": "InitializeContract",
+   "mi": 56,
+   "file": "DefaultContractResolver.cs",
+   "line": 807
+  },
+  {
+   "name": "ResolveCallbackMethods",
+   "mi": 61,
+   "file": "DefaultContractResolver.cs",
+   "line": 843
+  },
+  {
+   "name": "GetCallbackMethodsForType",
+   "mi": 43,
+   "file": "DefaultContractResolver.cs",
+   "line": 879
+  },
+  {
+   "name": "IsConcurrentOrObservableCollection",
+   "mi": 72,
+   "file": "DefaultContractResolver.cs",
+   "line": 945
+  },
+  {
+   "name": "ShouldSkipDeserialized",
+   "mi": 71,
+   "file": "DefaultContractResolver.cs",
+   "line": 965
+  },
+  {
+   "name": "ShouldSkipSerializing",
+   "mi": 71,
+   "file": "DefaultContractResolver.cs",
+   "line": 983
+  },
+  {
+   "name": "GetClassHierarchyForType",
+   "mi": 68,
+   "file": "DefaultContractResolver.cs",
+   "line": 1000
+  },
+  {
+   "name": "CreateDictionaryContract",
+   "mi": 51,
+   "file": "DefaultContractResolver.cs",
+   "line": 1021
+  },
+  {
+   "name": "CreateArrayContract",
+   "mi": 56,
+   "file": "DefaultContractResolver.cs",
+   "line": 1070
+  },
+  {
+   "name": "CreatePrimitiveContract",
+   "mi": 81,
+   "file": "DefaultContractResolver.cs",
+   "line": 1108
+  },
+  {
+   "name": "CreateLinqContract",
+   "mi": 81,
+   "file": "DefaultContractResolver.cs",
+   "line": 1121
+  },
+  {
+   "name": "CreateISerializableContract",
+   "mi": 64,
+   "file": "DefaultContractResolver.cs",
+   "line": 1135
+  },
+  {
+   "name": "CreateDynamicContract",
+   "mi": 62,
+   "file": "DefaultContractResolver.cs",
+   "line": 1161
+  },
+  {
+   "name": "CreateStringContract",
+   "mi": 81,
+   "file": "DefaultContractResolver.cs",
+   "line": 1188
+  },
+  {
+   "name": "CreateContract",
+   "mi": 46,
+   "file": "DefaultContractResolver.cs",
+   "line": 1201
+  },
+  {
+   "name": "IsJsonPrimitiveType",
+   "mi": 82,
+   "file": "DefaultContractResolver.cs",
+   "line": 1287
+  },
+  {
+   "name": "IsIConvertible",
+   "mi": 76,
+   "file": "DefaultContractResolver.cs",
+   "line": 1295
+  },
+  {
+   "name": "CanConvertToString",
+   "mi": 68,
+   "file": "DefaultContractResolver.cs",
+   "line": 1307
+  },
+  {
+   "name": "IsValidCallback",
+   "mi": 51,
+   "file": "DefaultContractResolver.cs",
+   "line": 1331
+  },
+  {
+   "name": "GetClrTypeFullName",
+   "mi": 76,
+   "file": "DefaultContractResolver.cs",
+   "line": 1378
+  },
+  {
+   "name": "CreateProperties",
+   "mi": 57,
+   "file": "DefaultContractResolver.cs",
+   "line": 1394
+  },
+  {
+   "name": "CreateMemberValueProvider",
+   "mi": 76,
+   "file": "DefaultContractResolver.cs",
+   "line": 1436
+  },
+  {
+   "name": "CreateProperty",
+   "mi": 55,
+   "file": "DefaultContractResolver.cs",
+   "line": 1465
+  },
+  {
+   "name": "SetPropertySettingsFromAttributes",
+   "mi": 33,
+   "file": "DefaultContractResolver.cs",
+   "line": 1500
+  },
+  {
+   "name": "ResolvePropertyNameFromAttribute",
+   "mi": 62,
+   "file": "DefaultContractResolver.cs",
+   "line": 1646
+  },
+  {
+   "name": "CreateShouldSerializeTest",
+   "mi": 67,
+   "file": "DefaultContractResolver.cs",
+   "line": 1672
+  },
+  {
+   "name": "SetIsSpecifiedActions",
+   "mi": 60,
+   "file": "DefaultContractResolver.cs",
+   "line": 1687
+  },
+  {
+   "name": "ResolvePropertyName",
+   "mi": 79,
+   "file": "DefaultContractResolver.cs",
+   "line": 1715
+  },
+  {
+   "name": "ResolveExtensionDataName",
+   "mi": 79,
+   "file": "DefaultContractResolver.cs",
+   "line": 1730
+  },
+  {
+   "name": "ResolveDictionaryKey",
+   "mi": 78,
+   "file": "DefaultContractResolver.cs",
+   "line": 1745
+  },
+  {
+   "name": "GetResolvedPropertyName",
+   "mi": 96,
+   "file": "DefaultContractResolver.cs",
+   "line": 1760
+  },
+  {
+   "name": "EnumerableDictionaryWrapper",
+   "mi": 86,
+   "file": "DefaultContractResolver.cs",
+   "line": 585
+  },
+  {
+   "name": ".ctor",
+   "mi": 86,
+   "file": "DefaultContractResolver.cs",
+   "line": 589
+  },
+  {
+   "name": "GetEnumerator",
+   "mi": 83,
+   "file": "DefaultContractResolver.cs",
+   "line": 595
+  },
+  {
+   "name": "JsonContract",
+   "mi": 79,
+   "file": "JsonContract.cs",
+   "line": 82
+  },
+  {
+   "name": "NonNullableUnderlyingType",
+   "mi": 95,
+   "file": "JsonContract.cs",
+   "line": 89
+  },
+  {
+   "name": "_createdType",
+   "mi": 95,
+   "file": "JsonContract.cs",
+   "line": 103
+  },
+  {
+   "name": "CreatedType",
+   "mi": 86,
+   "file": "JsonContract.cs",
+   "line": 116
+  },
+  {
+   "name": "set_CreatedType",
+   "mi": 73,
+   "file": "JsonContract.cs",
+   "line": 119
+  },
+  {
+   "name": "OnDeserializedCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 152
+  },
+  {
+   "name": "get_OnDeserializedCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 154
+  },
+  {
+   "name": "OnDeserializingCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 169
+  },
+  {
+   "name": "get_OnDeserializingCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 171
+  },
+  {
+   "name": "OnSerializedCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 186
+  },
+  {
+   "name": "get_OnSerializedCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 188
+  },
+  {
+   "name": "OnSerializingCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 203
+  },
+  {
+   "name": "get_OnSerializingCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 205
+  },
+  {
+   "name": "OnErrorCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 220
+  },
+  {
+   "name": "get_OnErrorCallbacks",
+   "mi": 80,
+   "file": "JsonContract.cs",
+   "line": 222
+  },
+  {
+   "name": ".ctor",
+   "mi": 61,
+   "file": "JsonContract.cs",
+   "line": 246
+  },
+  {
+   "name": "InvokeOnSerializing",
+   "mi": 79,
+   "file": "JsonContract.cs",
+   "line": 270
+  },
+  {
+   "name": "InvokeOnSerialized",
+   "mi": 79,
+   "file": "JsonContract.cs",
+   "line": 281
+  },
+  {
+   "name": "InvokeOnDeserializing",
+   "mi": 79,
+   "file": "JsonContract.cs",
+   "line": 292
+  },
+  {
+   "name": "InvokeOnDeserialized",
+   "mi": 79,
+   "file": "JsonContract.cs",
+   "line": 303
+  },
+  {
+   "name": "InvokeOnError",
+   "mi": 79,
+   "file": "JsonContract.cs",
+   "line": 314
+  },
+  {
+   "name": "CreateSerializationCallback",
+   "mi": 85,
+   "file": "JsonContract.cs",
+   "line": 325
+  },
+  {
+   "name": "CreateSerializationErrorCallback",
+   "mi": 84,
+   "file": "JsonContract.cs",
+   "line": 330
+  },
+  {
+   "name": "JsonContractType",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 37
+  },
+  {
+   "name": "None",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 39
+  },
+  {
+   "name": "Object",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 40
+  },
+  {
+   "name": "Array",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 41
+  },
+  {
+   "name": "Primitive",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 42
+  },
+  {
+   "name": "String",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 43
+  },
+  {
+   "name": "Dictionary",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 44
+  },
+  {
+   "name": "Dynamic",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 45
+  },
+  {
+   "name": "Serializable",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 46
+  },
+  {
+   "name": "Linq",
+   "mi": 93,
+   "file": "JsonContract.cs",
+   "line": 47
+  },
+  {
+   "name": "JsonProperty",
+   "mi": 91,
+   "file": "JsonProperty.cs",
+   "line": 41
+  },
+  {
+   "name": "PropertyName",
+   "mi": 92,
+   "file": "JsonProperty.cs",
+   "line": 61
+  },
+  {
+   "name": "set_PropertyName",
+   "mi": 83,
+   "file": "JsonProperty.cs",
+   "line": 64
+  },
+  {
+   "name": "PropertyType",
+   "mi": 90,
+   "file": "JsonProperty.cs",
+   "line": 106
+  },
+  {
+   "name": "set_PropertyType",
+   "mi": 79,
+   "file": "JsonProperty.cs",
+   "line": 109
+  },
+  {
+   "name": "MemberConverter",
+   "mi": 98,
+   "file": "JsonProperty.cs",
+   "line": 131
+  },
+  {
+   "name": "set_MemberConverter",
+   "mi": 96,
+   "file": "JsonProperty.cs",
+   "line": 134
+  },
+  {
+   "name": "DefaultValue",
+   "mi": 84,
+   "file": "JsonProperty.cs",
+   "line": 165
+  },
+  {
+   "name": "get_DefaultValue",
+   "mi": 82,
+   "file": "JsonProperty.cs",
+   "line": 167
+  },
+  {
+   "name": "set_DefaultValue",
+   "mi": 85,
+   "file": "JsonProperty.cs",
+   "line": 176
+  },
+  {
+   "name": "GetResolvedDefaultValue",
+   "mi": 69,
+   "file": "JsonProperty.cs",
+   "line": 183
+  },
+  {
+   "name": "Required",
+   "mi": 96,
+   "file": "JsonProperty.cs",
+   "line": 203
+  },
+  {
+   "name": "get_Required",
+   "mi": 96,
+   "file": "JsonProperty.cs",
+   "line": 205
+  },
+  {
+   "name": "set_Required",
+   "mi": 96,
+   "file": "JsonProperty.cs",
+   "line": 206
+  },
+  {
+   "name": "IsRequiredSpecified",
+   "mi": 94,
+   "file": "JsonProperty.cs",
+   "line": 212
+  },
+  {
+   "name": "get_IsRequiredSpecified",
+   "mi": 94,
+   "file": "JsonProperty.cs",
+   "line": 212
+  },
+  {
+   "name": "ToString",
+   "mi": 94,
+   "file": "JsonProperty.cs",
+   "line": 282
+  },
+  {
+   "name": "WritePropertyName",
+   "mi": 73,
+   "file": "JsonProperty.cs",
+   "line": 311
+  },
+  {
+   "name": "JsonSerializerInternalBase",
+   "mi": 68,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 34
+  },
+  {
+   "name": ".ctor",
+   "mi": 79,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 57
+  },
+  {
+   "name": "DefaultReferenceMappings",
+   "mi": 77,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 65
+  },
+  {
+   "name": "get_DefaultReferenceMappings",
+   "mi": 77,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 67
+  },
+  {
+   "name": "ResolvedNullValueHandling",
+   "mi": 81,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 84
+  },
+  {
+   "name": "GetErrorContext",
+   "mi": 70,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 94
+  },
+  {
+   "name": "ClearErrorContext",
+   "mi": 79,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 109
+  },
+  {
+   "name": "IsErrorHandled",
+   "mi": 54,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 119
+  },
+  {
+   "name": "ReferenceEqualsEqualityComparer",
+   "mi": 93,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 36
+  },
+  {
+   "name": "System.Collections.Generic.IEqualityComparer<System.Object>.Equals",
+   "mi": 94,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 38
+  },
+  {
+   "name": "System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode",
+   "mi": 96,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 43
+  },
+  {
+   "name": "JsonSerializerInternalReader",
+   "mi": 49,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 53
+  },
+  {
+   "name": "Populate",
+   "mi": 46,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 69
+  },
+  {
+   "name": "GetContractSafe",
+   "mi": 81,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 137
+  },
+  {
+   "name": "GetContract",
+   "mi": 91,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 147
+  },
+  {
+   "name": "Deserialize",
+   "mi": 49,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 154
+  },
+  {
+   "name": "GetInternalSerializer",
+   "mi": 74,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 221
+  },
+  {
+   "name": "CreateJToken",
+   "mi": 56,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 231
+  },
+  {
+   "name": "CreateJObject",
+   "mi": 56,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 267
+  },
+  {
+   "name": "CreateValueInternal",
+   "mi": 52,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 311
+  },
+  {
+   "name": "CoerceEmptyStringToNull",
+   "mi": 69,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 389
+  },
+  {
+   "name": "GetExpectedDescription",
+   "mi": 84,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 405
+  },
+  {
+   "name": "GetConverter",
+   "mi": 56,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 429
+  },
+  {
+   "name": "CreateObject",
+   "mi": 31,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 468
+  },
+  {
+   "name": "ReadMetadataPropertiesToken",
+   "mi": 39,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 650
+  },
+  {
+   "name": "ReadMetadataProperties",
+   "mi": 40,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 739
+  },
+  {
+   "name": "GetQualifiedTypeName",
+   "mi": 76,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 829
+  },
+  {
+   "name": "ResolveTypeName",
+   "mi": 53,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 843
+  },
+  {
+   "name": "EnsureArrayContract",
+   "mi": 65,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 889
+  },
+  {
+   "name": "CreateList",
+   "mi": 41,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 910
+  },
+  {
+   "name": "HasNoDefinedType",
+   "mi": 87,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 999
+  },
+  {
+   "name": "EnsureType",
+   "mi": 44,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1010
+  },
+  {
+   "name": "SetPropertyValue",
+   "mi": 50,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1103
+  },
+  {
+   "name": "CalculatePropertyDetails",
+   "mi": 41,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1171
+  },
+  {
+   "name": "AddReference",
+   "mi": 68,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1265
+  },
+  {
+   "name": "HasFlag",
+   "mi": 92,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1282
+  },
+  {
+   "name": "ShouldSetPropertyValue",
+   "mi": 64,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1287
+  },
+  {
+   "name": "CreateNewList",
+   "mi": 46,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1310
+  },
+  {
+   "name": "CreateNewDictionary",
+   "mi": 50,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1379
+  },
+  {
+   "name": "OnDeserializing",
+   "mi": 74,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1427
+  },
+  {
+   "name": "OnDeserialized",
+   "mi": 74,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1437
+  },
+  {
+   "name": "PopulateDictionary",
+   "mi": 39,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1449
+  },
+  {
+   "name": "PopulateMultidimensionalArray",
+   "mi": 41,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1574
+  },
+  {
+   "name": "ThrowUnexpectedEndException",
+   "mi": 74,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1705
+  },
+  {
+   "name": "PopulateList",
+   "mi": 44,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1726
+  },
+  {
+   "name": "CreateISerializable",
+   "mi": 46,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1830
+  },
+  {
+   "name": "CreateISerializableItem",
+   "mi": 60,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1906
+  },
+  {
+   "name": "CreateDynamic",
+   "mi": 41,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1932
+  },
+  {
+   "name": "CreateObjectUsingCreatorWithParameters",
+   "mi": 24,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2060
+  },
+  {
+   "name": "DeserializeConvertable",
+   "mi": 62,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2297
+  },
+  {
+   "name": "ResolvePropertyAndCreatorValues",
+   "mi": 43,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2316
+  },
+  {
+   "name": "CreateNewObject",
+   "mi": 51,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2417
+  },
+  {
+   "name": "PopulateObject",
+   "mi": 36,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2462
+  },
+  {
+   "name": "ShouldDeserialize",
+   "mi": 66,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2596
+  },
+  {
+   "name": "CheckPropertyName",
+   "mi": 76,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2613
+  },
+  {
+   "name": "SetExtensionData",
+   "mi": 65,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2632
+  },
+  {
+   "name": "ReadExtensionDataValue",
+   "mi": 70,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2655
+  },
+  {
+   "name": "EndProcessProperty",
+   "mi": 51,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2671
+  },
+  {
+   "name": "SetPropertyPresence",
+   "mi": 72,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2726
+  },
+  {
+   "name": "HandleError",
+   "mi": 72,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2751
+  },
+  {
+   "name": "CreatorPropertyContext",
+   "mi": 96,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2043
+  },
+  {
+   "name": ".ctor",
+   "mi": 96,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2052
+  },
+  {
+   "name": "PropertyPresence",
+   "mi": 93,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 55
+  },
+  {
+   "name": "None",
+   "mi": 93,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 57
+  },
+  {
+   "name": "Null",
+   "mi": 93,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 58
+  },
+  {
+   "name": "Value",
+   "mi": 93,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 59
+  },
+  {
+   "name": "JsonSerializerInternalWriter",
+   "mi": 57,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 50
+  },
+  {
+   "name": "_serializeStack",
+   "mi": 93,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 54
+  },
+  {
+   "name": "Serialize",
+   "mi": 57,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 63
+  },
+  {
+   "name": "GetInternalSerializer",
+   "mi": 74,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 111
+  },
+  {
+   "name": "GetContractSafe",
+   "mi": 81,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 121
+  },
+  {
+   "name": "GetContract",
+   "mi": 90,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 131
+  },
+  {
+   "name": "SerializePrimitive",
+   "mi": 60,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 136
+  },
+  {
+   "name": "SerializeValue",
+   "mi": 53,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 166
+  },
+  {
+   "name": "ResolveIsReference",
+   "mi": 62,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 238
+  },
+  {
+   "name": "ShouldWriteReference",
+   "mi": 57,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 266
+  },
+  {
+   "name": "ShouldWriteProperty",
+   "mi": 69,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 302
+  },
+  {
+   "name": "CheckForCircularReference",
+   "mi": 47,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 318
+  },
+  {
+   "name": "WriteReference",
+   "mi": 65,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 386
+  },
+  {
+   "name": "GetReference",
+   "mi": 73,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 401
+  },
+  {
+   "name": "TryConvertToString",
+   "mi": 57,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 416
+  },
+  {
+   "name": "SerializeString",
+   "mi": 73,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 458
+  },
+  {
+   "name": "OnSerializing",
+   "mi": 74,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 468
+  },
+  {
+   "name": "OnSerialized",
+   "mi": 74,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 478
+  },
+  {
+   "name": "SerializeObject",
+   "mi": 45,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 490
+  },
+  {
+   "name": "CalculatePropertyValues",
+   "mi": 48,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 566
+  },
+  {
+   "name": "WriteObjectStart",
+   "mi": 66,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 617
+  },
+  {
+   "name": "HasCreatorParameter",
+   "mi": 78,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 633
+  },
+  {
+   "name": "WriteReferenceIdProperty",
+   "mi": 68,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 643
+  },
+  {
+   "name": "WriteTypeProperty",
+   "mi": 68,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 656
+  },
+  {
+   "name": "HasFlag",
+   "mi": 92,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 669
+  },
+  {
+   "name": "HasFlag",
+   "mi": 92,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 674
+  },
+  {
+   "name": "HasFlag",
+   "mi": 92,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 679
+  },
+  {
+   "name": "SerializeConvertable",
+   "mi": 56,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 686
+  },
+  {
+   "name": "SerializeList",
+   "mi": 48,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 719
+  },
+  {
+   "name": "SerializeMultidimensionalArray",
+   "mi": 62,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 791
+  },
+  {
+   "name": "SerializeMultidimensionalArray",
+   "mi": 50,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 813
+  },
+  {
+   "name": "WriteStartArray",
+   "mi": 55,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 870
+  },
+  {
+   "name": "SerializeISerializable",
+   "mi": 50,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 908
+  },
+  {
+   "name": "SerializeDynamic",
+   "mi": 45,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 955
+  },
+  {
+   "name": "ShouldWriteDynamicProperty",
+   "mi": 67,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1040
+  },
+  {
+   "name": "ShouldWriteType",
+   "mi": 53,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1056
+  },
+  {
+   "name": "SerializeDictionary",
+   "mi": 44,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1102
+  },
+  {
+   "name": "GetPropertyName",
+   "mi": 46,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1187
+  },
+  {
+   "name": "HandleError",
+   "mi": 73,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1255
+  },
+  {
+   "name": "ShouldSerialize",
+   "mi": 66,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1270
+  },
+  {
+   "name": "IsSpecified",
+   "mi": 66,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1287
+  },
+  {
+   "name": "JsonTypeReflector",
+   "mi": 65,
+   "file": "JsonTypeReflector.cs",
+   "line": 48
+  },
+  {
+   "name": "IdPropertyName",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 53
+  },
+  {
+   "name": "RefPropertyName",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 54
+  },
+  {
+   "name": "TypePropertyName",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 55
+  },
+  {
+   "name": "ValuePropertyName",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 56
+  },
+  {
+   "name": "ArrayValuesPropertyName",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 57
+  },
+  {
+   "name": "ShouldSerializePrefix",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 59
+  },
+  {
+   "name": "SpecifiedPostfix",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 60
+  },
+  {
+   "name": "ConcurrentDictionaryTypeName",
+   "mi": 93,
+   "file": "JsonTypeReflector.cs",
+   "line": 62
+  },
+  {
+   "name": "GetCachedAttribute",
+   "mi": 82,
+   "file": "JsonTypeReflector.cs",
+   "line": 85
+  },
+  {
+   "name": "CanTypeDescriptorConvertString",
+   "mi": 64,
+   "file": "JsonTypeReflector.cs",
+   "line": 92
+  },
+  {
+   "name": "GetDataContractAttribute",
+   "mi": 65,
+   "file": "JsonTypeReflector.cs",
+   "line": 118
+  },
+  {
+   "name": "GetDataMemberAttribute",
+   "mi": 56,
+   "file": "JsonTypeReflector.cs",
+   "line": 139
+  },
+  {
+   "name": "GetObjectMemberSerialization",
+   "mi": 62,
+   "file": "JsonTypeReflector.cs",
+   "line": 177
+  },
+  {
+   "name": "GetJsonConverter",
+   "mi": 65,
+   "file": "JsonTypeReflector.cs",
+   "line": 206
+  },
+  {
+   "name": "CreateJsonConverterInstance",
+   "mi": 75,
+   "file": "JsonTypeReflector.cs",
+   "line": 230
+  },
+  {
+   "name": "CreateNamingStrategyInstance",
+   "mi": 75,
+   "file": "JsonTypeReflector.cs",
+   "line": 238
+  },
+  {
+   "name": "GetContainerNamingStrategy",
+   "mi": 67,
+   "file": "JsonTypeReflector.cs",
+   "line": 246
+  },
+  {
+   "name": "GetCreator",
+   "mi": 53,
+   "file": "JsonTypeReflector.cs",
+   "line": 262
+  },
+  {
+   "name": "GetAssociatedMetadataType",
+   "mi": 81,
+   "file": "JsonTypeReflector.cs",
+   "line": 315
+  },
+  {
+   "name": "GetAssociateMetadataTypeFromAttribute",
+   "mi": 61,
+   "file": "JsonTypeReflector.cs",
+   "line": 322
+  },
+  {
+   "name": "GetAttribute",
+   "mi": 58,
+   "file": "JsonTypeReflector.cs",
+   "line": 351
+  },
+  {
+   "name": "GetAttribute",
+   "mi": 53,
+   "file": "JsonTypeReflector.cs",
+   "line": 387
+  },
+  {
+   "name": "IsNonSerializable",
+   "mi": 91,
+   "file": "JsonTypeReflector.cs",
+   "line": 435
+  },
+  {
+   "name": "IsSerializable",
+   "mi": 91,
+   "file": "JsonTypeReflector.cs",
+   "line": 452
+  },
+  {
+   "name": "GetAttribute",
+   "mi": 69,
+   "file": "JsonTypeReflector.cs",
+   "line": 470
+  },
+  {
+   "name": "DynamicCodeGeneration",
+   "mi": 76,
+   "file": "JsonTypeReflector.cs",
+   "line": 497
+  },
+  {
+   "name": "get_DynamicCodeGeneration",
+   "mi": 76,
+   "file": "JsonTypeReflector.cs",
+   "line": 502
+  },
+  {
+   "name": "FullyTrusted",
+   "mi": 73,
+   "file": "JsonTypeReflector.cs",
+   "line": 531
+  },
+  {
+   "name": "get_FullyTrusted",
+   "mi": 73,
+   "file": "JsonTypeReflector.cs",
+   "line": 533
+  },
+  {
+   "name": "ReflectionDelegateFactory",
+   "mi": 82,
+   "file": "JsonTypeReflector.cs",
+   "line": 560
+  },
+  {
+   "name": "get_ReflectionDelegateFactory",
+   "mi": 82,
+   "file": "JsonTypeReflector.cs",
+   "line": 562
+  },
+  {
+   "name": "AssociatedMetadataTypesCache",
+   "mi": 75,
+   "file": "JsonTypeReflector.cs",
+   "line": 75
+  },
+  {
+   "name": "Instance",
+   "mi": 89,
+   "file": "JsonTypeReflector.cs",
+   "line": 77
+  },
+  {
+   "name": "CreatorCache",
+   "mi": 75,
+   "file": "JsonTypeReflector.cs",
+   "line": 66
+  },
+  {
+   "name": "Instance",
+   "mi": 89,
+   "file": "JsonTypeReflector.cs",
+   "line": 68
+  }
+ ],
+ "coupling": [
+  {
+   "name": "DefaultContractResolver",
+   "coupling": 108,
+   "ns": 17,
+   "file": "DefaultContractResolver.cs",
+   "line": 64
+  },
+  {
+   "name": ".ctor",
+   "coupling": 5,
+   "ns": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 180
+  },
+  {
+   "name": "ResolveContract",
+   "coupling": 4,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 198
+  },
+  {
+   "name": "FilterMembers",
+   "coupling": 5,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 205
+  },
+  {
+   "name": "GetSerializableMembers",
+   "coupling": 19,
+   "ns": 9,
+   "file": "DefaultContractResolver.cs",
+   "line": 229
+  },
+  {
+   "name": "ShouldSerializeEntityMember",
+   "coupling": 4,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 325
+  },
+  {
+   "name": "CreateObjectContract",
+   "coupling": 27,
+   "ns": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 344
+  },
+  {
+   "name": "ThrowUnableToSerializeError",
+   "coupling": 7,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 441
+  },
+  {
+   "name": "GetExtensionDataMemberForType",
+   "coupling": 17,
+   "ns": 8,
+   "file": "DefaultContractResolver.cs",
+   "line": 446
+  },
+  {
+   "name": "SetExtensionDataDelegates",
+   "coupling": 28,
+   "ns": 8,
+   "file": "DefaultContractResolver.cs",
+   "line": 495
+  },
+  {
+   "name": "GetAttributeConstructor",
+   "coupling": 9,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 609
+  },
+  {
+   "name": "GetImmutableConstructor",
+   "coupling": 8,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 633
+  },
+  {
+   "name": "GetParameterizedConstructor",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 662
+  },
+  {
+   "name": "CreateConstructorParameters",
+   "coupling": 9,
+   "ns": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 691
+  },
+  {
+   "name": "MatchProperty",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 730
+  },
+  {
+   "name": "CreatePropertyFromConstructorParameter",
+   "coupling": 15,
+   "ns": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 755
+  },
+  {
+   "name": "ResolveContractConverter",
+   "coupling": 3,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 794
+  },
+  {
+   "name": "GetDefaultCreator",
+   "coupling": 4,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 799
+  },
+  {
+   "name": "InitializeContract",
+   "coupling": 13,
+   "ns": 7,
+   "file": "DefaultContractResolver.cs",
+   "line": 807
+  },
+  {
+   "name": "ResolveCallbackMethods",
+   "coupling": 8,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 843
+  },
+  {
+   "name": "GetCallbackMethodsForType",
+   "coupling": 8,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 879
+  },
+  {
+   "name": "IsConcurrentOrObservableCollection",
+   "coupling": 3,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 945
+  },
+  {
+   "name": "ShouldSkipDeserialized",
+   "coupling": 2,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 965
+  },
+  {
+   "name": "ShouldSkipSerializing",
+   "coupling": 2,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 983
+  },
+  {
+   "name": "GetClassHierarchyForType",
+   "coupling": 3,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1000
+  },
+  {
+   "name": "CreateDictionaryContract",
+   "coupling": 17,
+   "ns": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 1021
+  },
+  {
+   "name": "CreateArrayContract",
+   "coupling": 14,
+   "ns": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 1070
+  },
+  {
+   "name": "CreatePrimitiveContract",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1108
+  },
+  {
+   "name": "CreateLinqContract",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1121
+  },
+  {
+   "name": "CreateISerializableContract",
+   "coupling": 10,
+   "ns": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 1135
+  },
+  {
+   "name": "CreateDynamicContract",
+   "coupling": 13,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 1161
+  },
+  {
+   "name": "CreateStringContract",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1188
+  },
+  {
+   "name": "CreateContract",
+   "coupling": 18,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 1201
+  },
+  {
+   "name": "IsJsonPrimitiveType",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1287
+  },
+  {
+   "name": "IsIConvertible",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1295
+  },
+  {
+   "name": "CanConvertToString",
+   "coupling": 3,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1307
+  },
+  {
+   "name": "IsValidCallback",
+   "coupling": 8,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 1331
+  },
+  {
+   "name": "GetClrTypeFullName",
+   "coupling": 5,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1378
+  },
+  {
+   "name": "CreateProperties",
+   "coupling": 15,
+   "ns": 7,
+   "file": "DefaultContractResolver.cs",
+   "line": 1394
+  },
+  {
+   "name": "CreateMemberValueProvider",
+   "coupling": 4,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 1436
+  },
+  {
+   "name": "CreateProperty",
+   "coupling": 9,
+   "ns": 5,
+   "file": "DefaultContractResolver.cs",
+   "line": 1465
+  },
+  {
+   "name": "SetPropertySettingsFromAttributes",
+   "coupling": 22,
+   "ns": 6,
+   "file": "DefaultContractResolver.cs",
+   "line": 1500
+  },
+  {
+   "name": "ResolvePropertyNameFromAttribute",
+   "coupling": 5,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 1646
+  },
+  {
+   "name": "CreateShouldSerializeTest",
+   "coupling": 9,
+   "ns": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 1672
+  },
+  {
+   "name": "SetIsSpecifiedActions",
+   "coupling": 12,
+   "ns": 4,
+   "file": "DefaultContractResolver.cs",
+   "line": 1687
+  },
+  {
+   "name": "EnumerableDictionaryWrapper",
+   "coupling": 5,
+   "ns": 3,
+   "file": "DefaultContractResolver.cs",
+   "line": 585
+  },
+  {
+   "name": ".ctor",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 589
+  },
+  {
+   "name": "GetEnumerator",
+   "coupling": 3,
+   "ns": 1,
+   "file": "DefaultContractResolver.cs",
+   "line": 595
+  },
+  {
+   "name": "System.Collections.IEnumerable.GetEnumerator",
+   "coupling": 3,
+   "ns": 2,
+   "file": "DefaultContractResolver.cs",
+   "line": 603
+  },
+  {
+   "name": "ExtensionDataGetter",
+   "coupling": 2,
+   "ns": 1,
+   "file": "JsonContract.cs",
+   "line": 77
+  },
+  {
+   "name": "JsonContract",
+   "coupling": 22,
+   "ns": 9,
+   "file": "JsonContract.cs",
+   "line": 82
+  },
+  {
+   "name": "set_CreatedType",
+   "coupling": 3,
+   "ns": 2,
+   "file": "JsonContract.cs",
+   "line": 119
+  },
+  {
+   "name": "get_OnDeserializedCallbacks",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 154
+  },
+  {
+   "name": "get_OnDeserializingCallbacks",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 171
+  },
+  {
+   "name": "get_OnSerializedCallbacks",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 188
+  },
+  {
+   "name": "get_OnSerializingCallbacks",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 205
+  },
+  {
+   "name": "get_OnErrorCallbacks",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 222
+  },
+  {
+   "name": ".ctor",
+   "coupling": 10,
+   "ns": 4,
+   "file": "JsonContract.cs",
+   "line": 246
+  },
+  {
+   "name": "InvokeOnSerializing",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 270
+  },
+  {
+   "name": "InvokeOnSerialized",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 281
+  },
+  {
+   "name": "InvokeOnDeserializing",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 292
+  },
+  {
+   "name": "InvokeOnDeserialized",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 303
+  },
+  {
+   "name": "InvokeOnError",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 314
+  },
+  {
+   "name": "CreateSerializationCallback",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 325
+  },
+  {
+   "name": "CreateSerializationErrorCallback",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonContract.cs",
+   "line": 330
+  },
+  {
+   "name": "JsonProperty",
+   "coupling": 21,
+   "ns": 5,
+   "file": "JsonProperty.cs",
+   "line": 41
+  },
+  {
+   "name": "GetResolvedDefaultValue",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 183
+  },
+  {
+   "name": "get_Required",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 205
+  },
+  {
+   "name": "set_Required",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 206
+  },
+  {
+   "name": "get_IsRequiredSpecified",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 212
+  },
+  {
+   "name": "get_NullValueHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 226
+  },
+  {
+   "name": "set_NullValueHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 226
+  },
+  {
+   "name": "get_DefaultValueHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 232
+  },
+  {
+   "name": "set_DefaultValueHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 232
+  },
+  {
+   "name": "get_ReferenceLoopHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 238
+  },
+  {
+   "name": "set_ReferenceLoopHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 238
+  },
+  {
+   "name": "get_ObjectCreationHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 244
+  },
+  {
+   "name": "set_ObjectCreationHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 244
+  },
+  {
+   "name": "get_TypeNameHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 250
+  },
+  {
+   "name": "set_TypeNameHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 250
+  },
+  {
+   "name": "get_ItemTypeNameHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 303
+  },
+  {
+   "name": "set_ItemTypeNameHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 303
+  },
+  {
+   "name": "get_ItemReferenceLoopHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 309
+  },
+  {
+   "name": "set_ItemReferenceLoopHandling",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 309
+  },
+  {
+   "name": "WritePropertyName",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonProperty.cs",
+   "line": 311
+  },
+  {
+   "name": "JsonSerializerInternalBase",
+   "coupling": 22,
+   "ns": 8,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 34
+  },
+  {
+   "name": ".ctor",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 57
+  },
+  {
+   "name": "get_DefaultReferenceMappings",
+   "coupling": 4,
+   "ns": 4,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 67
+  },
+  {
+   "name": "ResolvedNullValueHandling",
+   "coupling": 5,
+   "ns": 3,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 84
+  },
+  {
+   "name": "GetErrorContext",
+   "coupling": 3,
+   "ns": 2,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 94
+  },
+  {
+   "name": "ClearErrorContext",
+   "coupling": 3,
+   "ns": 2,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 109
+  },
+  {
+   "name": "IsErrorHandled",
+   "coupling": 11,
+   "ns": 5,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 119
+  },
+  {
+   "name": "ReferenceEqualsEqualityComparer",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonSerializerInternalBase.cs",
+   "line": 36
+  },
+  {
+   "name": "JsonSerializerInternalReader",
+   "coupling": 110,
+   "ns": 15,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 53
+  },
+  {
+   "name": ".ctor",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 62
+  },
+  {
+   "name": "Populate",
+   "coupling": 28,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 69
+  },
+  {
+   "name": "GetContractSafe",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 137
+  },
+  {
+   "name": "GetContract",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 147
+  },
+  {
+   "name": "Deserialize",
+   "coupling": 17,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 154
+  },
+  {
+   "name": "GetInternalSerializer",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 221
+  },
+  {
+   "name": "CreateJToken",
+   "coupling": 13,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 231
+  },
+  {
+   "name": "CreateJObject",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 267
+  },
+  {
+   "name": "CreateValueInternal",
+   "coupling": 18,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 311
+  },
+  {
+   "name": "CoerceEmptyStringToNull",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 389
+  },
+  {
+   "name": "GetExpectedDescription",
+   "coupling": 4,
+   "ns": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 405
+  },
+  {
+   "name": "GetConverter",
+   "coupling": 6,
+   "ns": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 429
+  },
+  {
+   "name": "CreateObject",
+   "coupling": 37,
+   "ns": 9,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 468
+  },
+  {
+   "name": "ReadMetadataPropertiesToken",
+   "coupling": 27,
+   "ns": 8,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 650
+  },
+  {
+   "name": "ReadMetadataProperties",
+   "coupling": 22,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 739
+  },
+  {
+   "name": "GetQualifiedTypeName",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 829
+  },
+  {
+   "name": "ResolveTypeName",
+   "coupling": 20,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 843
+  },
+  {
+   "name": "EnsureArrayContract",
+   "coupling": 10,
+   "ns": 5,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 889
+  },
+  {
+   "name": "CreateList",
+   "coupling": 22,
+   "ns": 9,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 910
+  },
+  {
+   "name": "HasNoDefinedType",
+   "coupling": 3,
+   "ns": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 999
+  },
+  {
+   "name": "EnsureType",
+   "coupling": 25,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1010
+  },
+  {
+   "name": "SetPropertyValue",
+   "coupling": 20,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1103
+  },
+  {
+   "name": "CalculatePropertyDetails",
+   "coupling": 26,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1171
+  },
+  {
+   "name": "AddReference",
+   "coupling": 13,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1265
+  },
+  {
+   "name": "ShouldSetPropertyValue",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1287
+  },
+  {
+   "name": "CreateNewList",
+   "coupling": 16,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1310
+  },
+  {
+   "name": "CreateNewDictionary",
+   "coupling": 16,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1379
+  },
+  {
+   "name": "OnDeserializing",
+   "coupling": 13,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1427
+  },
+  {
+   "name": "OnDeserialized",
+   "coupling": 13,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1437
+  },
+  {
+   "name": "PopulateDictionary",
+   "coupling": 30,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1449
+  },
+  {
+   "name": "PopulateMultidimensionalArray",
+   "coupling": 19,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1574
+  },
+  {
+   "name": "ThrowUnexpectedEndException",
+   "coupling": 5,
+   "ns": 3,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1705
+  },
+  {
+   "name": "PopulateList",
+   "coupling": 18,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1726
+  },
+  {
+   "name": "CreateISerializable",
+   "coupling": 27,
+   "ns": 9,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1830
+  },
+  {
+   "name": "CreateISerializableItem",
+   "coupling": 13,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1906
+  },
+  {
+   "name": "CreateDynamic",
+   "coupling": 23,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 1932
+  },
+  {
+   "name": "CreateObjectUsingCreatorWithParameters",
+   "coupling": 41,
+   "ns": 11,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2060
+  },
+  {
+   "name": "DeserializeConvertable",
+   "coupling": 16,
+   "ns": 7,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2297
+  },
+  {
+   "name": "ResolvePropertyAndCreatorValues",
+   "coupling": 27,
+   "ns": 8,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2316
+  },
+  {
+   "name": "CreateNewObject",
+   "coupling": 18,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2417
+  },
+  {
+   "name": "PopulateObject",
+   "coupling": 31,
+   "ns": 10,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2462
+  },
+  {
+   "name": "ShouldDeserialize",
+   "coupling": 12,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2596
+  },
+  {
+   "name": "CheckPropertyName",
+   "coupling": 4,
+   "ns": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2613
+  },
+  {
+   "name": "SetExtensionData",
+   "coupling": 13,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2632
+  },
+  {
+   "name": "ReadExtensionDataValue",
+   "coupling": 10,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2655
+  },
+  {
+   "name": "EndProcessProperty",
+   "coupling": 20,
+   "ns": 6,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2671
+  },
+  {
+   "name": "SetPropertyPresence",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2726
+  },
+  {
+   "name": "CreatorPropertyContext",
+   "coupling": 3,
+   "ns": 2,
+   "file": "JsonSerializerInternalReader.cs",
+   "line": 2043
+  },
+  {
+   "name": "JsonSerializerInternalWriter",
+   "coupling": 94,
+   "ns": 18,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 50
+  },
+  {
+   "name": ".ctor",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 56
+  },
+  {
+   "name": "Serialize",
+   "coupling": 12,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 63
+  },
+  {
+   "name": "GetInternalSerializer",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 111
+  },
+  {
+   "name": "GetContract",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 131
+  },
+  {
+   "name": "SerializePrimitive",
+   "coupling": 11,
+   "ns": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 136
+  },
+  {
+   "name": "SerializeValue",
+   "coupling": 29,
+   "ns": 11,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 166
+  },
+  {
+   "name": "ResolveIsReference",
+   "coupling": 4,
+   "ns": 2,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 238
+  },
+  {
+   "name": "ShouldWriteReference",
+   "coupling": 9,
+   "ns": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 266
+  },
+  {
+   "name": "ShouldWriteProperty",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 302
+  },
+  {
+   "name": "CheckForCircularReference",
+   "coupling": 22,
+   "ns": 8,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 318
+  },
+  {
+   "name": "WriteReference",
+   "coupling": 11,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 386
+  },
+  {
+   "name": "GetReference",
+   "coupling": 10,
+   "ns": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 401
+  },
+  {
+   "name": "TryConvertToString",
+   "coupling": 10,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 416
+  },
+  {
+   "name": "SerializeString",
+   "coupling": 6,
+   "ns": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 458
+  },
+  {
+   "name": "OnSerializing",
+   "coupling": 13,
+   "ns": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 468
+  },
+  {
+   "name": "OnSerialized",
+   "coupling": 13,
+   "ns": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 478
+  },
+  {
+   "name": "SerializeObject",
+   "coupling": 16,
+   "ns": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 490
+  },
+  {
+   "name": "CalculatePropertyValues",
+   "coupling": 18,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 566
+  },
+  {
+   "name": "WriteObjectStart",
+   "coupling": 9,
+   "ns": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 617
+  },
+  {
+   "name": "HasCreatorParameter",
+   "coupling": 4,
+   "ns": 1,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 633
+  },
+  {
+   "name": "WriteReferenceIdProperty",
+   "coupling": 11,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 643
+  },
+  {
+   "name": "WriteTypeProperty",
+   "coupling": 15,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 656
+  },
+  {
+   "name": "SerializeConvertable",
+   "coupling": 20,
+   "ns": 8,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 686
+  },
+  {
+   "name": "SerializeList",
+   "coupling": 14,
+   "ns": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 719
+  },
+  {
+   "name": "SerializeMultidimensionalArray",
+   "coupling": 11,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 791
+  },
+  {
+   "name": "SerializeMultidimensionalArray",
+   "coupling": 11,
+   "ns": 5,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 813
+  },
+  {
+   "name": "WriteStartArray",
+   "coupling": 12,
+   "ns": 3,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 870
+  },
+  {
+   "name": "SerializeISerializable",
+   "coupling": 26,
+   "ns": 10,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 908
+  },
+  {
+   "name": "SerializeDynamic",
+   "coupling": 16,
+   "ns": 8,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 955
+  },
+  {
+   "name": "ShouldWriteDynamicProperty",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1040
+  },
+  {
+   "name": "ShouldWriteType",
+   "coupling": 9,
+   "ns": 4,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1056
+  },
+  {
+   "name": "SerializeDictionary",
+   "coupling": 20,
+   "ns": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1102
+  },
+  {
+   "name": "GetPropertyName",
+   "coupling": 20,
+   "ns": 7,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1187
+  },
+  {
+   "name": "HandleError",
+   "coupling": 2,
+   "ns": 1,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1255
+  },
+  {
+   "name": "ShouldSerialize",
+   "coupling": 12,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1270
+  },
+  {
+   "name": "IsSpecified",
+   "coupling": 12,
+   "ns": 6,
+   "file": "JsonSerializerInternalWriter.cs",
+   "line": 1287
+  },
+  {
+   "name": "JsonTypeReflector",
+   "coupling": 50,
+   "ns": 14,
+   "file": "JsonTypeReflector.cs",
+   "line": 48
+  },
+  {
+   "name": "GetCachedAttribute",
+   "coupling": 4,
+   "ns": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 85
+  },
+  {
+   "name": "CanTypeDescriptorConvertString",
+   "coupling": 6,
+   "ns": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 92
+  },
+  {
+   "name": "GetDataContractAttribute",
+   "coupling": 7,
+   "ns": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 118
+  },
+  {
+   "name": "GetDataMemberAttribute",
+   "coupling": 11,
+   "ns": 6,
+   "file": "JsonTypeReflector.cs",
+   "line": 139
+  },
+  {
+   "name": "GetObjectMemberSerialization",
+   "coupling": 7,
+   "ns": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 177
+  },
+  {
+   "name": "GetJsonConverter",
+   "coupling": 9,
+   "ns": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 206
+  },
+  {
+   "name": "CreateJsonConverterInstance",
+   "coupling": 8,
+   "ns": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 230
+  },
+  {
+   "name": "CreateNamingStrategyInstance",
+   "coupling": 8,
+   "ns": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 238
+  },
+  {
+   "name": "GetContainerNamingStrategy",
+   "coupling": 6,
+   "ns": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 246
+  },
+  {
+   "name": "GetCreator",
+   "coupling": 19,
+   "ns": 9,
+   "file": "JsonTypeReflector.cs",
+   "line": 262
+  },
+  {
+   "name": "GetAssociatedMetadataType",
+   "coupling": 6,
+   "ns": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 315
+  },
+  {
+   "name": "GetAssociateMetadataTypeFromAttribute",
+   "coupling": 9,
+   "ns": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 322
+  },
+  {
+   "name": "GetAttribute",
+   "coupling": 7,
+   "ns": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 351
+  },
+  {
+   "name": "GetAttribute",
+   "coupling": 7,
+   "ns": 5,
+   "file": "JsonTypeReflector.cs",
+   "line": 387
+  },
+  {
+   "name": "IsNonSerializable",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonTypeReflector.cs",
+   "line": 435
+  },
+  {
+   "name": "IsSerializable",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonTypeReflector.cs",
+   "line": 452
+  },
+  {
+   "name": "GetAttribute",
+   "coupling": 6,
+   "ns": 4,
+   "file": "JsonTypeReflector.cs",
+   "line": 470
+  },
+  {
+   "name": "get_DynamicCodeGeneration",
+   "coupling": 3,
+   "ns": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 502
+  },
+  {
+   "name": "get_FullyTrusted",
+   "coupling": 2,
+   "ns": 1,
+   "file": "JsonTypeReflector.cs",
+   "line": 533
+  },
+  {
+   "name": "get_ReflectionDelegateFactory",
+   "coupling": 3,
+   "ns": 1,
+   "file": "JsonTypeReflector.cs",
+   "line": 562
+  },
+  {
+   "name": "AssociatedMetadataTypesCache",
+   "coupling": 6,
+   "ns": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 75
+  },
+  {
+   "name": "CreatorCache",
+   "coupling": 6,
+   "ns": 3,
+   "file": "JsonTypeReflector.cs",
+   "line": 66
+  },
+  {
+   "name": "SerializationErrorCallback",
+   "coupling": 2,
+   "ns": 2,
+   "file": "JsonContract.cs",
+   "line": 63
+  }
+ ]
+}

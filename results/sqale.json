@@ -1,0 +1,4149 @@
+{
+ "items": [
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CS0618"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CS0618"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CS0618"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Possible null dereference (CS86xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CS8762"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "SYSLIB0050"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "SYSLIB0050"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CS0618"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Possible null dereference (CS86xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CS8600"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Possible null dereference (CS86xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CS8604"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Possible null dereference (CS86xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "CS8604"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "SYSLIB0050"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Public List<T> in API (CA1002)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 30,
+   "ref": "CA1002"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0075"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Missing null argument check (CA1062)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 10,
+   "ref": "CA1062"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonProperty.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalBase.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalBase.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalBase.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Throw-helper ArgumentNullException (CA1510)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1510"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalBase.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalBase.cs",
+   "cost": 5,
+   "ref": "IDE0083"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Unsafe TypeNameHandling (CA2326)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CA2326"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0270"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Throw-helper ArgumentNullException (CA1510)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1510"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0039"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0039"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0063"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Incorrect argument exception (CA2208)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 10,
+   "ref": "CA2208"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Missing null argument check (CA1062)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 10,
+   "ref": "CA1062"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Missing null argument check (CA1062)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 10,
+   "ref": "CA1062"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Missing null argument check (CA1062)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 10,
+   "ref": "CA1062"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0083"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Unsafe TypeNameHandling (CA2326)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CA2326"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0054"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0083"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0083"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonContract.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Unsafe TypeNameHandling (CA2326)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CA2326"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0270"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Missing null argument check (CA1062)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 10,
+   "ref": "CA1062"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0083"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0083"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Unsafe TypeNameHandling (CA2326)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "CA2326"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0270"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0004"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0004"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0004"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0017"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0046"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 1,
+   "ref": "IDE0055"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 45,
+   "ref": "CA2000"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 45,
+   "ref": "CA2000"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Interface instead of concrete type (CA1859)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "CA1859"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0090"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0032"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 45,
+   "ref": "CA2000"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 45,
+   "ref": "CA2000"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0066"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0074"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0047"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0078"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0010"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0058"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0045"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonContract.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonProperty.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonProperty.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonTypeReflector.cs",
+   "cost": 5,
+   "ref": "IDE0005"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 5,
+   "ref": "IDE0370"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 45,
+   "ref": "CA2000"
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 45,
+   "ref": "CA2000"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "CA1822"
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 5,
+   "ref": "IDE0060"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M > 40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 240,
+   "ref": "CreateObjectUsingCreatorWithParameters"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "CreateObject"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "PopulateDictionary"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "PopulateObject"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "CreateValueInternal"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "CalculatePropertyDetails"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "DefaultContractResolver.cs",
+   "cost": 120,
+   "ref": "SetPropertySettingsFromAttributes"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 120,
+   "ref": "SerializeValue"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "CreateDynamic"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 120,
+   "ref": "ResolvePropertyAndCreatorValues"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "PopulateMultidimensionalArray"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "CheckForCircularReference"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "GetSerializableMembers"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CreateContract"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "ReadMetadataProperties"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "CreateList"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "EnsureType"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "EndProcessProperty"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "ReadMetadataPropertiesToken"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "ShouldWriteType"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "GetCallbackMethodsForType"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "PopulateList"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "CalculatePropertyValues"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CreateObjectContract"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "CreateISerializable"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "IsValidCallback"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "Populate"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "ResolveTypeName"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "SetPropertyValue"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "GetPropertyName"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "CreatePropertyFromConstructorParameter"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "CreateNewList"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "SerializeDictionary"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "DefaultContractResolver.cs",
+   "cost": 60,
+   "ref": "SetExtensionDataDelegates"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "Deserialize"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "WriteStartArray"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 60,
+   "ref": "SerializeDynamic"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Excessive class coupling (CA1506, >95 types)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 240,
+   "ref": "DefaultContractResolver"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Excessive class coupling (CA1506, >95 types)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 240,
+   "ref": "JsonSerializerInternalReader"
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Excessive method coupling (CA1506, >40 types)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 60,
+   "ref": "CreateObjectUsingCreatorWithParameters"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "503/971"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "DefaultContractResolver.cs",
+   "cost": 30,
+   "ref": "1044/1082"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "744/833"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalWriter.cs",
+   "cost": 30,
+   "ref": "490/955"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "1638/1795"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "1552/1863"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "650/739"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "1554/2023"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "1865/2023"
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "file": "JsonSerializerInternalReader.cs",
+   "cost": 30,
+   "ref": "2026/2570"
+  }
+ ],
+ "bysub": [
+  {
+   "cat": "Potential Defects",
+   "sub": "Use of obsolete API (CS0618/SYSLIB0050)",
+   "n": 7,
+   "cost": 60,
+   "total": 420
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Possible null dereference (CS86xx)",
+   "n": 4,
+   "cost": 30,
+   "total": 120
+  },
+  {
+   "cat": "Style",
+   "sub": "C# simplification/idioms (IDE00xx)",
+   "n": 232,
+   "cost": 5,
+   "total": 1160
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Public List<T> in API (CA1002)",
+   "n": 1,
+   "cost": 30,
+   "total": 30
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Missing null argument check (CA1062)",
+   "n": 5,
+   "cost": 10,
+   "total": 50
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Throw-helper ArgumentNullException (CA1510)",
+   "n": 2,
+   "cost": 5,
+   "total": 10
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Unsafe TypeNameHandling (CA2326)",
+   "n": 4,
+   "cost": 30,
+   "total": 120
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "Incorrect argument exception (CA2208)",
+   "n": 1,
+   "cost": 10,
+   "total": 10
+  },
+  {
+   "cat": "Style",
+   "sub": "Formatting (IDE0055)",
+   "n": 202,
+   "cost": 1,
+   "total": 202
+  },
+  {
+   "cat": "Potential Defects",
+   "sub": "IDisposable not disposed (CA2000)",
+   "n": 6,
+   "cost": 45,
+   "total": 270
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Member can be made static (CA1822)",
+   "n": 20,
+   "cost": 5,
+   "total": 100
+  },
+  {
+   "cat": "Design/Performance",
+   "sub": "Interface instead of concrete type (CA1859)",
+   "n": 1,
+   "cost": 5,
+   "total": 5
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M > 40",
+   "n": 1,
+   "cost": 240,
+   "total": 240
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 21-40",
+   "n": 9,
+   "cost": 120,
+   "total": 1080
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Method with M = 11-20",
+   "n": 27,
+   "cost": 60,
+   "total": 1620
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Excessive class coupling (CA1506, >95 types)",
+   "n": 2,
+   "cost": 240,
+   "total": 480
+  },
+  {
+   "cat": "Complexity",
+   "sub": "Excessive method coupling (CA1506, >40 types)",
+   "n": 1,
+   "cost": 60,
+   "total": 60
+  },
+  {
+   "cat": "Duplication",
+   "sub": "Duplicated fragment (CPD >= 50 tokens)",
+   "n": 10,
+   "cost": 30,
+   "total": 300
+  }
+ ],
+ "bycat": {
+  "Potential Defects": 990,
+  "Style": 1362,
+  "Design/Performance": 145,
+  "Complexity": 3480,
+  "Duplication": 300
+ },
+ "bycatn": {
+  "Potential Defects": 27,
+  "Style": 434,
+  "Design/Performance": 24,
+  "Complexity": 40,
+  "Duplication": 10
+ },
+ "total_min": 6277,
+ "matrix": {
+  "DefaultContractResolver.cs": {
+   "Potential Defects": 290,
+   "Style": 423,
+   "Design/Performance": 75,
+   "Complexity": 780,
+   "Duplication": 30
+  },
+  "JsonSerializerInternalWriter.cs": {
+   "Potential Defects": 420,
+   "Style": 203,
+   "Design/Performance": 35,
+   "Complexity": 540,
+   "Duplication": 90
+  },
+  "JsonSerializerInternalReader.cs": {
+   "Potential Defects": 280,
+   "Style": 598,
+   "Design/Performance": 35,
+   "Complexity": 2160,
+   "Duplication": 180
+  },
+  "JsonTypeReflector.cs": {
+   "Style": 62
+  },
+  "JsonContract.cs": {
+   "Style": 36
+  },
+  "JsonProperty.cs": {
+   "Style": 15
+  },
+  "JsonSerializerInternalBase.cs": {
+   "Style": 25
+  }
+ },
+ "loc": {
+  "JsonSerializerInternalReader.cs": {
+   "phys": 2770,
+   "ncloc": 2323,
+   "comment": 83
+  },
+  "JsonSerializerInternalWriter.cs": {
+   "phys": 1304,
+   "ncloc": 1066,
+   "comment": 35
+  },
+  "DefaultContractResolver.cs": {
+   "phys": 1768,
+   "ncloc": 1280,
+   "comment": 233
+  },
+  "JsonSerializerInternalBase.cs": {
+   "phys": 159,
+   "ncloc": 106,
+   "comment": 29
+  },
+  "JsonTypeReflector.cs": {
+   "phys": 577,
+   "ncloc": 461,
+   "comment": 38
+  },
+  "JsonContract.cs": {
+   "phys": 335,
+   "ncloc": 195,
+   "comment": 97
+  },
+  "JsonProperty.cs": {
+   "phys": 326,
+   "ncloc": 129,
+   "comment": 154
+  }
+ },
+ "ncloc": 5560,
+ "dev_min": 166800,
+ "tdr": 3.763189448441247,
+ "dups": [
+  {
+   "lines": 22,
+   "tokens": 98,
+   "occ": [
+    [
+     "JsonSerializerInternalWriter.cs",
+     503,
+     524
+    ],
+    [
+     "JsonSerializerInternalWriter.cs",
+     971,
+     992
+    ]
+   ]
+  },
+  {
+   "lines": 27,
+   "tokens": 90,
+   "occ": [
+    [
+     "DefaultContractResolver.cs",
+     1044,
+     1070
+    ],
+    [
+     "DefaultContractResolver.cs",
+     1082,
+     1108
+    ]
+   ]
+  },
+  {
+   "lines": 19,
+   "tokens": 87,
+   "occ": [
+    [
+     "JsonSerializerInternalWriter.cs",
+     744,
+     762
+    ],
+    [
+     "JsonSerializerInternalWriter.cs",
+     833,
+     851
+    ]
+   ]
+  },
+  {
+   "lines": 13,
+   "tokens": 82,
+   "occ": [
+    [
+     "JsonSerializerInternalWriter.cs",
+     490,
+     502
+    ],
+    [
+     "JsonSerializerInternalWriter.cs",
+     955,
+     966
+    ]
+   ]
+  },
+  {
+   "lines": 21,
+   "tokens": 73,
+   "occ": [
+    [
+     "JsonSerializerInternalReader.cs",
+     1638,
+     1658
+    ],
+    [
+     "JsonSerializerInternalReader.cs",
+     1795,
+     1815
+    ]
+   ]
+  },
+  {
+   "lines": 14,
+   "tokens": 62,
+   "occ": [
+    [
+     "JsonSerializerInternalReader.cs",
+     1552,
+     1565
+    ],
+    [
+     "JsonSerializerInternalReader.cs",
+     1863,
+     1876
+    ]
+   ]
+  },
+  {
+   "lines": 6,
+   "tokens": 55,
+   "occ": [
+    [
+     "JsonSerializerInternalReader.cs",
+     650,
+     655
+    ],
+    [
+     "JsonSerializerInternalReader.cs",
+     739,
+     744
+    ]
+   ]
+  },
+  {
+   "lines": 12,
+   "tokens": 55,
+   "occ": [
+    [
+     "JsonSerializerInternalReader.cs",
+     1554,
+     1565
+    ],
+    [
+     "JsonSerializerInternalReader.cs",
+     2023,
+     2034
+    ]
+   ]
+  },
+  {
+   "lines": 12,
+   "tokens": 55,
+   "occ": [
+    [
+     "JsonSerializerInternalReader.cs",
+     1865,
+     1876
+    ],
+    [
+     "JsonSerializerInternalReader.cs",
+     2023,
+     2034
+    ]
+   ]
+  },
+  {
+   "lines": 10,
+   "tokens": 50,
+   "occ": [
+    [
+     "JsonSerializerInternalReader.cs",
+     2026,
+     2035
+    ],
+    [
+     "JsonSerializerInternalReader.cs",
+     2570,
+     2579
+    ]
+   ]
+  }
+ ],
+ "cost_table": {
+  "fmt": 1,
+  "style": 5,
+  "cc11_20": 60,
+  "cc21_40": 120,
+  "cc41": 240,
+  "dup": 30,
+  "null": 30,
+  "dispose": 45,
+  "argval": 10,
+  "argexc": 10,
+  "security": 30,
+  "obsolete": 60,
+  "static": 5,
+  "api": 30,
+  "perf": 5,
+  "throwhelper": 5,
+  "coupling_cls": 240,
+  "coupling_m": 60
+ }
+}
