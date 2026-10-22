@@ -1,0 +1,21 @@
+Summary - JsonTypeReflector (baseline)
+  Generated on: 10/11/2026 - 13:42:27
+  Coverage date: 10/11/2026 - 13:35:36
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 1
+  Files: 1
+  Line coverage: 0.0%
+  Covered lines: 0
+  Uncovered lines: 259
+  Coverable lines: 259
+  Total lines: 577
+  Branch coverage: 0% (0 of 98)
+  Covered branches: 0
+  Total branches: 98
+  Method coverage: 0% (0 of 24)
+  Covered methods: 0
+  Total methods: 24
+
+Newtonsoft.Json                                      0.0%
+  Newtonsoft.Json.Serialization.JsonTypeReflector    0.0%

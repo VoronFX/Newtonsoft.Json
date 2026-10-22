@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Характеризаційні тести для Newtonsoft.Json.Serialization.JsonTypeReflector (Практична робота №3, варіант 2).
+    AssemblyName = Newtonsoft.Json.Tests: бібліотека відкриває internal-типи для цієї збірки
+    ([assembly: InternalsVisibleTo("Newtonsoft.Json.Tests")] у непідписаній збірці).
+    Запуск з покриттям:
+      dotnet test з параметрами collect "XPlat Code Coverage" і settings coverlet.runsettings (повна команда в results/pr3/README.md).
+    Конфігурація Debug обов'язкова: JsonTypeReflector.SetFullyTrusted / SetDynamicCodeGeneration існують лише під #if DEBUG.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>Newtonsoft.Json.Tests</AssemblyName>
+    <RootNamespace>Newtonsoft.Json.CharacterizationTests</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <!--
+    Test SDK 17.x тягне testhost, якому потрібен підписаний Newtonsoft.Json 13.0.0.0, а у вихідному каталозі
+    лежить локальна непідписана збірка 11.0.0.0 цього ж репозиторію. Тому використано testhost 16.x
+    (як в основному тестовому проєкті репозиторію) і сумісні з ним адаптер та coverlet.collector.
+  -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj" />
+  </ItemGroup>
+</Project>
