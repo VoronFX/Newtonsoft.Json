@@ -1,0 +1,28 @@
+@startuml f3_jtoken
+skinparam defaultFontName "DejaVu Sans"
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam ArrowFontSize 10
+title Фрагмент 3. JToken: вісім відповідальностей в одному класі (Ca = 44, Ce = 46)
+component "**JToken**\n68 методів + 72 оператори перетворення\n17 властивостей · 2 977 рядків · 51 директива #if\nCa+Ce = 90 (12,9× медіани 7)" as JT #E8590C;line:C92A2A;line.bold
+rectangle "1. Навігація та зміна дерева\nParent, Next, Ancestors, AfterSelf,\nAddAfterSelf, Remove, Replace" as r1 #F1F3F5
+rectangle "2. Перетворення типів\n37 explicit + 35 implicit операторів,\nToObject ×4" as r2 #FFE3E3
+rectangle "3. Розбір і запис JSON\nParse, Load(Async), ReadFrom,\nWriteTo(Async), CreateReader → Core" as r3 #F1F3F5
+rectangle "4. Міст до серіалізатора\nFromObject, ToObject(JsonSerializer)\n→ JsonSerializer, JsonSerializerProxy" as r4 #FFE3E3
+rectangle "5. Запити JSONPath\nSelectToken ×3, SelectTokens ×3\n→ Linq.JsonPath (цикл: 15 типів JPath → JToken)" as r5 #FFE3E3
+rectangle "6. Рівність і клонування\nDeepEquals, DeepClone, GetDeepHashCode" as r6 #F1F3F5
+rectangle "7. Анотації та LineInfo\nAnnotation(s), AddAnnotation, IJsonLineInfo" as r7 #F1F3F5
+rectangle "8. dynamic / ICloneable\nGetMetaObject → DynamicProxy<T>" as r8 #F1F3F5
+r1 -down- JT
+r2 -down- JT
+r3 -down- JT
+r4 -down- JT
+JT -down- r5
+JT -down- r6
+JT -down- r7
+JT -down- r8
+legend right
+рожеві блоки — відповідальності, що створюють
+залежності за межами пакета Linq
+endlegend
+@enduml

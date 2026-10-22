@@ -1,0 +1,115 @@
+@startuml components_classes
+skinparam defaultFontName "DejaVu Sans"
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam ArrowColor #ADB5BD
+skinparam ArrowFontSize 10
+skinparam nodesep 18
+skinparam ranksep 90
+left to right direction
+title Діаграма ключових компонентів-класів (фрагмент графа залежностей, коміт 52fa3aef)\nу дужках: Ca / Ce — кількість типів бібліотеки, що залежать від класу / від яких залежить клас
+package "Core" {
+  component "JsonConvert\n<size:10>(6 / 22)</size>" as JsonConvert #FFD8A8
+  component "JsonSerializer\n<size:10>(29 / 42)</size>" as JsonSerializer #E8590C;line:C92A2A;line.bold
+  component "JsonReader\n<size:10>(42 / 18)</size>" as JsonReader #E8590C;line:C92A2A;line.bold
+  component "JsonTextReader\n<size:10>(6 / 22)</size>" as JsonTextReader #FFD8A8
+  component "JsonWriter\n<size:10>(42 / 24)</size>" as JsonWriter #E8590C;line:C92A2A;line.bold
+  component "JsonValidatingReader\n<size:10>(1 / 23)</size>" as JsonValidatingReader #FFD8A8;line.dashed
+  component "JsonConverter\n<size:10>(34 / 3)</size>" as JsonConverter #FFA94D
+}
+package "Serialization" {
+  component "JsonSerializerInternalReader\n<size:10>(3 / 63)</size>" as JsonSerializerInternalReader #E8590C;line:C92A2A;line.bold
+  component "JsonSerializerInternalWriter\n<size:10>(4 / 43)</size>" as JsonSerializerInternalWriter #FFA94D
+  component "JsonSerializerInternalBase\n<size:10>(4 / 15)</size>" as JsonSerializerInternalBase #FFD8A8
+  component "JsonSerializerProxy\n<size:10>(5 / 31)</size>" as JsonSerializerProxy #FFA94D
+  component "DefaultContractResolver\n<size:10>(10 / 67)</size>" as DefaultContractResolver #E8590C;line:C92A2A;line.bold
+  component "JsonContract\n<size:10>(20 / 12)</size>" as JsonContract #FFD8A8
+  component "JsonProperty\n<size:10>(8 / 15)</size>" as JsonProperty #FFD8A8
+  component "JsonTypeReflector\n<size:10>(22 / 19)</size>" as JsonTypeReflector #FFA94D
+}
+package "Linq" {
+  component "JToken\n<size:10>(44 / 46)</size>" as JToken #E8590C;line:C92A2A;line.bold
+  component "JContainer\n<size:10>(14 / 26)</size>" as JContainer #FFA94D
+}
+package "Linq.JsonPath" {
+  component "JPath\n<size:10>(2 / 20)</size>" as JPath #FFD8A8
+}
+package "Converters" {
+  component "XmlNodeConverter\n<size:10>(6 / 22)</size>" as XmlNodeConverter #FFD8A8
+  component "RegexConverter\n<size:10>(1 / 9)</size>" as RegexConverter #FFF4E6
+  component "BsonObjectIdConverter\n<size:10>(1 / 9)</size>" as BsonObjectIdConverter #FFF4E6;line.dashed
+}
+package "Schema" {
+  component "JsonSchemaGenerator\n<size:10>(1 / 30)</size>" as JsonSchemaGenerator #FFD8A8;line.dashed
+}
+package "Bson" {
+  component "BsonWriter\n<size:10>(2 / 18)</size>" as BsonWriter #FFD8A8;line.dashed
+}
+package "Utilities" {
+  component "ReflectionUtils\n<size:10>(29 / 11)</size>" as ReflectionUtils #FFA94D
+  component "ReflectionObject\n<size:10>(4 / 10)</size>" as ReflectionObject #FFF4E6
+}
+JsonReader -[#C92A2A,dashed,thickness=2]-> JsonTypeReflector
+JsonReader -[#C92A2A,dashed,thickness=2]-> JsonContract
+JsonWriter -[#868E96,thickness=1]-> JsonReader
+JsonTextReader -[#1C7ED6]-|> JsonReader
+JsonTextReader -[#868E96,thickness=1]-> JsonConvert
+JsonTextReader -[#C92A2A,dashed,thickness=2]-> JsonTypeReflector
+JsonConvert -[#C92A2A,dashed,thickness=2]-> XmlNodeConverter
+JsonSerializer -[#C92A2A,dashed,thickness=2]-> DefaultContractResolver
+JsonSerializer -[#868E96,thickness=1]-> JsonReader
+JsonSerializer -[#C92A2A,dashed,thickness=2]-> JsonSerializerInternalReader
+JsonSerializer -[#868E96,thickness=1]-> JsonWriter
+JsonSerializer -[#C92A2A,dashed,thickness=2]-> JsonSerializerInternalWriter
+JsonValidatingReader -[#1C7ED6]-|> JsonReader
+JsonValidatingReader -[#C92A2A,dashed,thickness=2]-> JsonSchemaGenerator
+JsonValidatingReader -[#C92A2A,dashed,thickness=2]-> JToken
+JContainer -[#868E96,thickness=1]-> JsonReader
+JContainer -[#1C7ED6]-|> JToken
+JToken -[#868E96,thickness=1]-> JsonReader
+JToken -[#C92A2A,dashed,thickness=2]-> JsonSerializerProxy
+JToken -[#C92A2A,dashed,thickness=2]-> JPath
+BsonObjectIdConverter -[#1C7ED6]-|> JsonConverter
+XmlNodeConverter -[#1C7ED6]-|> JsonConverter
+XmlNodeConverter -[#868E96,thickness=1]-> JsonWriter
+XmlNodeConverter -[#868E96,thickness=1]-> JsonReader
+RegexConverter -[#1C7ED6]-|> JsonConverter
+ReflectionObject -[#C92A2A,dashed,thickness=2]-> JsonTypeReflector
+JsonSerializerInternalReader -[#1C7ED6]-|> JsonSerializerInternalBase
+JsonSerializerInternalReader -[#868E96,thickness=1]-> JsonSerializer
+JsonSerializerInternalReader -[#868E96,thickness=2]-> JsonReader
+JsonSerializerInternalReader -[#868E96,thickness=2]-> JsonContract
+JsonSerializerInternalReader -[#868E96,thickness=1]-> JsonTypeReflector
+JsonSerializerInternalReader -[#868E96,thickness=1]-> JsonConverter
+JsonSerializerInternalReader -[#C92A2A,dashed,thickness=2]-> JToken
+JsonSerializerInternalReader -[#868E96,thickness=2]-> JsonProperty
+JsonTypeReflector -[#868E96,thickness=1]-> ReflectionUtils
+DefaultContractResolver -[#C92A2A,dashed,thickness=2]-> XmlNodeConverter
+DefaultContractResolver -[#C92A2A,dashed,thickness=2]-> BsonObjectIdConverter
+DefaultContractResolver -[#C92A2A,dashed,thickness=2]-> RegexConverter
+DefaultContractResolver -[#868E96,thickness=1]-> JsonContract
+DefaultContractResolver -[#868E96,thickness=2]-> JsonTypeReflector
+DefaultContractResolver -[#868E96,thickness=1]-> ReflectionUtils
+DefaultContractResolver -[#C92A2A,dashed,thickness=2]-> JToken
+DefaultContractResolver -[#868E96,thickness=2]-> JsonProperty
+JsonSerializerInternalWriter -[#1C7ED6]-|> JsonSerializerInternalBase
+JsonSerializerInternalWriter -[#868E96,thickness=1]-> JsonSerializer
+JsonSerializerInternalWriter -[#868E96,thickness=2]-> JsonWriter
+JsonSerializerInternalWriter -[#868E96,thickness=1]-> JsonContract
+JsonSerializerInternalWriter -[#868E96,thickness=1]-> JsonProperty
+JsonSerializerInternalWriter -[#C92A2A,dashed,thickness=2]-> JToken
+JsonSerializerProxy -[#1C7ED6]-|> JsonSerializer
+BsonWriter -[#1C7ED6]-|> JsonWriter
+legend right
+|= Позначення |= Значення |
+|<#E8590C>    | Ca+Ce ≥ 60 (хаб, жирна червона рамка) |
+|<#FFA94D>    | 35–59 |
+|<#FFD8A8>    | 15–34 |
+|<#FFF4E6>    | < 15 |
+| <color:#1C7ED6>—▷</color> | успадкування |
+| <color:#868E96>—→</color> | сильна залежність (≥ 25 звернень; товста ≥ 100) |
+| <color:#C92A2A>- - →</color> | залежність проти шарів / між рівноправними пакетами |
+| пунктирна рамка | [Obsolete] |
+| примітка | ребра до MiscellaneousUtils/StringUtils/ValidationUtils не показані |
+endlegend
+@enduml

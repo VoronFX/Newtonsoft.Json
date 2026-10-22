@@ -1,0 +1,47 @@
+@startuml f4_lava
+skinparam defaultFontName "DejaVu Sans"
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam ArrowFontSize 10
+title Фрагмент 4. Lava Flow: застарілі підсистеми, що досі вбудовані в збірку
+package "Schema [Obsolete з 2015]\n16 типів, 2 162 рядки" as SCH #FFF4E6;line.dashed {
+  component "JsonSchema" as s1 #FFF4E6;line.dashed
+  component "JsonSchemaGenerator" as s2 #FFF4E6;line.dashed
+  component "JsonSchemaBuilder / Resolver /\nModel / Node / Writer …" as s3 #FFF4E6;line.dashed
+}
+package "Bson [Obsolete з 2017]\n16 типів, 1 775 рядків" as BS #FFF4E6;line.dashed {
+  component "BsonReader" as b1 #FFF4E6;line.dashed
+  component "BsonWriter" as b2 #FFF4E6;line.dashed
+}
+package "Core" {
+  component "JsonValidatingReader\n[Obsolete]" as jvr #FFF4E6;line.dashed
+  component "JsonReader / JsonWriter" as rw #FFA94D
+}
+package "Serialization" {
+  component "DefaultContractResolver" as dcr #E8590C
+  component "JsonTypeReflector" as jtr #FFA94D
+}
+package "Converters" {
+  component "RegexConverter" as rc
+  component "BsonObjectIdConverter\n[Obsolete]" as boc #FFF4E6;line.dashed
+}
+package "Linq" {
+  component "JToken" as jt #E8590C
+}
+jvr -[#C92A2A,dashed]-> s2
+jvr -[#C92A2A,dashed]-> s1
+s2 --> dcr
+s2 --> jt
+b1 -[#1C7ED6]-|> rw
+b2 -[#1C7ED6]-|> rw
+b1 --> jtr
+dcr -[#C92A2A,thickness=2]-> boc : new BsonObjectIdConverter()\nу BuiltInConverters
+rc -[#C92A2A,thickness=2]-> b2 : if (writer is BsonWriter)
+boc --> b2
+legend right
+Червоні ребра — актуальний (не застарілий) код,
+що досі залежить від застарілого.
+Разом: 21 [Obsolete] тип, 4 505 рядків;
+8 комітів з 2018 р. лише підтримували компіляцію Schema
+endlegend
+@enduml

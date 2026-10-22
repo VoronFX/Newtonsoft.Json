@@ -1,0 +1,10761 @@
+[
+{
+"cc": 71,
+"file": "Linq/JValue.cs",
+"line": 425,
+"name": "Operation",
+"comp": "Linq"
+},
+{
+"cc": 71,
+"file": "JsonWriter.Async.cs",
+"line": 1708,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 69,
+"file": "JsonWriter.cs",
+"line": 1503,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 56,
+"file": "Utilities/ConvertUtils.cs",
+"line": 1455,
+"name": "DecimalTryParse",
+"comp": "Utilities"
+},
+{
+"cc": 56,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2060,
+"name": "CreateObjectUsingCreatorWithParameters",
+"comp": "Serialization"
+},
+{
+"cc": 51,
+"file": "JsonTextReader.cs",
+"line": 603,
+"name": "ReadStringValue",
+"comp": "Core"
+},
+{
+"cc": 51,
+"file": "JsonTextReader.Async.cs",
+"line": 1167,
+"name": "ReadStringValueAsync",
+"comp": "Core"
+},
+{
+"cc": 46,
+"file": "JsonTextReader.cs",
+"line": 770,
+"name": "ReadAsBoolean",
+"comp": "Core"
+},
+{
+"cc": 46,
+"file": "JsonTextReader.Async.cs",
+"line": 1430,
+"name": "DoReadAsBooleanAsync",
+"comp": "Core"
+},
+{
+"cc": 45,
+"file": "Linq/JToken.cs",
+"line": 2026,
+"name": "ToObject",
+"comp": "Linq"
+},
+{
+"cc": 45,
+"file": "JsonTextReader.cs",
+"line": 908,
+"name": "ReadNumberValue",
+"comp": "Core"
+},
+{
+"cc": 45,
+"file": "JsonTextReader.Async.cs",
+"line": 1303,
+"name": "ReadNumberValueAsync",
+"comp": "Core"
+},
+{
+"cc": 42,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1295,
+"name": "SerializeNode",
+"comp": "Converters"
+},
+{
+"cc": 40,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 147,
+"name": "WriteEscapedJavaScriptString",
+"comp": "Utilities"
+},
+{
+"cc": 39,
+"file": "Linq/JValue.cs",
+"line": 255,
+"name": "Compare",
+"comp": "Linq"
+},
+{
+"cc": 38,
+"file": "JsonTextReader.cs",
+"line": 1981,
+"name": "ParseReadNumber",
+"comp": "Core"
+},
+{
+"cc": 37,
+"file": "Utilities/ConvertUtils.cs",
+"line": 551,
+"name": "TryConvertInternal",
+"comp": "Utilities"
+},
+{
+"cc": 35,
+"file": "Linq/JValue.cs",
+"line": 752,
+"name": "WriteTo",
+"comp": "Linq"
+},
+{
+"cc": 35,
+"file": "Linq/JValue.Async.cs",
+"line": 51,
+"name": "WriteToAsync",
+"comp": "Linq"
+},
+{
+"cc": 35,
+"file": "JsonTextReader.cs",
+"line": 1390,
+"name": "ReadNumberCharIntoBuffer",
+"comp": "Core"
+},
+{
+"cc": 35,
+"file": "JsonTextReader.Async.cs",
+"line": 252,
+"name": "ParseValueAsync",
+"comp": "Core"
+},
+{
+"cc": 34,
+"file": "JsonTextReader.cs",
+"line": 1693,
+"name": "ParseValue",
+"comp": "Core"
+},
+{
+"cc": 33,
+"file": "JsonTextReader.cs",
+"line": 497,
+"name": "ReadAsBytes",
+"comp": "Core"
+},
+{
+"cc": 33,
+"file": "JsonTextReader.Async.cs",
+"line": 1566,
+"name": "DoReadAsBytesAsync",
+"comp": "Core"
+},
+{
+"cc": 32,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 468,
+"name": "CreateObject",
+"comp": "Serialization"
+},
+{
+"cc": 32,
+"file": "JsonWriter.cs",
+"line": 525,
+"name": "WriteToken",
+"comp": "Core"
+},
+{
+"cc": 32,
+"file": "JsonWriter.Async.cs",
+"line": 689,
+"name": "WriteTokenAsync",
+"comp": "Core"
+},
+{
+"cc": 32,
+"file": "Converters/UnionConverter.cs",
+"line": 441,
+"name": "GetCaseShape",
+"comp": "Converters"
+},
+{
+"cc": 31,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 437,
+"name": "WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync",
+"comp": "Utilities"
+},
+{
+"cc": 31,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 251,
+"name": "GenerateInternal",
+"comp": "Schema"
+},
+{
+"cc": 31,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 249,
+"name": "ProcessSchemaProperties",
+"comp": "Schema"
+},
+{
+"cc": 31,
+"file": "Linq/JContainer.cs",
+"line": 796,
+"name": "ReadContentFrom",
+"comp": "Linq"
+},
+{
+"cc": 31,
+"file": "Linq/JContainer.Async.cs",
+"line": 58,
+"name": "ReadContentFromAsync",
+"comp": "Linq"
+},
+{
+"cc": 31,
+"file": "JsonTextReader.cs",
+"line": 1136,
+"name": "ReadStringIntoBuffer",
+"comp": "Core"
+},
+{
+"cc": 31,
+"file": "JsonTextReader.Async.cs",
+"line": 383,
+"name": "ReadStringIntoBufferAsync",
+"comp": "Core"
+},
+{
+"cc": 31,
+"file": "JsonSerializer.cs",
+"line": 653,
+"name": "ApplySerializerSettings",
+"comp": "Core"
+},
+{
+"cc": 30,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 93,
+"name": "ParsePath",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 30,
+"file": "Converters/UnionConverter.cs",
+"line": 64,
+"name": "CreateUnion",
+"comp": "Converters"
+},
+{
+"cc": 29,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1449,
+"name": "PopulateDictionary",
+"comp": "Serialization"
+},
+{
+"cc": 29,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 473,
+"name": "GetJsonSchemaType",
+"comp": "Schema"
+},
+{
+"cc": 29,
+"file": "JsonValidatingReader.cs",
+"line": 501,
+"name": "ValidateCurrentToken",
+"comp": "Core"
+},
+{
+"cc": 28,
+"file": "JsonValidatingReader.cs",
+"line": 175,
+"name": "get_CurrentMemberSchemas",
+"comp": "Core"
+},
+{
+"cc": 27,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2462,
+"name": "PopulateObject",
+"comp": "Serialization"
+},
+{
+"cc": 27,
+"file": "Linq/JValue.cs",
+"line": 619,
+"name": "GetValueType",
+"comp": "Linq"
+},
+{
+"cc": 27,
+"file": "Converters/UnionConverter.cs",
+"line": 278,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 26,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 98,
+"name": "ResolveReferences",
+"comp": "Schema"
+},
+{
+"cc": 26,
+"file": "JsonSerializer.cs",
+"line": 1089,
+"name": "SerializeInternal",
+"comp": "Core"
+},
+{
+"cc": 26,
+"file": "JsonConvert.cs",
+"line": 465,
+"name": "ToString",
+"comp": "Core"
+},
+{
+"cc": 26,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1875,
+"name": "ReadAttributeElements",
+"comp": "Converters"
+},
+{
+"cc": 25,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 311,
+"name": "CreateValueInternal",
+"comp": "Serialization"
+},
+{
+"cc": 25,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 231,
+"name": "ParseArrayIndexer",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 25,
+"file": "Bson/BsonReader.cs",
+"line": 460,
+"name": "ReadType",
+"comp": "Bson"
+},
+{
+"cc": 24,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1171,
+"name": "CalculatePropertyDetails",
+"comp": "Serialization"
+},
+{
+"cc": 24,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 145,
+"name": "MatchTokens",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 23,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 166,
+"name": "SerializeValue",
+"comp": "Serialization"
+},
+{
+"cc": 23,
+"file": "Serialization/JsonArrayContract.cs",
+"line": 126,
+"name": ".ctor",
+"comp": "Serialization"
+},
+{
+"cc": 23,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1500,
+"name": "SetPropertySettingsFromAttributes",
+"comp": "Serialization"
+},
+{
+"cc": 23,
+"file": "Linq/JsonPath/ArraySliceFilter.cs",
+"line": 14,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 23,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 2087,
+"name": "DeserializeNode",
+"comp": "Converters"
+},
+{
+"cc": 23,
+"file": "Bson/BsonReader.cs",
+"line": 346,
+"name": "ReadNormal",
+"comp": "Bson"
+},
+{
+"cc": 22,
+"file": "Utilities/ConvertUtils.cs",
+"line": 304,
+"name": "ToBigInteger",
+"comp": "Utilities"
+},
+{
+"cc": 22,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2316,
+"name": "ResolvePropertyAndCreatorValues",
+"comp": "Serialization"
+},
+{
+"cc": 22,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1932,
+"name": "CreateDynamic",
+"comp": "Serialization"
+},
+{
+"cc": 22,
+"file": "Linq/JToken.cs",
+"line": 2206,
+"name": "ReadFrom",
+"comp": "Linq"
+},
+{
+"cc": 21,
+"file": "Utilities/DateTimeParser.cs",
+"line": 123,
+"name": "ParseTime",
+"comp": "Utilities"
+},
+{
+"cc": 21,
+"file": "Linq/JTokenReader.cs",
+"line": 185,
+"name": "SetToken",
+"comp": "Linq"
+},
+{
+"cc": 21,
+"file": "JsonWriter.Async.cs",
+"line": 1662,
+"name": "SetWriteStateAsync",
+"comp": "Core"
+},
+{
+"cc": 20,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 1106,
+"name": "GetDefaultValue",
+"comp": "Utilities"
+},
+{
+"cc": 20,
+"file": "Utilities/MathUtils.cs",
+"line": 34,
+"name": "IntLength",
+"comp": "Utilities"
+},
+{
+"cc": 20,
+"file": "Utilities/EnumUtils.cs",
+"line": 259,
+"name": "ParseEnum",
+"comp": "Utilities"
+},
+{
+"cc": 20,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1574,
+"name": "PopulateMultidimensionalArray",
+"comp": "Serialization"
+},
+{
+"cc": 20,
+"file": "Linq/JToken.Async.cs",
+"line": 122,
+"name": "ReadFromAsync",
+"comp": "Linq"
+},
+{
+"cc": 20,
+"file": "JsonWriter.cs",
+"line": 1733,
+"name": "SetWriteState",
+"comp": "Core"
+},
+{
+"cc": 20,
+"file": "JsonWriter.Async.cs",
+"line": 54,
+"name": "AutoCompleteAsync",
+"comp": "Core"
+},
+{
+"cc": 20,
+"file": "Bson/BsonBinaryWriter.cs",
+"line": 72,
+"name": "WriteTokenInternal",
+"comp": "Bson"
+},
+{
+"cc": 19,
+"file": "Utilities/ConvertUtils.cs",
+"line": 840,
+"name": "Int32TryParse",
+"comp": "Utilities"
+},
+{
+"cc": 19,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 318,
+"name": "CheckForCircularReference",
+"comp": "Serialization"
+},
+{
+"cc": 19,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 488,
+"name": "ParseExpression",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 19,
+"file": "JsonTextReader.cs",
+"line": 1440,
+"name": "ParsePostValue",
+"comp": "Core"
+},
+{
+"cc": 19,
+"file": "JsonTextReader.Async.cs",
+"line": 112,
+"name": "ParsePostValueAsync",
+"comp": "Core"
+},
+{
+"cc": 19,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1481,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 18,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2671,
+"name": "EndProcessProperty",
+"comp": "Serialization"
+},
+{
+"cc": 18,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1010,
+"name": "EnsureType",
+"comp": "Serialization"
+},
+{
+"cc": 18,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 910,
+"name": "CreateList",
+"comp": "Serialization"
+},
+{
+"cc": 18,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 739,
+"name": "ReadMetadataProperties",
+"comp": "Serialization"
+},
+{
+"cc": 18,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1201,
+"name": "CreateContract",
+"comp": "Serialization"
+},
+{
+"cc": 18,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 229,
+"name": "GetSerializableMembers",
+"comp": "Serialization"
+},
+{
+"cc": 18,
+"file": "Linq/JContainer.cs",
+"line": 1212,
+"name": "MergeEnumerableContent",
+"comp": "Linq"
+},
+{
+"cc": 18,
+"file": "JsonWriter.Async.cs",
+"line": 291,
+"name": "InternalWriteEndAsync",
+"comp": "Core"
+},
+{
+"cc": 18,
+"file": "JsonTextReader.cs",
+"line": 2263,
+"name": "ParseComment",
+"comp": "Core"
+},
+{
+"cc": 18,
+"file": "JsonTextReader.Async.cs",
+"line": 660,
+"name": "ParseCommentAsync",
+"comp": "Core"
+},
+{
+"cc": 18,
+"file": "JsonReader.cs",
+"line": 1203,
+"name": "ReadForType",
+"comp": "Core"
+},
+{
+"cc": 18,
+"file": "Bson/BsonBinaryWriter.cs",
+"line": 243,
+"name": "CalculateSize",
+"comp": "Bson"
+},
+{
+"cc": 17,
+"file": "Utilities/DateTimeParser.cs",
+"line": 175,
+"name": "ParseZone",
+"comp": "Utilities"
+},
+{
+"cc": 17,
+"file": "Utilities/ConvertUtils.cs",
+"line": 934,
+"name": "Int64TryParse",
+"comp": "Utilities"
+},
+{
+"cc": 17,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1056,
+"name": "ShouldWriteType",
+"comp": "Serialization"
+},
+{
+"cc": 17,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 650,
+"name": "ReadMetadataPropertiesToken",
+"comp": "Serialization"
+},
+{
+"cc": 17,
+"file": "Schema/JsonSchemaModel.cs",
+"line": 82,
+"name": "Combine",
+"comp": "Schema"
+},
+{
+"cc": 17,
+"file": "Linq/JValue.cs",
+"line": 1086,
+"name": "TryBinaryOperation",
+"comp": "Linq"
+},
+{
+"cc": 17,
+"file": "JsonTextReader.cs",
+"line": 414,
+"name": "Read",
+"comp": "Core"
+},
+{
+"cc": 17,
+"file": "JsonReader.cs",
+"line": 1021,
+"name": "SetToken",
+"comp": "Core"
+},
+{
+"cc": 16,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 1022,
+"name": "GetChildPrivateProperties",
+"comp": "Utilities"
+},
+{
+"cc": 16,
+"file": "Utilities/ReflectionObject.cs",
+"line": 94,
+"name": "Create",
+"comp": "Utilities"
+},
+{
+"cc": 16,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 566,
+"name": "CalculatePropertyValues",
+"comp": "Serialization"
+},
+{
+"cc": 16,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1726,
+"name": "PopulateList",
+"comp": "Serialization"
+},
+{
+"cc": 16,
+"file": "Serialization/JsonDictionaryContract.cs",
+"line": 118,
+"name": ".ctor",
+"comp": "Serialization"
+},
+{
+"cc": 16,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 879,
+"name": "GetCallbackMethodsForType",
+"comp": "Serialization"
+},
+{
+"cc": 16,
+"file": "JsonValidatingReader.cs",
+"line": 618,
+"name": "WriteToken",
+"comp": "Core"
+},
+{
+"cc": 16,
+"file": "JsonTextReader.cs",
+"line": 2415,
+"name": "IsSeparator",
+"comp": "Core"
+},
+{
+"cc": 16,
+"file": "JsonTextReader.cs",
+"line": 166,
+"name": "ParseReadString",
+"comp": "Core"
+},
+{
+"cc": 16,
+"file": "JsonSerializer.cs",
+"line": 918,
+"name": "SetupReader",
+"comp": "Core"
+},
+{
+"cc": 15,
+"file": "Utilities/StringUtils.cs",
+"line": 218,
+"name": "ToSeparatedCase",
+"comp": "Utilities"
+},
+{
+"cc": 15,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 76,
+"name": "GenerateCreateMethodCallIL",
+"comp": "Utilities"
+},
+{
+"cc": 15,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 453,
+"name": "TryParseDateTimeOffset",
+"comp": "Utilities"
+},
+{
+"cc": 15,
+"file": "Utilities/ConvertUtils.cs",
+"line": 442,
+"name": "TryConvertModernNumber",
+"comp": "Utilities"
+},
+{
+"cc": 15,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1830,
+"name": "CreateISerializable",
+"comp": "Serialization"
+},
+{
+"cc": 15,
+"file": "Serialization/JsonPropertyCollection.cs",
+"line": 75,
+"name": "AddProperty",
+"comp": "Serialization"
+},
+{
+"cc": 15,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 344,
+"name": "CreateObjectContract",
+"comp": "Serialization"
+},
+{
+"cc": 15,
+"file": "Schema/JsonSchemaWriter.cs",
+"line": 75,
+"name": "WriteSchema",
+"comp": "Schema"
+},
+{
+"cc": 15,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 650,
+"name": "ReadQuotedString",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 15,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 575,
+"name": "TryParseValue",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 15,
+"file": "JsonValidatingReader.cs",
+"line": 784,
+"name": "ValidateInteger",
+"comp": "Core"
+},
+{
+"cc": 15,
+"file": "JsonTextReader.Async.cs",
+"line": 62,
+"name": "DoReadAsync",
+"comp": "Core"
+},
+{
+"cc": 15,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1674,
+"name": "CreateElement",
+"comp": "Converters"
+},
+{
+"cc": 15,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1141,
+"name": "SerializeGroupedNodes",
+"comp": "Converters"
+},
+{
+"cc": 15,
+"file": "Converters/IsoDateTimeConverter.cs",
+"line": 121,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 14,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 417,
+"name": "TryParseDateTimeOffset",
+"comp": "Utilities"
+},
+{
+"cc": 14,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 380,
+"name": "TryParseDateTime",
+"comp": "Utilities"
+},
+{
+"cc": 14,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 344,
+"name": "TryParseDateTime",
+"comp": "Utilities"
+},
+{
+"cc": 14,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1187,
+"name": "GetPropertyName",
+"comp": "Serialization"
+},
+{
+"cc": 14,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1103,
+"name": "SetPropertyValue",
+"comp": "Serialization"
+},
+{
+"cc": 14,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 843,
+"name": "ResolveTypeName",
+"comp": "Serialization"
+},
+{
+"cc": 14,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 69,
+"name": "Populate",
+"comp": "Serialization"
+},
+{
+"cc": 14,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1331,
+"name": "IsValidCallback",
+"comp": "Serialization"
+},
+{
+"cc": 14,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 245,
+"name": "EqualsWithStringCoercion",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 14,
+"file": "Linq/JsonPath/PathFilter.cs",
+"line": 11,
+"name": "GetTokenIndex",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 14,
+"file": "JsonWriter.cs",
+"line": 877,
+"name": "AutoComplete",
+"comp": "Core"
+},
+{
+"cc": 14,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1745,
+"name": "ConvertTokenToXmlValue",
+"comp": "Converters"
+},
+{
+"cc": 14,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1085,
+"name": "GetPropertyName",
+"comp": "Converters"
+},
+{
+"cc": 13,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 785,
+"name": "GetAttributes",
+"comp": "Utilities"
+},
+{
+"cc": 13,
+"file": "Utilities/MiscellaneousUtils.cs",
+"line": 53,
+"name": "ValueEquals",
+"comp": "Utilities"
+},
+{
+"cc": 13,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1102,
+"name": "SerializeDictionary",
+"comp": "Serialization"
+},
+{
+"cc": 13,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1310,
+"name": "CreateNewList",
+"comp": "Serialization"
+},
+{
+"cc": 13,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 755,
+"name": "CreatePropertyFromConstructorParameter",
+"comp": "Serialization"
+},
+{
+"cc": 13,
+"file": "Linq/JsonPath/FieldFilter.cs",
+"line": 16,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 13,
+"file": "JsonValidatingReader.cs",
+"line": 875,
+"name": "ValidateFloat",
+"comp": "Core"
+},
+{
+"cc": 13,
+"file": "JsonTextReader.cs",
+"line": 1878,
+"name": "ParseConstructor",
+"comp": "Core"
+},
+{
+"cc": 13,
+"file": "JsonTextReader.cs",
+"line": 1522,
+"name": "ParseObject",
+"comp": "Core"
+},
+{
+"cc": 13,
+"file": "JsonTextReader.Async.cs",
+"line": 601,
+"name": "ParseObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 13,
+"file": "Converters/DiscriminatedUnionConverter.cs",
+"line": 172,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 13,
+"file": "Converters/DataTableConverter.cs",
+"line": 212,
+"name": "GetColumnDataType",
+"comp": "Converters"
+},
+{
+"cc": 12,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 572,
+"name": "TryGetDateFromConstructorJson",
+"comp": "Utilities"
+},
+{
+"cc": 12,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 94,
+"name": "BuildMethodCall",
+"comp": "Utilities"
+},
+{
+"cc": 12,
+"file": "Utilities/EnumUtils.cs",
+"line": 226,
+"name": "ToUInt64",
+"comp": "Utilities"
+},
+{
+"cc": 12,
+"file": "Utilities/ConvertUtils.cs",
+"line": 820,
+"name": "IsInteger",
+"comp": "Utilities"
+},
+{
+"cc": 12,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 154,
+"name": "Deserialize",
+"comp": "Serialization"
+},
+{
+"cc": 12,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 495,
+"name": "SetExtensionDataDelegates",
+"comp": "Serialization"
+},
+{
+"cc": 12,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 772,
+"name": "ParseOperator",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 12,
+"file": "Linq/JObject.cs",
+"line": 181,
+"name": "MergeItem",
+"comp": "Linq"
+},
+{
+"cc": 12,
+"file": "JsonWriter.cs",
+"line": 657,
+"name": "WriteToken",
+"comp": "Core"
+},
+{
+"cc": 12,
+"file": "JsonWriter.cs",
+"line": 163,
+"name": "get_WriteState",
+"comp": "Core"
+},
+{
+"cc": 12,
+"file": "JsonWriter.cs",
+"line": 79,
+"name": "BuildStateArray",
+"comp": "Core"
+},
+{
+"cc": 12,
+"file": "JsonWriter.Async.cs",
+"line": 791,
+"name": "WriteTokenAsync",
+"comp": "Core"
+},
+{
+"cc": 12,
+"file": "JsonTextReader.Async.cs",
+"line": 861,
+"name": "ParseConstructorAsync",
+"comp": "Core"
+},
+{
+"cc": 12,
+"file": "JsonReader.cs",
+"line": 517,
+"name": "ReadAsBytes",
+"comp": "Core"
+},
+{
+"cc": 12,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1617,
+"name": "ReadElement",
+"comp": "Converters"
+},
+{
+"cc": 12,
+"file": "Converters/DataTableConverter.cs",
+"line": 139,
+"name": "CreateRow",
+"comp": "Converters"
+},
+{
+"cc": 12,
+"file": "Bson/BsonReader.cs",
+"line": 186,
+"name": "Read",
+"comp": "Bson"
+},
+{
+"cc": 11,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 627,
+"name": "CanSetMemberValue",
+"comp": "Utilities"
+},
+{
+"cc": 11,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 955,
+"name": "SerializeDynamic",
+"comp": "Serialization"
+},
+{
+"cc": 11,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 870,
+"name": "WriteStartArray",
+"comp": "Serialization"
+},
+{
+"cc": 11,
+"file": "Schema/JsonSchemaModelBuilder.cs",
+"line": 57,
+"name": "AddSchema",
+"comp": "Schema"
+},
+{
+"cc": 11,
+"file": "Linq/JsonPath/FieldMultipleFilter.cs",
+"line": 21,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 11,
+"file": "Linq/JTokenWriter.cs",
+"line": 563,
+"name": "WriteToken",
+"comp": "Linq"
+},
+{
+"cc": 11,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 228,
+"name": "Compare",
+"comp": "Linq"
+},
+{
+"cc": 11,
+"file": "Linq/JContainer.cs",
+"line": 917,
+"name": "ReadProperty",
+"comp": "Linq"
+},
+{
+"cc": 11,
+"file": "Linq/Extensions.cs",
+"line": 256,
+"name": "Convert",
+"comp": "Linq"
+},
+{
+"cc": 11,
+"file": "JsonSerializer.cs",
+"line": 989,
+"name": "ResetReader",
+"comp": "Core"
+},
+{
+"cc": 11,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1569,
+"name": "DeserializeValue",
+"comp": "Converters"
+},
+{
+"cc": 11,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 883,
+"name": "HasImplicitNamespaceAttribute",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Utilities/StringUtils.cs",
+"line": 155,
+"name": "ToCamelCase",
+"comp": "Utilities"
+},
+{
+"cc": 10,
+"file": "Utilities/JsonTokenUtils.cs",
+"line": 56,
+"name": "IsPrimitiveToken",
+"comp": "Utilities"
+},
+{
+"cc": 10,
+"file": "Utilities/EnumUtils.cs",
+"line": 159,
+"name": "InternalFlagsFormat",
+"comp": "Utilities"
+},
+{
+"cc": 10,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 635,
+"name": "WriteDateTimeString",
+"comp": "Utilities"
+},
+{
+"cc": 10,
+"file": "Utilities/DateTimeParser.cs",
+"line": 234,
+"name": "Parse4Digit",
+"comp": "Utilities"
+},
+{
+"cc": 10,
+"file": "Utilities/DateTimeParser.cs",
+"line": 104,
+"name": "ParseDate",
+"comp": "Utilities"
+},
+{
+"cc": 10,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 490,
+"name": "SerializeObject",
+"comp": "Serialization"
+},
+{
+"cc": 10,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2417,
+"name": "CreateNewObject",
+"comp": "Serialization"
+},
+{
+"cc": 10,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1379,
+"name": "CreateNewDictionary",
+"comp": "Serialization"
+},
+{
+"cc": 10,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 429,
+"name": "GetConverter",
+"comp": "Serialization"
+},
+{
+"cc": 10,
+"file": "Serialization/JsonSerializerInternalBase.cs",
+"line": 119,
+"name": "IsErrorHandled",
+"comp": "Serialization"
+},
+{
+"cc": 10,
+"file": "Serialization/DefaultSerializationBinder.cs",
+"line": 59,
+"name": "GetTypeFromTypeNameKey",
+"comp": "Serialization"
+},
+{
+"cc": 10,
+"file": "Schema/JsonSchemaModelBuilder.cs",
+"line": 164,
+"name": "BuildNodeModel",
+"comp": "Schema"
+},
+{
+"cc": 10,
+"file": "Linq/JsonPath/ArrayIndexFilter.cs",
+"line": 11,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 10,
+"file": "Linq/JTokenWriter.cs",
+"line": 186,
+"name": "WritePropertyName",
+"comp": "Linq"
+},
+{
+"cc": 10,
+"file": "Linq/JToken.cs",
+"line": 2800,
+"name": "RemoveAnnotations",
+"comp": "Linq"
+},
+{
+"cc": 10,
+"file": "Linq/JContainer.cs",
+"line": 481,
+"name": "SetItem",
+"comp": "Linq"
+},
+{
+"cc": 10,
+"file": "JsonValidatingReader.cs",
+"line": 746,
+"name": "ValidateString",
+"comp": "Core"
+},
+{
+"cc": 10,
+"file": "JsonTextReader.cs",
+"line": 1835,
+"name": "EatWhitespace",
+"comp": "Core"
+},
+{
+"cc": 10,
+"file": "JsonTextReader.Async.cs",
+"line": 758,
+"name": "EatWhitespaceAsync",
+"comp": "Core"
+},
+{
+"cc": 10,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 2036,
+"name": "CreateDocumentType",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1992,
+"name": "CreateInstruction",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1800,
+"name": "ReadArrayElements",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/UnixDateTimeConverter.cs",
+"line": 111,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/UnionConverter.cs",
+"line": 419,
+"name": "GetTokenShape",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/StringEnumConverter.cs",
+"line": 215,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/RegexConverter.cs",
+"line": 175,
+"name": "ReadRegexObject",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Converters/EntityKeyMemberConverter.cs",
+"line": 90,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 10,
+"file": "Bson/BsonReader.cs",
+"line": 246,
+"name": "ReadCodeWScope",
+"comp": "Bson"
+},
+{
+"cc": 9,
+"file": "Utilities/StringUtils.cs",
+"line": 334,
+"name": "Trim",
+"comp": "Utilities"
+},
+{
+"cc": 9,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 321,
+"name": "ImplementsGenericDefinition",
+"comp": "Utilities"
+},
+{
+"cc": 9,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 183,
+"name": "RemoveAssemblyDetails",
+"comp": "Utilities"
+},
+{
+"cc": 9,
+"file": "Utilities/ImmutableCollectionsUtils.cs",
+"line": 150,
+"name": "TryBuildImmutableForDictionaryContract",
+"comp": "Utilities"
+},
+{
+"cc": 9,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 214,
+"name": "TryParseDateTimeIso",
+"comp": "Utilities"
+},
+{
+"cc": 9,
+"file": "Utilities/ConvertUtils.cs",
+"line": 380,
+"name": "FromBigInteger",
+"comp": "Utilities"
+},
+{
+"cc": 9,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 387,
+"name": "GetAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 9,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 719,
+"name": "SerializeList",
+"comp": "Serialization"
+},
+{
+"cc": 9,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 405,
+"name": "GetExpectedDescription",
+"comp": "Serialization"
+},
+{
+"cc": 9,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 389,
+"name": "CoerceEmptyStringToNull",
+"comp": "Serialization"
+},
+{
+"cc": 9,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 231,
+"name": "CreateJToken",
+"comp": "Serialization"
+},
+{
+"cc": 9,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1021,
+"name": "CreateDictionaryContract",
+"comp": "Serialization"
+},
+{
+"cc": 9,
+"file": "Linq/JToken.cs",
+"line": 2750,
+"name": "RemoveAnnotations",
+"comp": "Linq"
+},
+{
+"cc": 9,
+"file": "Linq/JContainer.cs",
+"line": 413,
+"name": "RemoveItemAt",
+"comp": "Linq"
+},
+{
+"cc": 9,
+"file": "JsonValidatingReader.cs",
+"line": 855,
+"name": "ProcessValue",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "JsonValidatingReader.cs",
+"line": 356,
+"name": "GetCurrentNodeSchemaType",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "JsonReader.cs",
+"line": 760,
+"name": "ReadAsDecimal",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "JsonReader.cs",
+"line": 697,
+"name": "ReadAsBoolean",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "JsonReader.cs",
+"line": 631,
+"name": "ReadAsDouble",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "JsonReader.cs",
+"line": 476,
+"name": "ReadAsString",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "JsonReader.cs",
+"line": 402,
+"name": "ReadAsInt32",
+"comp": "Core"
+},
+{
+"cc": 9,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1856,
+"name": "ShouldReadInto",
+"comp": "Converters"
+},
+{
+"cc": 9,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1033,
+"name": "PushParentNamespaces",
+"comp": "Converters"
+},
+{
+"cc": 9,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 709,
+"name": "WrapNode",
+"comp": "Converters"
+},
+{
+"cc": 9,
+"file": "Converters/UnionConverter.cs",
+"line": 228,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 9,
+"file": "Converters/JavaScriptDateTimeConverter.cs",
+"line": 77,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 9,
+"file": "Converters/IsoDateTimeConverter.cs",
+"line": 79,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 9,
+"file": "Bson/BsonReader.cs",
+"line": 595,
+"name": "ReadString",
+"comp": "Bson"
+},
+{
+"cc": 9,
+"file": "Bson/BsonReader.cs",
+"line": 295,
+"name": "ReadReference",
+"comp": "Bson"
+},
+{
+"cc": 8,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 669,
+"name": "GetFieldsAndProperties",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 585,
+"name": "CanReadMemberValue",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 333,
+"name": "FirstCharToEscape",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 369,
+"name": "EnsureCastExpression",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 280,
+"name": "TryParseDateTimeOffsetIso",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Utilities/ConvertUtils.cs",
+"line": 1720,
+"name": "TryHexTextToInt",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Utilities/ConvertUtils.cs",
+"line": 742,
+"name": "ConvertOrCast",
+"comp": "Utilities"
+},
+{
+"cc": 8,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 139,
+"name": "GetDataMemberAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 813,
+"name": "SerializeMultidimensionalArray",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2726,
+"name": "SetPropertyPresence",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Serialization/DefaultSerializationBinder.cs",
+"line": 133,
+"name": "GetGenericTypeFromTypeName",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 807,
+"name": "InitializeContract",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 691,
+"name": "CreateConstructorParameters",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 446,
+"name": "GetExtensionDataMemberForType",
+"comp": "Serialization"
+},
+{
+"cc": 8,
+"file": "Schema/JsonSchemaWriter.cs",
+"line": 194,
+"name": "WriteItems",
+"comp": "Schema"
+},
+{
+"cc": 8,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 414,
+"name": "GenerateObjectSchema",
+"comp": "Schema"
+},
+{
+"cc": 8,
+"file": "Linq/JsonPath/ScanFilter.cs",
+"line": 14,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 8,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 60,
+"name": "IsMatch",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 8,
+"file": "Linq/JsonPath/PathFilter.cs",
+"line": 52,
+"name": "GetNextScanValue",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 8,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 52,
+"name": "ParseMain",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 8,
+"file": "Linq/JToken.cs",
+"line": 2708,
+"name": "Annotations",
+"comp": "Linq"
+},
+{
+"cc": 8,
+"file": "Linq/JToken.cs",
+"line": 2628,
+"name": "Annotation",
+"comp": "Linq"
+},
+{
+"cc": 8,
+"file": "Linq/JToken.cs",
+"line": 2558,
+"name": "AddAnnotation",
+"comp": "Linq"
+},
+{
+"cc": 8,
+"file": "Linq/JContainer.cs",
+"line": 362,
+"name": "InsertItem",
+"comp": "Linq"
+},
+{
+"cc": 8,
+"file": "Linq/JContainer.cs",
+"line": 331,
+"name": "EnsureParentToken",
+"comp": "Linq"
+},
+{
+"cc": 8,
+"file": "JsonWriter.Async.cs",
+"line": 824,
+"name": "WriteTokenSyncReadingAsync",
+"comp": "Core"
+},
+{
+"cc": 8,
+"file": "JsonTextReader.cs",
+"line": 733,
+"name": "FinishReadQuotedStringValue",
+"comp": "Core"
+},
+{
+"cc": 8,
+"file": "JsonReader.cs",
+"line": 894,
+"name": "ReadAsDateTimeOffset",
+"comp": "Core"
+},
+{
+"cc": 8,
+"file": "JsonReader.cs",
+"line": 602,
+"name": "ReadArrayElementIntoByteArrayReportDone",
+"comp": "Core"
+},
+{
+"cc": 8,
+"file": "Converters/DataTableConverter.cs",
+"line": 93,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 8,
+"file": "Converters/DataTableConverter.cs",
+"line": 51,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 8,
+"file": "Converters/BinaryConverter.cs",
+"line": 110,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 8,
+"file": "Bson/BsonReader.cs",
+"line": 773,
+"name": "BytesInSequence",
+"comp": "Bson"
+},
+{
+"cc": 8,
+"file": "Bson/BsonReader.cs",
+"line": 671,
+"name": "GetString",
+"comp": "Bson"
+},
+{
+"cc": 7,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 723,
+"name": "IsOverridenGenericMember",
+"comp": "Utilities"
+},
+{
+"cc": 7,
+"file": "Utilities/ImmutableCollectionsUtils.cs",
+"line": 116,
+"name": "TryBuildImmutableForArrayContract",
+"comp": "Utilities"
+},
+{
+"cc": 7,
+"file": "Utilities/EnumUtils.cs",
+"line": 94,
+"name": "GetFlagsValues",
+"comp": "Utilities"
+},
+{
+"cc": 7,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 771,
+"name": "GetDateValues",
+"comp": "Utilities"
+},
+{
+"cc": 7,
+"file": "Utilities/ConvertUtils.cs",
+"line": 773,
+"name": "EnsureTypeAssignable",
+"comp": "Utilities"
+},
+{
+"cc": 7,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 686,
+"name": "SerializeConvertable",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 617,
+"name": "WriteObjectStart",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 266,
+"name": "ShouldWriteReference",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 238,
+"name": "ResolveIsReference",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1287,
+"name": "ShouldSetPropertyValue",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 945,
+"name": "IsConcurrentOrObservableCollection",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 633,
+"name": "GetImmutableConstructor",
+"comp": "Serialization"
+},
+{
+"cc": 7,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 224,
+"name": "GetTypeId",
+"comp": "Schema"
+},
+{
+"cc": 7,
+"file": "Linq/JsonPath/ScanMultipleFilter.cs",
+"line": 14,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 7,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 114,
+"name": "IsMatch",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 7,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 823,
+"name": "ParseQuotedField",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 7,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 710,
+"name": "ReadRegexString",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 7,
+"file": "Linq/JToken.cs",
+"line": 2670,
+"name": "Annotations",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JToken.cs",
+"line": 1452,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JToken.cs",
+"line": 1394,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JToken.cs",
+"line": 1308,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JToken.cs",
+"line": 699,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JToken.cs",
+"line": 217,
+"name": "get_Path",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JObject.cs",
+"line": 667,
+"name": "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/JContainer.cs",
+"line": 589,
+"name": "CopyItemsTo",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "Linq/Extensions.cs",
+"line": 184,
+"name": "Values",
+"comp": "Linq"
+},
+{
+"cc": 7,
+"file": "JsonTextReader.cs",
+"line": 1578,
+"name": "ParseProperty",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "JsonTextReader.cs",
+"line": 281,
+"name": "PrepareBufferForReadData",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "JsonTextReader.Async.cs",
+"line": 980,
+"name": "ParsePropertyAsync",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "JsonReader.cs",
+"line": 840,
+"name": "ReadAsDateTime",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "JsonPosition.cs",
+"line": 117,
+"name": "BuildPath",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "JsonPosition.cs",
+"line": 74,
+"name": "WriteTo",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "DefaultJsonNameTable.cs",
+"line": 107,
+"name": "Add",
+"comp": "Core"
+},
+{
+"cc": 7,
+"file": "Converters/UnionConverter.cs",
+"line": 397,
+"name": "GetMetadataProperty",
+"comp": "Converters"
+},
+{
+"cc": 7,
+"file": "Converters/KeyValuePairConverter.cs",
+"line": 90,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 7,
+"file": "Converters/DiscriminatedUnionConverter.cs",
+"line": 130,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 6,
+"file": "Utilities/TypeExtensions.cs",
+"line": 630,
+"name": "ImplementInterface",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 879,
+"name": "GetAssemblyDelimiterIndex",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 471,
+"name": "GetMemberUnderlyingType",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/MiscellaneousUtils.cs",
+"line": 152,
+"name": "GetRegexOptions",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 157,
+"name": "ToUniversalTicks",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 93,
+"name": "EnsureDateTime",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/DateTimeParser.cs",
+"line": 255,
+"name": "Parse2Digit",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/ConvertUtils.cs",
+"line": 511,
+"name": "Convert",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/CollectionUtils.cs",
+"line": 133,
+"name": "ResolveEnumerableCollectionConstructor",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Utilities/BoxedPrimitives.cs",
+"line": 135,
+"name": "Get",
+"comp": "Utilities"
+},
+{
+"cc": 6,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 324,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 351,
+"name": "GetAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 262,
+"name": "GetCreator",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 92,
+"name": "CanTypeDescriptorConvertString",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1040,
+"name": "ShouldWriteDynamicProperty",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2613,
+"name": "CheckPropertyName",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 267,
+"name": "CreateJObject",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/JsonObjectContract.cs",
+"line": 145,
+"name": "get_HasRequiredOrDefaultValueProperties",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/DiagnosticsTraceWriter.cs",
+"line": 23,
+"name": "GetTraceEventType",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1646,
+"name": "ResolvePropertyNameFromAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1307,
+"name": "CanConvertToString",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1070,
+"name": "CreateArrayContract",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 843,
+"name": "ResolveCallbackMethods",
+"comp": "Serialization"
+},
+{
+"cc": 6,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 455,
+"name": "ProcessType",
+"comp": "Schema"
+},
+{
+"cc": 6,
+"file": "Linq/JsonPath/QueryScanFilter.cs",
+"line": 15,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 6,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 306,
+"name": "EqualsWithStrictMatch",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 6,
+"file": "Linq/JValue.cs",
+"line": 700,
+"name": "GetStringValueType",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JTokenReader.cs",
+"line": 136,
+"name": "GetEndToken",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JTokenReader.cs",
+"line": 104,
+"name": "ReadOver",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JTokenReader.cs",
+"line": 74,
+"name": "Read",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 2597,
+"name": "Annotation",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1525,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1499,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1234,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1205,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1153,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1125,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1074,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1045,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 1017,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 988,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 960,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 791,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 763,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 735,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 670,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JToken.cs",
+"line": 619,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "Linq/JObject.cs",
+"line": 290,
+"name": "Property",
+"comp": "Linq"
+},
+{
+"cc": 6,
+"file": "JsonWriter.cs",
+"line": 1431,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonWriter.cs",
+"line": 825,
+"name": "UpdateCurrentState",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonWriter.cs",
+"line": 767,
+"name": "AutoCompleteClose",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonWriter.Async.cs",
+"line": 270,
+"name": "WriteEndInternalAsync",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonValidatingReader.cs",
+"line": 965,
+"name": "IsPropertyDefinied",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonValidatingReader.cs",
+"line": 696,
+"name": "ValidateEndArray",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextWriter.cs",
+"line": 337,
+"name": "SetIndentChars",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.cs",
+"line": 2572,
+"name": "ParseNumberNaN",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.cs",
+"line": 2542,
+"name": "ParseNumberPositiveInfinity",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.cs",
+"line": 2513,
+"name": "ParseNumberNegativeInfinity",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.cs",
+"line": 1641,
+"name": "ParseUnquotedProperty",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.cs",
+"line": 1354,
+"name": "ReadNumberIntoBuffer",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.Async.cs",
+"line": 1677,
+"name": "ReadIntoWrappedTypeObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.Async.cs",
+"line": 1070,
+"name": "ParseUnquotedPropertyAsync",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonTextReader.Async.cs",
+"line": 1034,
+"name": "ReadNumberIntoBufferAsync",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonReader.cs",
+"line": 1115,
+"name": "SetStateBasedOnCurrent",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonReader.cs",
+"line": 957,
+"name": "ReadIntoWrappedTypeObject",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonReader.cs",
+"line": 337,
+"name": "Push",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonReader.Async.cs",
+"line": 242,
+"name": "MoveToContentFromNonContentAsync",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonConvert.cs",
+"line": 311,
+"name": "EnsureDecimalPlace",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "JsonConvert.cs",
+"line": 281,
+"name": "EnsureFloatFormat",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "DefaultJsonNameTable.cs",
+"line": 63,
+"name": "Get",
+"comp": "Core"
+},
+{
+"cc": 6,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 851,
+"name": "get_Attributes",
+"comp": "Converters"
+},
+{
+"cc": 6,
+"file": "Converters/ExpandoObjectConverter.cs",
+"line": 113,
+"name": "ReadObject",
+"comp": "Converters"
+},
+{
+"cc": 6,
+"file": "Converters/ExpandoObjectConverter.cs",
+"line": 67,
+"name": "ReadValue",
+"comp": "Converters"
+},
+{
+"cc": 6,
+"file": "Converters/BinaryConverter.cs",
+"line": 164,
+"name": "ReadByteArray",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Utilities/StructMultiKey.cs",
+"line": 41,
+"name": "GetHashCode",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/StringUtils.cs",
+"line": 90,
+"name": "IsWhiteSpace",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 983,
+"name": "GetProperties",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 408,
+"name": "GetCollectionItemType",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 129,
+"name": "IsPublic",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 97,
+"name": "IsVirtual",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/JsonTokenUtils.cs",
+"line": 43,
+"name": "IsStartToken",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/JsonTokenUtils.cs",
+"line": 30,
+"name": "IsEndToken",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 366,
+"name": "WriteEscapedJavaScriptStringAsync",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 128,
+"name": "ShouldEscapeJavaScriptString",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 86,
+"name": ".cctor",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/EnumUtils.cs",
+"line": 52,
+"name": "InitializeValuesAndNames",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 386,
+"name": "Remove",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 313,
+"name": "CopyTo",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 590,
+"name": "TryReadOffset",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 522,
+"name": "TryParseDateTimeMicrosoft",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 62,
+"name": "ToSerializationMode",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/ConvertUtils.cs",
+"line": 218,
+"name": "GetTypeCode",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 308,
+"name": "IsCompatibleObject",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/CollectionUtils.cs",
+"line": 283,
+"name": "GetDimensions",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/CollectionUtils.cs",
+"line": 188,
+"name": "ContainsValue",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/BidirectionalDictionary.cs",
+"line": 65,
+"name": "Set",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/Base64Encoder.cs",
+"line": 161,
+"name": "EncodeAsync",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/Base64Encoder.cs",
+"line": 126,
+"name": "FulfillFromLeftover",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/Base64Encoder.cs",
+"line": 75,
+"name": "Encode",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Utilities/Base64Encoder.cs",
+"line": 52,
+"name": "ValidateEncode",
+"comp": "Utilities"
+},
+{
+"cc": 5,
+"file": "Serialization/NamingStrategy.cs",
+"line": 133,
+"name": "Equals",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 177,
+"name": "GetObjectMemberSerialization",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 908,
+"name": "SerializeISerializable",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 416,
+"name": "TryConvertToString",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 302,
+"name": "ShouldWriteProperty",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 136,
+"name": "SerializePrimitive",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2297,
+"name": "DeserializeConvertable",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/JsonPropertyCollection.cs",
+"line": 166,
+"name": "GetProperty",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/DiagnosticsTraceWriter.cs",
+"line": 46,
+"name": "Trace",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1687,
+"name": "SetIsSpecifiedActions",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1394,
+"name": "CreateProperties",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Serialization/CamelCasePropertyNamesContractResolver.cs",
+"line": 62,
+"name": "ResolveContract",
+"comp": "Serialization"
+},
+{
+"cc": 5,
+"file": "Schema/JsonSchemaWriter.cs",
+"line": 228,
+"name": "WriteType",
+"comp": "Schema"
+},
+{
+"cc": 5,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 450,
+"name": "HasFlag",
+"comp": "Schema"
+},
+{
+"cc": 5,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 433,
+"name": "ProcessItems",
+"comp": "Schema"
+},
+{
+"cc": 5,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 346,
+"name": "ProcessExtends",
+"comp": "Schema"
+},
+{
+"cc": 5,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 211,
+"name": "BuildSchema",
+"comp": "Schema"
+},
+{
+"cc": 5,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 224,
+"name": "RegexEquals",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 5,
+"file": "Linq/JValue.cs",
+"line": 1132,
+"name": "System.IComparable.CompareTo",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JValue.cs",
+"line": 925,
+"name": "GetValueHashCode",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JValue.cs",
+"line": 230,
+"name": "CompareBigInteger",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JTokenWriter.cs",
+"line": 276,
+"name": "WriteValue",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JTokenWriter.cs",
+"line": 246,
+"name": "AddJValue",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JTokenReader.cs",
+"line": 315,
+"name": "get_Path",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JToken.cs",
+"line": 2331,
+"name": "SetLineInfo",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JToken.cs",
+"line": 1431,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JToken.cs",
+"line": 592,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JToken.cs",
+"line": 518,
+"name": "EnsureValue",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 51,
+"name": "ChangeItemKey",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JProperty.cs",
+"line": 212,
+"name": "SetItem",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JObject.cs",
+"line": 154,
+"name": "ValidateToken",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JObject.Async.cs",
+"line": 48,
+"name": "WriteToAsync",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JContainer.cs",
+"line": 306,
+"name": "GetDescendants",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JContainer.cs",
+"line": 208,
+"name": "ContentsEqual",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "Linq/JContainer.cs",
+"line": 109,
+"name": ".ctor",
+"comp": "Linq"
+},
+{
+"cc": 5,
+"file": "JsonWriter.cs",
+"line": 794,
+"name": "CalculateLevelsToComplete",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonWriter.cs",
+"line": 752,
+"name": "GetCloseTokenForType",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonWriter.cs",
+"line": 726,
+"name": "WriteEnd",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonWriter.cs",
+"line": 208,
+"name": "get_Path",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonWriter.Async.cs",
+"line": 850,
+"name": "WriteConstructorDateAsync",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonValidatingReader.cs",
+"line": 938,
+"name": "ValidatePropertyName",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonTextWriter.cs",
+"line": 246,
+"name": "WriteEnd",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonTextWriter.Async.cs",
+"line": 1364,
+"name": "EnsureWriteBuffer",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonTextWriter.Async.cs",
+"line": 987,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonTextWriter.Async.cs",
+"line": 95,
+"name": "DoWriteEndAsync",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonTextReader.cs",
+"line": 1019,
+"name": "FinishReadQuotedNumber",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonTextReader.cs",
+"line": 375,
+"name": "ReadChars",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonSerializer.cs",
+"line": 888,
+"name": "DeserializeInternal",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonSerializer.cs",
+"line": 809,
+"name": "PopulateInternal",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonReader.cs",
+"line": 1143,
+"name": "GetTypeForCloseToken",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonReader.cs",
+"line": 979,
+"name": "Skip",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonReader.cs",
+"line": 364,
+"name": "Pop",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonReader.cs",
+"line": 287,
+"name": "get_Path",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonReader.cs",
+"line": 268,
+"name": "get_Depth",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonReader.Async.cs",
+"line": 76,
+"name": "SkipAsync",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonPosition.cs",
+"line": 150,
+"name": "FormatMessage",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonPosition.cs",
+"line": 60,
+"name": "CalculateLength",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "JsonConvert.cs",
+"line": 919,
+"name": "PopulateObject",
+"comp": "Core"
+},
+{
+"cc": 5,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 2178,
+"name": "ValueAttributes",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1834,
+"name": "AddJsonArrayAttribute",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1246,
+"name": "WriteGroupedNodes",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1069,
+"name": "ResolveFullName",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 257,
+"name": "WrapNode",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/UnixDateTimeConverter.cs",
+"line": 76,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/RegexConverter.cs",
+"line": 81,
+"name": "WriteBson",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/ExpandoObjectConverter.cs",
+"line": 90,
+"name": "ReadList",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/DiscriminatedUnionConverter.cs",
+"line": 262,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/DateTimeConverterBase.cs",
+"line": 42,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Converters/DataSetConverter.cs",
+"line": 81,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 5,
+"file": "Bson/BsonWriter.cs",
+"line": 206,
+"name": "AddToken",
+"comp": "Bson"
+},
+{
+"cc": 5,
+"file": "Bson/BsonReader.cs",
+"line": 740,
+"name": "GetLastFullCharStop",
+"comp": "Bson"
+},
+{
+"cc": 5,
+"file": "Bson/BsonReader.cs",
+"line": 572,
+"name": "ReadBinary",
+"comp": "Bson"
+},
+{
+"cc": 4,
+"file": "Utilities/TypeExtensions.cs",
+"line": 581,
+"name": "AssignableToTypeNameIncludingInterfaces",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/StringUtils.cs",
+"line": 131,
+"name": "ForgivingCaseSensitiveFind",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/StringReference.cs",
+"line": 90,
+"name": "EndsWith",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/StringReference.cs",
+"line": 70,
+"name": "StartsWith",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 559,
+"name": "SetMemberValue",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 530,
+"name": "GetMemberValue",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 490,
+"name": "IsByRefLikeType",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 435,
+"name": "GetDictionaryKeyValueTypes",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 384,
+"name": "InheritsGenericDefinitionInternal",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 150,
+"name": "GetTypeName",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ReflectionDelegateFactory.cs",
+"line": 41,
+"name": "CreateGet",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/MiscellaneousUtils.cs",
+"line": 136,
+"name": "GetQualifiedNameParts",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/MiscellaneousUtils.cs",
+"line": 102,
+"name": "ByteArrayCompare",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 633,
+"name": "TryGetDateConstructorValue",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 386,
+"name": "WriteEscapedJavaScriptStringWithDelimitersAsync",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 326,
+"name": "CreateSet",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 289,
+"name": "CreateSet",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/EnumUtils.cs",
+"line": 394,
+"name": "FindIndexByName",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 263,
+"name": "GenerateCreateDefaultConstructorIL",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 259,
+"name": "Add",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 170,
+"name": "TryGetValue",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 143,
+"name": "Remove",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 492,
+"name": "TryParseMicrosoftDate",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 131,
+"name": "SwitchToUtcTime",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 115,
+"name": "SwitchToLocalTime",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/DateTimeParser.cs",
+"line": 91,
+"name": "Parse",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/ConvertUtils.cs",
+"line": 431,
+"name": "NormalizeModernNumber",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/CollectionUtils.cs",
+"line": 317,
+"name": "CopyFromJaggedToMultidimensionalArray",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/CollectionUtils.cs",
+"line": 99,
+"name": "IsDictionaryType",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/CollectionUtils.cs",
+"line": 70,
+"name": "AddRange",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/BoxedPrimitives.cs",
+"line": 93,
+"name": "Get",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Utilities/Base64Encoder.cs",
+"line": 106,
+"name": "StoreLeftOverBytes",
+"comp": "Utilities"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 322,
+"name": "GetAssociateMetadataTypeFromAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1287,
+"name": "IsSpecified",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1270,
+"name": "ShouldSerialize",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 63,
+"name": "Serialize",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2751,
+"name": "HandleError",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2596,
+"name": "ShouldDeserialize",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 999,
+"name": "HasNoDefinedType",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonSerializerInternalBase.cs",
+"line": 84,
+"name": "ResolvedNullValueHandling",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonProperty.cs",
+"line": 183,
+"name": "GetResolvedDefaultValue",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonPrimitiveContract.cs",
+"line": 49,
+"name": ".ctor",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonDictionaryContract.cs",
+"line": 242,
+"name": "CreateTemporaryDictionary",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonArrayContract.cs",
+"line": 322,
+"name": "CreateTemporaryCollection",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/JsonArrayContract.cs",
+"line": 293,
+"name": "CreateWrapper",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1465,
+"name": "CreateProperty",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1295,
+"name": "IsIConvertible",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 983,
+"name": "ShouldSkipSerializing",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 965,
+"name": "ShouldSkipDeserialized",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 730,
+"name": "MatchProperty",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 609,
+"name": "GetAttributeConstructor",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 325,
+"name": "ShouldSerializeEntityMember",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 205,
+"name": "FilterMembers",
+"comp": "Serialization"
+},
+{
+"cc": 4,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 205,
+"name": "GetDescription",
+"comp": "Schema"
+},
+{
+"cc": 4,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 411,
+"name": "ProcessProperties",
+"comp": "Schema"
+},
+{
+"cc": 4,
+"file": "Linq/JsonPath/QueryFilter.cs",
+"line": 15,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 4,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 753,
+"name": "Match",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 4,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 434,
+"name": "TryParseExpression",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 4,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 401,
+"name": "ParseQuery",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 4,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 207,
+"name": "ParseIndexer",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 4,
+"file": "Linq/JsonPath/ArrayMultipleIndexFilter.cs",
+"line": 14,
+"name": "ExecuteFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 4,
+"file": "Linq/JValue.cs",
+"line": 1175,
+"name": "CompareTo",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JValue.cs",
+"line": 1066,
+"name": "TryConvert",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JValue.cs",
+"line": 731,
+"name": "set_Value",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JValue.cs",
+"line": 60,
+"name": ".ctor",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JTokenWriter.cs",
+"line": 172,
+"name": "WriteEnd",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1558,
+"name": "ToBigIntegerNullable",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1483,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1371,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1347,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1285,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1262,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1181,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 1102,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 937,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 913,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 890,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 866,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 842,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 819,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 647,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 568,
+"name": "op_Explicit",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 557,
+"name": "ValidateToken",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 339,
+"name": "BeforeSelf",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JToken.cs",
+"line": 187,
+"name": "DeepEquals",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 152,
+"name": "SetItem",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 125,
+"name": "Remove",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JProperty.cs",
+"line": 391,
+"name": "Load",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JProperty.cs",
+"line": 272,
+"name": "MergeItem",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JProperty.cs",
+"line": 251,
+"name": "InsertItem",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JProperty.Async.cs",
+"line": 98,
+"name": "LoadAsync",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JObject.cs",
+"line": 412,
+"name": "Load",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JObject.cs",
+"line": 213,
+"name": "IsNull",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JObject.Async.cs",
+"line": 104,
+"name": "LoadAsync",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JContainer.cs",
+"line": 988,
+"name": "System.ComponentModel.ITypedList.GetItemProperties",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JContainer.cs",
+"line": 544,
+"name": "ClearItems",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JContainer.cs",
+"line": 326,
+"name": "IsMultiContent",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JConstructor.cs",
+"line": 240,
+"name": "Load",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JConstructor.Async.cs",
+"line": 82,
+"name": "LoadAsync",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JArray.cs",
+"line": 304,
+"name": "MergeItem",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JArray.cs",
+"line": 264,
+"name": "set_Item",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JArray.cs",
+"line": 247,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JArray.cs",
+"line": 127,
+"name": "Load",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "Linq/JArray.Async.cs",
+"line": 79,
+"name": "LoadAsync",
+"comp": "Linq"
+},
+{
+"cc": 4,
+"file": "JsonWriter.cs",
+"line": 687,
+"name": "IsWriteTokenIncomplete",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonWriter.cs",
+"line": 146,
+"name": "get_Top",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonValidatingReader.cs",
+"line": 676,
+"name": "ValidateEndObject",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonValidatingReader.cs",
+"line": 339,
+"name": "ValidateNotDisallowed",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 896,
+"name": "WriteIntegerValue",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 864,
+"name": "WriteNumberToBuffer",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 836,
+"name": "WriteIntegerValue",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 792,
+"name": "WriteComment",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 392,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 282,
+"name": "WritePropertyName",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.cs",
+"line": 191,
+"name": "CloseBufferAndWriter",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.Async.cs",
+"line": 388,
+"name": "DoWritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextWriter.Async.cs",
+"line": 138,
+"name": "CloseBufferAndWriterAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 2642,
+"name": "get_LineNumber",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 2601,
+"name": "Close",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 2395,
+"name": "MatchValueWithTrailingSeparator",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 2371,
+"name": "MatchValue",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 1674,
+"name": "ReadUnquotedPropertyReportIfDone",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 1085,
+"name": "ReadFinished",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.cs",
+"line": 253,
+"name": "ShiftBufferIfNeeded",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.Async.cs",
+"line": 1141,
+"name": "ReadFinishedAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.Async.cs",
+"line": 816,
+"name": "MatchValueWithTrailingSeparatorAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonTextReader.Async.cs",
+"line": 197,
+"name": "ReadFromFinishedAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonSerializer.cs",
+"line": 1201,
+"name": "GetMatchingConverter",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 1263,
+"name": "MoveToContent",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 1093,
+"name": "ValidateEnd",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 1068,
+"name": "SetPostValueState",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 919,
+"name": "ReadDateTimeOffsetString",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 864,
+"name": "ReadDateTimeString",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 810,
+"name": "ReadDecimalString",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.cs",
+"line": 582,
+"name": "ReadArrayIntoByteArray",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.Async.cs",
+"line": 230,
+"name": "MoveToContentAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonReader.Async.cs",
+"line": 127,
+"name": "ReadArrayIntoByteArrayAsync",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "JsonConverter.cs",
+"line": 116,
+"name": "ReadJson",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "DefaultJsonNameTable.cs",
+"line": 177,
+"name": "TextEquals",
+"comp": "Core"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 2159,
+"name": "IsNamespaceAttribute",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 2077,
+"name": "CreateElement",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1128,
+"name": "IsArray",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 989,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 670,
+"name": "get_ChildNodes",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 467,
+"name": "get_ChildNodes",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 276,
+"name": "get_Attributes",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 231,
+"name": "get_ChildNodes",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/StringEnumConverter.cs",
+"line": 181,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/StringEnumConverter.cs",
+"line": 61,
+"name": "set_CamelCaseText",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/RegexConverter.cs",
+"line": 153,
+"name": "ReadRegexString",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/RegexConverter.cs",
+"line": 138,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/KeyValuePairConverter.cs",
+"line": 148,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/KeyValuePairConverter.cs",
+"line": 62,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/EntityKeyMemberConverter.cs",
+"line": 164,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/EntityKeyMemberConverter.cs",
+"line": 146,
+"name": "ReadAndAssertProperty",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/DataSetConverter.cs",
+"line": 48,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Converters/BinaryConverter.cs",
+"line": 195,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 4,
+"file": "Bson/BsonBinaryWriter.cs",
+"line": 207,
+"name": "WriteUtf8Bytes",
+"comp": "Bson"
+},
+{
+"cc": 3,
+"file": "Utilities/TypeExtensions.cs",
+"line": 605,
+"name": "AssignableToTypeName",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 1089,
+"name": "IsMethodOverridden",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 959,
+"name": "GetChildPrivateFields",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 907,
+"name": "GetMemberInfoFromType",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 371,
+"name": "InheritsGenericDefinition",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 295,
+"name": "EnsureNotByRefType",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 165,
+"name": "GetFullyQualifiedTypeName",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 116,
+"name": "GetBaseDefinition",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ReflectionDelegateFactory.cs",
+"line": 63,
+"name": "CreateSet",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/MiscellaneousUtils.cs",
+"line": 92,
+"name": "ToString",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/MemoryAdapter.cs",
+"line": 12,
+"name": "IsMemoryType",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/MathUtils.cs",
+"line": 172,
+"name": "ApproxEquals",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/MathUtils.cs",
+"line": 158,
+"name": "Max",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/MathUtils.cs",
+"line": 144,
+"name": "Max",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/MathUtils.cs",
+"line": 130,
+"name": "Min",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/LateBoundReflectionDelegateFactory.cs",
+"line": 72,
+"name": "CreateDefaultConstructor",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 321,
+"name": "ToEscapedJavaScriptString",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 113,
+"name": "GetCharEscapeFlags",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 62,
+"name": "EnsureBufferSize",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ILGeneratorExtensions.cs",
+"line": 98,
+"name": "CallMethod",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/FSharpUtils.cs",
+"line": 141,
+"name": "GetMethodWithNonPublicFallback",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/FSharpUtils.cs",
+"line": 127,
+"name": "EnsureInitialized",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 228,
+"name": "CreateGet",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/EnumUtils.cs",
+"line": 134,
+"name": "TryToString",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DynamicUtils.cs",
+"line": 66,
+"name": "Init",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 370,
+"name": "GenerateCreateSetFieldIL",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 307,
+"name": "GenerateCreateGetPropertyIL",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 363,
+"name": "GetRestrictions",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 223,
+"name": "BuildCallMethodWithResult",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 700,
+"name": "get_UnderlyingDictionary",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 652,
+"name": "System.Collections.ICollection.CopyTo",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 633,
+"name": "System.Collections.IDictionary.get_Values",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 613,
+"name": "Remove",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 594,
+"name": "System.Collections.IDictionary.get_Keys",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 573,
+"name": "System.Collections.IDictionary.get_IsFixedSize",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 553,
+"name": "System.Collections.IDictionary.Contains",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 535,
+"name": "System.Collections.IDictionary.GetEnumerator",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 481,
+"name": "System.Collections.IDictionary.set_Item",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 464,
+"name": "System.Collections.IDictionary.get_Item",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 444,
+"name": "System.Collections.IDictionary.Add",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 421,
+"name": "GetEnumerator",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 367,
+"name": "get_IsReadOnly",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 346,
+"name": "get_Count",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 295,
+"name": "Contains",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 277,
+"name": "Clear",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 240,
+"name": "set_Item",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 223,
+"name": "get_Item",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 202,
+"name": "get_Values",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 124,
+"name": "get_Keys",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 104,
+"name": "ContainsKey",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 88,
+"name": "Add",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 754,
+"name": "WriteDateTimeOffsetString",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 733,
+"name": "WriteDateTimeOffset",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 686,
+"name": "WriteDefaultIsoDate",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 321,
+"name": "CreateDateTime",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/ConvertUtils.cs",
+"line": 286,
+"name": "CreateCastConverter",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 197,
+"name": "System.Collections.IList.IndexOf",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 150,
+"name": "Remove",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionUtils.cs",
+"line": 340,
+"name": "JaggedArrayGetValue",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionUtils.cs",
+"line": 253,
+"name": "IndexOfReference",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionUtils.cs",
+"line": 241,
+"name": "Contains",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionUtils.cs",
+"line": 225,
+"name": "IndexOf",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/CollectionUtils.cs",
+"line": 211,
+"name": "AddRangeDistinct",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Utilities/Base64Encoder.cs",
+"line": 197,
+"name": "FlushAsync",
+"comp": "Utilities"
+},
+{
+"cc": 3,
+"file": "Serialization/ReflectionValueProvider.cs",
+"line": 72,
+"name": "GetValue",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/NamingStrategy.cs",
+"line": 58,
+"name": "GetPropertyName",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/MemoryTraceWriter.cs",
+"line": 81,
+"name": "ToString",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 533,
+"name": "get_FullyTrusted",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 470,
+"name": "GetAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 246,
+"name": "GetContainerNamingStrategy",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 206,
+"name": "GetJsonConverter",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 118,
+"name": "GetDataContractAttribute",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 1255,
+"name": "HandleError",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 656,
+"name": "WriteTypeProperty",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 643,
+"name": "WriteReferenceIdProperty",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 478,
+"name": "OnSerialized",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 468,
+"name": "OnSerializing",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 386,
+"name": "WriteReference",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1906,
+"name": "CreateISerializableItem",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1437,
+"name": "OnDeserialized",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1427,
+"name": "OnDeserializing",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1265,
+"name": "AddReference",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 889,
+"name": "EnsureArrayContract",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonSerializerInternalBase.cs",
+"line": 94,
+"name": "GetErrorContext",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonDictionaryContract.cs",
+"line": 110,
+"name": "get_HasParameterizedCreatorInternal",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonDictionaryContract.cs",
+"line": 83,
+"name": "get_ParameterizedCreator",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContract.cs",
+"line": 314,
+"name": "InvokeOnError",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContract.cs",
+"line": 303,
+"name": "InvokeOnDeserialized",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContract.cs",
+"line": 292,
+"name": "InvokeOnDeserializing",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContract.cs",
+"line": 281,
+"name": "InvokeOnSerialized",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContract.cs",
+"line": 270,
+"name": "InvokeOnSerializing",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContract.cs",
+"line": 246,
+"name": ".ctor",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContainerContract.cs",
+"line": 100,
+"name": ".ctor",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonContainerContract.cs",
+"line": 53,
+"name": "set_ItemContract",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonArrayContract.cs",
+"line": 341,
+"name": "StoreFSharpListCreatorIfNecessary",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonArrayContract.cs",
+"line": 118,
+"name": "get_HasParameterizedCreatorInternal",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/JsonArrayContract.cs",
+"line": 86,
+"name": "get_ParameterizedCreator",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/DefaultReferenceResolver.cs",
+"line": 36,
+"name": "GetMappings",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1672,
+"name": "CreateShouldSerializeTest",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1378,
+"name": "GetClrTypeFullName",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1161,
+"name": "CreateDynamicContract",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1135,
+"name": "CreateISerializableContract",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1000,
+"name": "GetClassHierarchyForType",
+"comp": "Serialization"
+},
+{
+"cc": 3,
+"file": "Schema/JsonSchemaWriter.cs",
+"line": 177,
+"name": "WriteSchemaDictionaryIfNotNull",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Schema/JsonSchemaWriter.cs",
+"line": 58,
+"name": "ReferenceOrWriteSchema",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Schema/JsonSchemaModelBuilder.cs",
+"line": 136,
+"name": "AddItem",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Schema/JsonSchemaModelBuilder.cs",
+"line": 118,
+"name": "AddProperties",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 191,
+"name": "GetTitle",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 372,
+"name": "ProcessEnum",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Schema/Extensions.cs",
+"line": 129,
+"name": "Validate",
+"comp": "Schema"
+},
+{
+"cc": 3,
+"file": "Linq/JsonPath/QueryExpression.cs",
+"line": 99,
+"name": "GetResult",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 3,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 465,
+"name": "ParseSide",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 3,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 388,
+"name": "EatWhitespace",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 3,
+"file": "Linq/JsonMergeSettings.cs",
+"line": 92,
+"name": "set_PropertyNameComparison",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JsonMergeSettings.cs",
+"line": 72,
+"name": "set_MergeNullValueHandling",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JsonMergeSettings.cs",
+"line": 54,
+"name": "set_MergeArrayHandling",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JsonLoadSettings.cs",
+"line": 95,
+"name": "set_DuplicatePropertyNameHandling",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JsonLoadSettings.cs",
+"line": 76,
+"name": "set_LineInfoHandling",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JsonLoadSettings.cs",
+"line": 57,
+"name": "set_CommentHandling",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JValue.cs",
+"line": 1190,
+"name": "System.IConvertible.GetTypeCode",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JValue.cs",
+"line": 1024,
+"name": "ToString",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JValue.cs",
+"line": 875,
+"name": "ValuesEquals",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JValue.cs",
+"line": 207,
+"name": "DeepEquals",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JTokenWriter.cs",
+"line": 136,
+"name": "RemoveParent",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JTokenReader.cs",
+"line": 293,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LinePosition",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JTokenReader.cs",
+"line": 274,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LineNumber",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JTokenReader.cs",
+"line": 261,
+"name": "Newtonsoft.Json.IJsonLineInfo.HasLineInfo",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JToken.cs",
+"line": 2433,
+"name": "SelectToken",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JToken.cs",
+"line": 1547,
+"name": "ToBigInteger",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JToken.cs",
+"line": 322,
+"name": "AfterSelf",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JToken.cs",
+"line": 310,
+"name": "GetAncestors",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JToken.cs",
+"line": 147,
+"name": "get_Root",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 178,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 80,
+"name": "Contains",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JPropertyDescriptor.cs",
+"line": 88,
+"name": "SetValue",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JProperty.cs",
+"line": 363,
+"name": "GetDeepHashCode",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JProperty.cs",
+"line": 287,
+"name": "DeepEquals",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JProperty.cs",
+"line": 169,
+"name": "set_Value",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JObject.cs",
+"line": 552,
+"name": "GetValue",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JObject.cs",
+"line": 228,
+"name": "InternalPropertyChanged",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JObject.cs",
+"line": 143,
+"name": "InsertItem",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 1153,
+"name": "System.ComponentModel.IBindingList.AddNew",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 1056,
+"name": "EnsureValue",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 777,
+"name": "ReadTokenFrom",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 763,
+"name": "ValidateContent",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 670,
+"name": "TryAddInternal",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 616,
+"name": "IsTokenUnchanged",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 573,
+"name": "ReplaceItem",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.cs",
+"line": 461,
+"name": "RemoveItem",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JContainer.Async.cs",
+"line": 40,
+"name": "ReadTokenFromAsync",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JConstructor.cs",
+"line": 212,
+"name": "GetDeepHashCode",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JConstructor.cs",
+"line": 152,
+"name": "DeepEquals",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JConstructor.cs",
+"line": 137,
+"name": ".ctor",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JConstructor.cs",
+"line": 59,
+"name": "MergeItem",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/JConstructor.Async.cs",
+"line": 47,
+"name": "WriteToAsync",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "Linq/Extensions.cs",
+"line": 326,
+"name": "AsJEnumerable",
+"comp": "Linq"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 1812,
+"name": "InternalWriteWhitespace",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 1710,
+"name": "ResolveConvertibleValue",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 1495,
+"name": "Dispose",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 705,
+"name": "CalculateWriteTokenFinalDepth",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 694,
+"name": "CalculateWriteTokenInitialDepth",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 379,
+"name": "Pop",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 364,
+"name": "Push",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 314,
+"name": "set_FloatFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 289,
+"name": "set_StringEscapeHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 272,
+"name": "set_DateTimeZoneHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 255,
+"name": "set_DateFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 238,
+"name": "set_Formatting",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonWriter.cs",
+"line": 192,
+"name": "get_ContainerPath",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonValidatingReader.cs",
+"line": 731,
+"name": "ValidateBoolean",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonValidatingReader.cs",
+"line": 716,
+"name": "ValidateNull",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonValidatingReader.cs",
+"line": 485,
+"name": "Read",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonValidatingReader.cs",
+"line": 330,
+"name": "Close",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonValidatingReader.cs",
+"line": 92,
+"name": "GetRequiredProperties",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonValidatingReader.cs",
+"line": 78,
+"name": ".ctor",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.cs",
+"line": 924,
+"name": "WriteNumberToBuffer",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.cs",
+"line": 909,
+"name": "WriteIntegerValue",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.cs",
+"line": 849,
+"name": "WriteIntegerValue",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.cs",
+"line": 110,
+"name": "set_QuoteChar",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 1221,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 1091,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 861,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 830,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 619,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 348,
+"name": "DoWritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 286,
+"name": "WriteDigitsAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextWriter.Async.cs",
+"line": 123,
+"name": "DoCloseAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 1636,
+"name": "ValidIdentifierChar",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 1326,
+"name": "ConvertUnicode",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 1291,
+"name": "FinishReadStringIntoBuffer",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 1109,
+"name": "ReadNullChar",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 1063,
+"name": "HandleNull",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 340,
+"name": "ReadData",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.cs",
+"line": 139,
+"name": "SetNewLine",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.Async.cs",
+"line": 1121,
+"name": "HandleNullAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.Async.cs",
+"line": 1103,
+"name": "ReadNullCharAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.Async.cs",
+"line": 579,
+"name": "ReadCharsAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.Async.cs",
+"line": 564,
+"name": "EnsureCharsAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonTextReader.Async.cs",
+"line": 228,
+"name": "ReadDataAsync",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializerSettings.cs",
+"line": 278,
+"name": "get_Binder",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 371,
+"name": "set_MetadataPropertyHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 352,
+"name": "set_ConstructorHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 333,
+"name": "set_ObjectCreationHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 314,
+"name": "set_DefaultValueHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 296,
+"name": "set_NullValueHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 278,
+"name": "set_MissingMemberHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 260,
+"name": "set_ReferenceLoopHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 242,
+"name": "set_PreserveReferencesHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 224,
+"name": "set_TypeNameAssemblyFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 205,
+"name": "set_TypeNameAssemblyFormat",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 185,
+"name": "set_TypeNameHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 125,
+"name": "set_Binder",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializer.cs",
+"line": 111,
+"name": "get_Binder",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonSerializationException.cs",
+"line": 128,
+"name": "Create",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReaderException.cs",
+"line": 128,
+"name": "Create",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 1279,
+"name": "GetContentToken",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 1168,
+"name": "Dispose",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 736,
+"name": "ReadBooleanString",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 673,
+"name": "ReadDoubleString",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 452,
+"name": "ReadInt32String",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 313,
+"name": "GetPosition",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 208,
+"name": "set_FloatParseHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 185,
+"name": "set_DateParseHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonReader.cs",
+"line": 168,
+"name": "set_DateTimeZoneHandling",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonConverter.cs",
+"line": 91,
+"name": "WriteJson",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonConvert.cs",
+"line": 854,
+"name": "DeserializeObject",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonConvert.cs",
+"line": 599,
+"name": "SerializeObject",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonConvert.cs",
+"line": 580,
+"name": "SerializeObject",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "JsonConvert.cs",
+"line": 450,
+"name": "ToString",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "DefaultJsonNameTable.cs",
+"line": 151,
+"name": "Grow",
+"comp": "Core"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 2206,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1728,
+"name": "AddAttribute",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1459,
+"name": "AllSameName",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1272,
+"name": "WriteGroupedNodes",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 1015,
+"name": "WrapXml",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 774,
+"name": "get_NodeType",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 315,
+"name": "get_ParentNode",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 302,
+"name": "get_HasAttributes",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/VersionConverter.cs",
+"line": 67,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/VersionConverter.cs",
+"line": 43,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/UnionConverter.cs",
+"line": 375,
+"name": "ConstructCase",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/UnionConverter.cs",
+"line": 213,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/UnionConverter.cs",
+"line": 199,
+"name": "FindCase",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/RegexConverter.cs",
+"line": 118,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/RegexConverter.cs",
+"line": 53,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/JavaScriptDateTimeConverter.cs",
+"line": 43,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/CustomCreationConverter.cs",
+"line": 60,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Converters/BinaryConverter.cs",
+"line": 71,
+"name": "GetByteArray",
+"comp": "Converters"
+},
+{
+"cc": 3,
+"file": "Bson/BsonWriter.cs",
+"line": 180,
+"name": "Close",
+"comp": "Bson"
+},
+{
+"cc": 3,
+"file": "Bson/BsonReader.cs",
+"line": 794,
+"name": "EnsureBuffers",
+"comp": "Bson"
+},
+{
+"cc": 3,
+"file": "Bson/BsonReader.cs",
+"line": 232,
+"name": "Close",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Utilities/ValidationUtils.cs",
+"line": 34,
+"name": "ArgumentNotNull",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StructMultiKey.cs",
+"line": 56,
+"name": "Equals",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StructMultiKey.cs",
+"line": 46,
+"name": "Equals",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringUtils.cs",
+"line": 329,
+"name": "EndsWith",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringUtils.cs",
+"line": 324,
+"name": "StartsWith",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringReference.cs",
+"line": 59,
+"name": "IndexOf",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringBuffer.cs",
+"line": 90,
+"name": "EnsureSize",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringBuffer.cs",
+"line": 80,
+"name": "Clear",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringBuffer.cs",
+"line": 68,
+"name": "Append",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/StringBuffer.cs",
+"line": 56,
+"name": "Append",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 1014,
+"name": "RemoveFlag",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 858,
+"name": "SplitFullyQualifiedTypeName",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 773,
+"name": "GetAttributes",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 765,
+"name": "GetAttribute",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 302,
+"name": "IsGenericDefinition",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 288,
+"name": "EnsureNotNullableType",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 281,
+"name": "IsNullableType",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 269,
+"name": "IsNullable",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 256,
+"name": "GetDefaultConstructor",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 236,
+"name": "HasDefaultConstructor",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ReflectionUtils.cs",
+"line": 145,
+"name": "GetObjectType",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/MemoryAdapter.cs",
+"line": 44,
+"name": "FromList",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/MemoryAdapter.cs",
+"line": 36,
+"name": "Enumerate",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/MemoryAdapter.cs",
+"line": 31,
+"name": "GetEnumerable",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/MathUtils.cs",
+"line": 120,
+"name": "IntToHex",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/LateBoundReflectionDelegateFactory.cs",
+"line": 59,
+"name": "CreateMethodCall",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/LateBoundReflectionDelegateFactory.cs",
+"line": 44,
+"name": "CreateParameterizedConstructor",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 427,
+"name": "WriteEscapedJavaScriptStringWithoutDelimitersAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 408,
+"name": "WriteEscapedJavaScriptStringWithDelimitersAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 57,
+"name": "ReturnBuffer",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/JavaScriptUtils.cs",
+"line": 46,
+"name": "RentBuffer",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ILGeneratorExtensions.cs",
+"line": 67,
+"name": "UnboxIfNeeded",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ILGeneratorExtensions.cs",
+"line": 55,
+"name": "BoxIfNeeded",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ILGeneratorExtensions.cs",
+"line": 35,
+"name": "PushInstance",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 264,
+"name": "CreateGet",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ExpressionReflectionDelegateFactory.cs",
+"line": 194,
+"name": "CreateDefaultConstructor",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/EnumUtils.cs",
+"line": 383,
+"name": "MatchName",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/EnumUtils.cs",
+"line": 129,
+"name": "TryToString",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicUtils.cs",
+"line": 214,
+"name": "VisitConditional",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicUtils.cs",
+"line": 87,
+"name": "CreateSharpArgumentInfoArray",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 403,
+"name": "GenerateCreateSetPropertyIL",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 343,
+"name": "GenerateCreateGetFieldIL",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 326,
+"name": "CreateGet",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicReflectionDelegateFactory.cs",
+"line": 45,
+"name": "CreateDynamicMethod",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 198,
+"name": "Constant",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 188,
+"name": "GetArgArray",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 174,
+"name": "GetArgs",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 163,
+"name": "BindDeleteIndex",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 156,
+"name": "BindSetIndex",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 149,
+"name": "BindGetIndex",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 142,
+"name": "BindUnaryOperation",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 135,
+"name": "BindBinaryOperation",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 128,
+"name": "BindInvoke",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 121,
+"name": "BindCreateInstance",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 81,
+"name": "BindInvokeMember",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 74,
+"name": "BindConvert",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 67,
+"name": "BindDeleteMember",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 60,
+"name": "BindSetMember",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DynamicProxyMetaObject.cs",
+"line": 53,
+"name": "BindGetMember",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 687,
+"name": "System.Collections.ICollection.get_SyncRoot",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DictionaryWrapper.cs",
+"line": 672,
+"name": "System.Collections.ICollection.get_IsSynchronized",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 724,
+"name": "CopyIntToCharArray",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 621,
+"name": "WriteDateTimeString",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 577,
+"name": "TryParseDateTimeOffsetExact",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 563,
+"name": "TryParseDateTimeOffsetMicrosoft",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 549,
+"name": "TryParseDateTimeExact",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 192,
+"name": "ConvertDateTimeToJavaScriptTicks",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeUtils.cs",
+"line": 147,
+"name": "ToUniversalTicks",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeParser.cs",
+"line": 272,
+"name": "ParseChar",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/DateTimeParser.cs",
+"line": 118,
+"name": "ParseTimeAndZoneAndWhitespace",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/ConvertUtils.cs",
+"line": 530,
+"name": "TryConvert",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 318,
+"name": "get_UnderlyingCollection",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 300,
+"name": "VerifyValueType",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 289,
+"name": "System.Collections.ICollection.get_SyncRoot",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 268,
+"name": "System.Collections.IList.set_Item",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 259,
+"name": "System.Collections.IList.get_Item",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 249,
+"name": "System.Collections.IList.Remove",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 235,
+"name": "System.Collections.IList.get_IsFixedSize",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 222,
+"name": "System.Collections.IList.Insert",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 212,
+"name": "System.Collections.IList.RemoveAt",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 187,
+"name": "System.Collections.IList.Contains",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 174,
+"name": "System.Collections.IEnumerable.GetEnumerator",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 169,
+"name": "GetEnumerator",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 137,
+"name": "get_IsReadOnly",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 122,
+"name": "get_Count",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 108,
+"name": "CopyTo",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 96,
+"name": "Contains",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 84,
+"name": "Clear",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 72,
+"name": "Add",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionWrapper.cs",
+"line": 51,
+"name": ".ctor",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionUtils.cs",
+"line": 359,
+"name": "ToMultidimensionalArray",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionUtils.cs",
+"line": 268,
+"name": "FastReverse",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionUtils.cs",
+"line": 176,
+"name": "AddDistinct",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/CollectionUtils.cs",
+"line": 56,
+"name": "IsNullOrEmpty",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/BoxedPrimitives.cs",
+"line": 33,
+"name": "Get",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/Base64Encoder.cs",
+"line": 144,
+"name": "Flush",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 93,
+"name": "ReadAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 87,
+"name": "WriteAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 81,
+"name": "WriteAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 75,
+"name": "WriteAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 49,
+"name": "CancelIfRequestedAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 44,
+"name": "CancelIfRequestedAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Utilities/AsyncUtils.cs",
+"line": 42,
+"name": "ToAsync",
+"comp": "Utilities"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 501,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 480,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 466,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 445,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 424,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 396,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 375,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 310,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 289,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 268,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 247,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 212,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 190,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 168,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 147,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 133,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 112,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 91,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonWriter.cs",
+"line": 70,
+"name": "WriteValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonReader.cs",
+"line": 155,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LinePosition",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonReader.cs",
+"line": 153,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LineNumber",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/TraceJsonReader.cs",
+"line": 148,
+"name": "Newtonsoft.Json.IJsonLineInfo.HasLineInfo",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/NamingStrategy.cs",
+"line": 88,
+"name": "GetDictionaryKey",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/NamingStrategy.cs",
+"line": 73,
+"name": "GetExtensionDataName",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/MemoryTraceWriter.cs",
+"line": 44,
+"name": "Trace",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 562,
+"name": "get_ReflectionDelegateFactory",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonTypeReflector.cs",
+"line": 502,
+"name": "get_DynamicCodeGeneration",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerProxy.cs",
+"line": 280,
+"name": "SerializeInternal",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerProxy.cs",
+"line": 268,
+"name": "PopulateInternal",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerProxy.cs",
+"line": 256,
+"name": "DeserializeInternal",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerProxy.cs",
+"line": 228,
+"name": "GetInternalSerializer",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 791,
+"name": "SerializeMultidimensionalArray",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 633,
+"name": "HasCreatorParameter",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 121,
+"name": "GetContractSafe",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalWriter.cs",
+"line": 111,
+"name": "GetInternalSerializer",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2655,
+"name": "ReadExtensionDataValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 2632,
+"name": "SetExtensionData",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 1705,
+"name": "ThrowUnexpectedEndException",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 829,
+"name": "GetQualifiedTypeName",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 221,
+"name": "GetInternalSerializer",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalReader.cs",
+"line": 137,
+"name": "GetContractSafe",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalBase.cs",
+"line": 109,
+"name": "ClearErrorContext",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonSerializerInternalBase.cs",
+"line": 67,
+"name": "get_DefaultReferenceMappings",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonPropertyCollection.cs",
+"line": 149,
+"name": "TryGetProperty",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonPropertyCollection.cs",
+"line": 138,
+"name": "GetClosestMatchProperty",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonProperty.cs",
+"line": 311,
+"name": "WritePropertyName",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonProperty.cs",
+"line": 282,
+"name": "ToString",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonProperty.cs",
+"line": 205,
+"name": "get_Required",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonProperty.cs",
+"line": 167,
+"name": "get_DefaultValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonProperty.cs",
+"line": 109,
+"name": "set_PropertyType",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonObjectContract.cs",
+"line": 190,
+"name": "GetUninitializedObject",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonObjectContract.cs",
+"line": 123,
+"name": "set_ExtensionDataValueType",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonObjectContract.cs",
+"line": 79,
+"name": "get_CreatorParameters",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonFormatterConverter.cs",
+"line": 75,
+"name": "Convert",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonFormatterConverter.cs",
+"line": 63,
+"name": "Convert",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonDynamicContract.cs",
+"line": 90,
+"name": "TryGetMember",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonDictionaryContract.cs",
+"line": 228,
+"name": "CreateWrapper",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonContract.cs",
+"line": 222,
+"name": "get_OnErrorCallbacks",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonContract.cs",
+"line": 205,
+"name": "get_OnSerializingCallbacks",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonContract.cs",
+"line": 188,
+"name": "get_OnSerializedCallbacks",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonContract.cs",
+"line": 171,
+"name": "get_OnDeserializingCallbacks",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonContract.cs",
+"line": 154,
+"name": "get_OnDeserializedCallbacks",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/JsonContract.cs",
+"line": 119,
+"name": "set_CreatedType",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/ExpressionValueProvider.cs",
+"line": 97,
+"name": "GetValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/ExpressionValueProvider.cs",
+"line": 66,
+"name": "SetValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DynamicValueProvider.cs",
+"line": 96,
+"name": "GetValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DynamicValueProvider.cs",
+"line": 65,
+"name": "SetValue",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultReferenceResolver.cs",
+"line": 59,
+"name": "GetReference",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1745,
+"name": "ResolveDictionaryKey",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1730,
+"name": "ResolveExtensionDataName",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1715,
+"name": "ResolvePropertyName",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1436,
+"name": "CreateMemberValueProvider",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 1287,
+"name": "IsJsonPrimitiveType",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 662,
+"name": "GetParameterizedConstructor",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Serialization/DefaultContractResolver.cs",
+"line": 595,
+"name": "GetEnumerator",
+"comp": "Serialization"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaWriter.cs",
+"line": 260,
+"name": "WritePropertyIfNotNull",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaResolver.cs",
+"line": 69,
+"name": "GetSchema",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaModel.cs",
+"line": 70,
+"name": "Create",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 397,
+"name": "AddNullType",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 179,
+"name": "Generate",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 115,
+"name": "Pop",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaGenerator.cs",
+"line": 75,
+"name": "get_ContractResolver",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 481,
+"name": "MapType",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 399,
+"name": "ProcessAdditionalItems",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchemaBuilder.cs",
+"line": 387,
+"name": "ProcessAdditionalProperties",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Schema/JsonSchema.cs",
+"line": 351,
+"name": "ToString",
+"comp": "Schema"
+},
+{
+"cc": 2,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 882,
+"name": "Evaluate",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 2,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 869,
+"name": "EnsureLength",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 2,
+"file": "Linq/JsonPath/JPath.cs",
+"line": 201,
+"name": "CreatePathFilter",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 2,
+"file": "Linq/JsonPath/ArraySliceFilter.cs",
+"line": 77,
+"name": "IsValid",
+"comp": "Linq.JsonPath"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 1275,
+"name": "System.IConvertible.ToType",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 1049,
+"name": "GetMetaObject",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 982,
+"name": "ToString",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 904,
+"name": "Equals",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 887,
+"name": "Equals",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 410,
+"name": "CompareFloat",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JValue.cs",
+"line": 184,
+"name": ".ctor",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenWriter.cs",
+"line": 347,
+"name": "WriteValue",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenWriter.cs",
+"line": 121,
+"name": "AddParent",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenWriter.cs",
+"line": 61,
+"name": "get_Token",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenWriter.Async.cs",
+"line": 38,
+"name": "WriteTokenAsync",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenReader.cs",
+"line": 256,
+"name": "SafeToString",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenReader.cs",
+"line": 169,
+"name": "SetEnd",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenReader.cs",
+"line": 153,
+"name": "ReadInto",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JTokenEqualityComparer.cs",
+"line": 54,
+"name": "GetHashCode",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2851,
+"name": "CopyAnnotations",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2502,
+"name": "GetMetaObject",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2471,
+"name": "SelectTokens",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2416,
+"name": "SelectToken",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2384,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LinePosition",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2370,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LineNumber",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2286,
+"name": "Parse",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 2164,
+"name": "ToObject",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 545,
+"name": "GetType",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 434,
+"name": "Replace",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 420,
+"name": "Remove",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 368,
+"name": "Value",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 281,
+"name": "AddBeforeSelf",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 266,
+"name": "AddAfterSelf",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 119,
+"name": "get_EqualityComparer",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 106,
+"name": "get_DynamicIsSupported",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 96,
+"name": "get_ComponentModelIsSupported",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JToken.cs",
+"line": 88,
+"name": "get_SerializationIsSupported",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 194,
+"name": "TryGetValue",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 147,
+"name": "RemoveKey",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 106,
+"name": "EnsureDictionary",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 95,
+"name": "ContainsItem",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JPropertyKeyedCollection.cs",
+"line": 73,
+"name": "ClearItems",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JPropertyDescriptor.cs",
+"line": 70,
+"name": "GetValue",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 348,
+"name": "WriteTo",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 330,
+"name": ".ctor",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 241,
+"name": "IndexOfItem",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 202,
+"name": "GetItem",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 129,
+"name": "set_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 119,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 109,
+"name": "RemoveAt",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 101,
+"name": "Insert",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 96,
+"name": "IndexOf",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 92,
+"name": "get_Count",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 82,
+"name": "Remove",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 74,
+"name": "CopyTo",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.cs",
+"line": 46,
+"name": "GetEnumerator",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.Async.cs",
+"line": 69,
+"name": "WriteValueAsync",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JProperty.Async.cs",
+"line": 47,
+"name": "WriteToAsync",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 864,
+"name": "TrySetMember",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 842,
+"name": "GetMetaObject",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 821,
+"name": "System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 758,
+"name": "System.ComponentModel.ICustomTypeDescriptor.GetProperties",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 741,
+"name": "OnPropertyChanging",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 731,
+"name": "OnPropertyChanged",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 719,
+"name": "GetEnumerator",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 696,
+"name": "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 656,
+"name": "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 628,
+"name": "TryGetValue",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 610,
+"name": "Remove",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 522,
+"name": "WriteTo",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 503,
+"name": "FromObject",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 468,
+"name": "Parse",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 371,
+"name": "set_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 363,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 344,
+"name": "set_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 333,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 133,
+"name": "IndexOfItem",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JObject.cs",
+"line": 123,
+"name": "DeepEquals",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JEnumerable.cs",
+"line": 130,
+"name": "GetHashCode",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JEnumerable.cs",
+"line": 114,
+"name": "Equals",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JEnumerable.cs",
+"line": 84,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JEnumerable.cs",
+"line": 68,
+"name": "GetEnumerator",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 1135,
+"name": "System.Collections.ICollection.get_SyncRoot",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 972,
+"name": "ContentsHashCode",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 752,
+"name": "Merge",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 736,
+"name": "Merge",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 693,
+"name": "CreateFromContent",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 632,
+"name": "ValidateToken",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 257,
+"name": "get_Last",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 242,
+"name": "get_First",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 181,
+"name": "OnCollectionChanged",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 158,
+"name": "OnListChanged",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 149,
+"name": "OnAddingNew",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JContainer.cs",
+"line": 129,
+"name": "CheckReentrancy",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JConstructor.cs",
+"line": 199,
+"name": "set_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JConstructor.cs",
+"line": 188,
+"name": "get_Item",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JConstructor.cs",
+"line": 169,
+"name": "WriteTo",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JConstructor.cs",
+"line": 49,
+"name": "IndexOfItem",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JArray.cs",
+"line": 294,
+"name": "IndexOfItem",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JArray.cs",
+"line": 229,
+"name": "WriteTo",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JArray.cs",
+"line": 210,
+"name": "FromObject",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JArray.cs",
+"line": 175,
+"name": "Parse",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JArray.cs",
+"line": 100,
+"name": "DeepEquals",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/JArray.Async.cs",
+"line": 47,
+"name": "WriteToAsync",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/Extensions.cs",
+"line": 246,
+"name": "Convert",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "Linq/Extensions.cs",
+"line": 172,
+"name": "Value",
+"comp": "Linq"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1414,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1398,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1382,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1366,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1349,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1332,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1316,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1300,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1283,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1267,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1251,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1234,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1218,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1202,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1186,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1170,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1153,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1137,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 1120,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 744,
+"name": "AutoCompleteAll",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 716,
+"name": "WriteConstructorDate",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 411,
+"name": "Close",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 356,
+"name": "UpdateScopeWithFinishedValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.cs",
+"line": 339,
+"name": "get_Culture",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1642,
+"name": "InternalWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1631,
+"name": "WriteWhitespaceAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1612,
+"name": "WriteUndefinedAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1594,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1574,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1554,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1535,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1515,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1495,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1475,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1455,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1436,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1417,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1398,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1379,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1360,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1340,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1320,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1301,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1282,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1263,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1244,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1225,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1206,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1187,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1168,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1149,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1130,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1111,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1092,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1073,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1054,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1035,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 1016,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 997,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 978,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 959,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 940,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 921,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 902,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 883,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 623,
+"name": "WriteStartObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 605,
+"name": "WriteStartConstructorAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 586,
+"name": "WriteRawValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 562,
+"name": "WriteCommentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 536,
+"name": "WriteStartArrayAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 518,
+"name": "InternalWritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 507,
+"name": "WritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 487,
+"name": "WritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 468,
+"name": "WriteNullAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 450,
+"name": "WriteEndObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 432,
+"name": "WriteEndConstructorAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 414,
+"name": "WriteEndArrayAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 259,
+"name": "WriteEndAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 241,
+"name": "WriteRawAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 222,
+"name": "WriteIndentSpaceAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 204,
+"name": "WriteValueDelimiterAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 186,
+"name": "WriteIndentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 168,
+"name": "WriteEndAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 149,
+"name": "FlushAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 131,
+"name": "CloseAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonWriter.Async.cs",
+"line": 45,
+"name": "System.IAsyncDisposable.DisposeAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 1024,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LinePosition",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 1022,
+"name": "Newtonsoft.Json.IJsonLineInfo.get_LineNumber",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 1017,
+"name": "Newtonsoft.Json.IJsonLineInfo.HasLineInfo",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 1006,
+"name": "TestType",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 996,
+"name": "ValidateObject",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 986,
+"name": "ValidateArray",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 308,
+"name": "set_Schema",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 276,
+"name": "OnValidationEvent",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 265,
+"name": "RaiseError",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonValidatingReader.cs",
+"line": 159,
+"name": "Pop",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 827,
+"name": "EnsureWriteBuffer",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 774,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 716,
+"name": "WriteValueToBuffer",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 697,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 676,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 640,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 551,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 524,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 448,
+"name": "WriteValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 321,
+"name": "WriteIndent",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 151,
+"name": ".ctor",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 128,
+"name": "set_IndentChar",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 93,
+"name": "set_Indentation",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 76,
+"name": "set_ArrayPool",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.cs",
+"line": 59,
+"name": "get_Base64Encoder",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1346,
+"name": "DoWriteRawValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1341,
+"name": "WriteRawValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1328,
+"name": "WriteEndObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1316,
+"name": "WriteEndConstructorAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1304,
+"name": "WriteEndArrayAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1289,
+"name": "DoWriteCommentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1284,
+"name": "WriteCommentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1271,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1266,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1252,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1226,
+"name": "WriteValueNotNullAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1208,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1203,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1189,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1175,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1170,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1156,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1142,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1137,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1116,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1102,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1086,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1073,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1068,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1055,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1042,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1037,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 1023,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 967,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 962,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 949,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 936,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 931,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 918,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 905,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 900,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 874,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 843,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 812,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 799,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 794,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 776,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 763,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 758,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 732,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 727,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 714,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 709,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 682,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 677,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 664,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 659,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 641,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 606,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 601,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 588,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 575,
+"name": "DoWriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 570,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 552,
+"name": "WriteValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 533,
+"name": "WriteWhitespaceAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 508,
+"name": "DoWriteUndefinedAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 503,
+"name": "WriteUndefinedAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 482,
+"name": "WriteStartConstructorAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 456,
+"name": "DoWriteStartObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 451,
+"name": "WriteStartObjectAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 426,
+"name": "DoWriteStartArrayAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 421,
+"name": "WriteStartArrayAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 383,
+"name": "WritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 343,
+"name": "WritePropertyNameAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 314,
+"name": "WriteIntegerValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 297,
+"name": "WriteIntegerValueAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 276,
+"name": "WriteNullAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 259,
+"name": "WriteRawAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 241,
+"name": "WriteIndentSpaceAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 217,
+"name": "WriteValueInternalAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 205,
+"name": "WriteIndentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 189,
+"name": "DoWriteIndentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 184,
+"name": "WriteIndentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 172,
+"name": "WriteEndAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 118,
+"name": "CloseAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 90,
+"name": "WriteEndAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 72,
+"name": "WriteValueDelimiterAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 60,
+"name": "DoFlushAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextWriter.Async.cs",
+"line": 55,
+"name": "FlushAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 2496,
+"name": "ParseFalse",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 2484,
+"name": "ParseUndefined",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 2472,
+"name": "ParseNull",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 2457,
+"name": "ParseTrue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 2357,
+"name": "EndComment",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 1314,
+"name": "WriteCharToBuffer",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 1127,
+"name": "EnsureBuffer",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 891,
+"name": "ProcessValueComma",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 365,
+"name": "EnsureChars",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 131,
+"name": "EnsureBufferNotEmpty",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 120,
+"name": "set_ArrayPool",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.cs",
+"line": 84,
+"name": ".ctor",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1794,
+"name": "ReadAsStringAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1776,
+"name": "ReadAsInt32Async",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1758,
+"name": "ReadAsDoubleAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1740,
+"name": "ReadAsDecimalAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1722,
+"name": "ReadAsDateTimeOffsetAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1704,
+"name": "ReadAsDateTimeAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1561,
+"name": "ReadAsBytesAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 1425,
+"name": "ReadAsBooleanAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 834,
+"name": "MatchAndSetAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 540,
+"name": "ProcessCarriageReturnAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 102,
+"name": "DoReadAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonTextReader.Async.cs",
+"line": 57,
+"name": "ReadAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 443,
+"name": "get_CheckAdditionalContent",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 430,
+"name": "get_Culture",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 420,
+"name": "get_StringEscapeHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 410,
+"name": "get_FloatParseHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 400,
+"name": "get_FloatFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 388,
+"name": "get_DateParseHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 378,
+"name": "get_DateTimeZoneHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 368,
+"name": "get_DateFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 358,
+"name": "get_Formatting",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 340,
+"name": "set_MaxDepth",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 339,
+"name": "get_MaxDepth",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 324,
+"name": "get_DateFormatString",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 313,
+"name": "get_Context",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 292,
+"name": "set_Binder",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 251,
+"name": "set_ReferenceResolver",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 250,
+"name": "get_ReferenceResolver",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 226,
+"name": "get_ConstructorHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 215,
+"name": "get_TypeNameAssemblyFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 192,
+"name": "get_MetadataPropertyHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 181,
+"name": "get_TypeNameHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 165,
+"name": "get_PreserveReferencesHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 148,
+"name": "get_DefaultValueHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 137,
+"name": "get_NullValueHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 126,
+"name": "get_ObjectCreationHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 115,
+"name": "get_MissingMemberHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializerSettings.cs",
+"line": 104,
+"name": "get_ReferenceLoopHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 1223,
+"name": "OnError",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 1186,
+"name": "GetReferenceResolver",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 1078,
+"name": "CreateTraceJsonReader",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 642,
+"name": "CreateDefault",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 623,
+"name": "CreateDefault",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 601,
+"name": "Create",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 545,
+"name": "get_CheckAdditionalContent",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 524,
+"name": "set_MaxDepth",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 512,
+"name": "get_Culture",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 498,
+"name": "get_DateFormatString",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 487,
+"name": "get_StringEscapeHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 477,
+"name": "get_FloatFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 465,
+"name": "get_FloatParseHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 455,
+"name": "get_DateParseHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 445,
+"name": "get_DateTimeZoneHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 435,
+"name": "get_DateFormatHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 425,
+"name": "get_Formatting",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 406,
+"name": "set_ContractResolver",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 388,
+"name": "get_Converters",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 142,
+"name": "set_SerializationBinder",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonSerializer.cs",
+"line": 94,
+"name": "set_ReferenceResolver",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 1258,
+"name": "ReadAndMoveToContent",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 1195,
+"name": "ReadForTypeAndAssert",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 1187,
+"name": "ReadAndAssert",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 1138,
+"name": "SetFinished",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 1085,
+"name": "UpdateScopeWithFinishedValue",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 944,
+"name": "ReaderReadAndAssert",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 309,
+"name": "get_Culture",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 260,
+"name": "get_ValueType",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.cs",
+"line": 236,
+"name": "set_MaxDepth",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 225,
+"name": "ReadAndMoveToContentAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 220,
+"name": "ReadAsStringAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 207,
+"name": "ReadAsInt32Async",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 181,
+"name": "ReadAsDecimalAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 168,
+"name": "ReadAsDateTimeOffsetAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 155,
+"name": "ReadAsDateTimeAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 122,
+"name": "ReadAsBytesAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 109,
+"name": "ReadAsBooleanAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 93,
+"name": "ReaderReadAndAssertAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonReader.Async.cs",
+"line": 64,
+"name": "ReadAsync",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 203,
+"name": "get_ItemIsReference",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 193,
+"name": "get_ItemTypeNameHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 183,
+"name": "get_ItemReferenceLoopHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 167,
+"name": "get_Required",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 155,
+"name": "get_Order",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 145,
+"name": "get_IsReference",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 135,
+"name": "get_TypeNameHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 125,
+"name": "get_ObjectCreationHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 115,
+"name": "get_ReferenceLoopHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 105,
+"name": "get_DefaultValueHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPropertyAttribute.cs",
+"line": 95,
+"name": "get_NullValueHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonPosition.cs",
+"line": 112,
+"name": "TypeHasIndex",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonObjectAttribute.cs",
+"line": 82,
+"name": "get_ItemRequired",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonObjectAttribute.cs",
+"line": 70,
+"name": "get_ItemNullValueHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonObjectAttribute.cs",
+"line": 60,
+"name": "get_MissingMemberHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonConverterAttribute.cs",
+"line": 56,
+"name": ".ctor",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonConvert.cs",
+"line": 875,
+"name": "DeserializeObject",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonConvert.cs",
+"line": 407,
+"name": "ToString",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonConvert.cs",
+"line": 321,
+"name": "EnsureDecimalPlace",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonConvert.cs",
+"line": 274,
+"name": "ToString",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonConvert.cs",
+"line": 163,
+"name": "ToString",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonContainerAttribute.cs",
+"line": 160,
+"name": "get_ItemTypeNameHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonContainerAttribute.cs",
+"line": 150,
+"name": "get_ItemReferenceLoopHandling",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonContainerAttribute.cs",
+"line": 140,
+"name": "get_ItemIsReference",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "JsonContainerAttribute.cs",
+"line": 128,
+"name": "get_IsReference",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "DefaultJsonNameTable.cs",
+"line": 139,
+"name": "AddEntry",
+"comp": "Core"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 922,
+"name": "set_Value",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 819,
+"name": "get_ParentNode",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 810,
+"name": "set_Value",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 698,
+"name": "get_ParentNode",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 653,
+"name": "set_Value",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 627,
+"name": "get_ParentNode",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 622,
+"name": "set_Value",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 598,
+"name": "get_ParentNode",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 593,
+"name": "set_Value",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 567,
+"name": "AppendChild",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 556,
+"name": "get_DocumentElement",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 481,
+"name": "get_HasChildNodes",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/XmlNodeConverter.cs",
+"line": 127,
+"name": "get_DocumentElement",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/UnionConverter.cs",
+"line": 194,
+"name": "IsAssignableCase",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/UnionConverter.cs",
+"line": 147,
+"name": "IsNullableParameter",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/StringEnumConverter.cs",
+"line": 270,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/StringEnumConverter.cs",
+"line": 109,
+"name": ".ctor",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/StringEnumConverter.cs",
+"line": 60,
+"name": "get_CamelCaseText",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/RegexConverter.cs",
+"line": 227,
+"name": "CanConvert",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/IsoDateTimeConverter.cs",
+"line": 69,
+"name": "get_Culture",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/IsoDateTimeConverter.cs",
+"line": 60,
+"name": "set_DateTimeFormat",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/IsoDateTimeConverter.cs",
+"line": 59,
+"name": "get_DateTimeFormat",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/EntityKeyMemberConverter.cs",
+"line": 193,
+"name": "EnsureReflectionObject",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/EntityKeyMemberConverter.cs",
+"line": 74,
+"name": "CreateAllowedNamesByType",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/DiscriminatedUnionConverter.cs",
+"line": 103,
+"name": "CreateUnion",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/BsonObjectIdConverter.cs",
+"line": 69,
+"name": "ReadJson",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/BsonObjectIdConverter.cs",
+"line": 47,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/BinaryConverter.cs",
+"line": 93,
+"name": "EnsureReflectionObject",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Converters/BinaryConverter.cs",
+"line": 58,
+"name": "WriteJson",
+"comp": "Converters"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 511,
+"name": "WriteObjectId",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 494,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 458,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 357,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 322,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 296,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 275,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 238,
+"name": "WriteValue",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonWriter.cs",
+"line": 97,
+"name": "WriteEnd",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonReader.cs",
+"line": 435,
+"name": "PopContext",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonObjectId.cs",
+"line": 49,
+"name": ".ctor",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonBinaryWriter.cs",
+"line": 234,
+"name": "CalculateSizeWithLength",
+"comp": "Bson"
+},
+{
+"cc": 2,
+"file": "Bson/BsonBinaryWriter.cs",
+"line": 195,
+"name": "WriteString",
+"comp": "Bson"
+}
+]

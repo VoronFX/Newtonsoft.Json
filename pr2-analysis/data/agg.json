@@ -1,0 +1,1283 @@
+{
+ "comps": [
+  "Bson",
+  "Converters",
+  "Core",
+  "Linq",
+  "Linq.JsonPath",
+  "Schema",
+  "Serialization",
+  "Utilities"
+ ],
+ "CE": {
+  "Core->Utilities": 58,
+  "Core->Serialization": 23,
+  "Core->Converters": 1,
+  "Core->Schema": 8,
+  "Core->Linq": 4,
+  "Linq->Utilities": 56,
+  "Linq->Core": 61,
+  "Linq->Serialization": 1,
+  "Linq->Linq.JsonPath": 1,
+  "Converters->Core": 103,
+  "Converters->Utilities": 61,
+  "Converters->Serialization": 22,
+  "Converters->Bson": 3,
+  "Converters->Linq": 7,
+  "Schema->Linq": 9,
+  "Schema->Utilities": 21,
+  "Schema->Core": 17,
+  "Schema->Serialization": 10,
+  "Utilities->Core": 11,
+  "Utilities->Serialization": 15,
+  "Serialization->Utilities": 134,
+  "Serialization->Core": 115,
+  "Serialization->Linq": 13,
+  "Serialization->Converters": 11,
+  "Bson->Core": 7,
+  "Bson->Utilities": 10,
+  "Bson->Serialization": 1,
+  "Linq.JsonPath->Linq": 47,
+  "Linq.JsonPath->Core": 7,
+  "Linq.JsonPath->Utilities": 10
+ },
+ "deg": {
+  "Newtonsoft.Json.JsonReader": [
+   42,
+   18
+  ],
+  "Newtonsoft.Json.JsonSerializationException": [
+   27,
+   4
+  ],
+  "Newtonsoft.Json.JsonConstructorAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.MissingMemberHandling": [
+   6,
+   0
+  ],
+  "Newtonsoft.Json.FloatFormatHandling": [
+   5,
+   0
+  ],
+  "Newtonsoft.Json.JsonWriter": [
+   42,
+   24
+  ],
+  "Newtonsoft.Json.DateParseHandling": [
+   5,
+   0
+  ],
+  "Newtonsoft.Json.MetadataPropertyHandling": [
+   5,
+   0
+  ],
+  "Newtonsoft.Json.MemberSerialization": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.Required": [
+   8,
+   0
+  ],
+  "Newtonsoft.Json.JsonDictionaryAttribute": [
+   1,
+   1
+  ],
+  "Newtonsoft.Json.JsonConverterAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.JsonTextReader": [
+   6,
+   22
+  ],
+  "Newtonsoft.Json.JsonConvert": [
+   6,
+   22
+  ],
+  "Newtonsoft.Json.JsonSerializerSettings": [
+   2,
+   24
+  ],
+  "Newtonsoft.Json.JsonArrayAttribute": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.FloatParseHandling": [
+   6,
+   0
+  ],
+  "Newtonsoft.Json.ConstructorHandling": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.JsonReaderException": [
+   10,
+   4
+  ],
+  "Newtonsoft.Json.JsonRequiredAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.JsonConverter": [
+   34,
+   3
+  ],
+  "Newtonsoft.Json.JsonConverter<T>": [
+   0,
+   7
+  ],
+  "Newtonsoft.Json.IArrayPool<T>": [
+   5,
+   0
+  ],
+  "Newtonsoft.Json.TypeNameAssemblyFormatHandling": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.JsonTextWriter": [
+   10,
+   16
+  ],
+  "Newtonsoft.Json.Formatting": [
+   9,
+   0
+  ],
+  "Newtonsoft.Json.ObjectCreationHandling": [
+   6,
+   0
+  ],
+  "Newtonsoft.Json.WriteState": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.JsonContainerAttribute": [
+   7,
+   3
+  ],
+  "Newtonsoft.Json.JsonExtensionDataAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.JsonConverterCollection": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.JsonSerializer": [
+   29,
+   42
+  ],
+  "Newtonsoft.Json.StringEscapeHandling": [
+   7,
+   0
+  ],
+  "Newtonsoft.Json.ReadType": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.NullValueHandling": [
+   12,
+   0
+  ],
+  "Newtonsoft.Json.ReferenceLoopHandling": [
+   8,
+   0
+  ],
+  "Newtonsoft.Json.JsonContainerType": [
+   5,
+   0
+  ],
+  "Newtonsoft.Json.JsonPosition": [
+   10,
+   6
+  ],
+  "Newtonsoft.Json.IJsonLineInfo": [
+   16,
+   0
+  ],
+  "Newtonsoft.Json.JsonObjectAttribute": [
+   2,
+   5
+  ],
+  "Newtonsoft.Json.JsonNameTable": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.DateFormatHandling": [
+   8,
+   0
+  ],
+  "Newtonsoft.Json.JsonValidatingReader": [
+   1,
+   23
+  ],
+  "Newtonsoft.Json.JsonIgnoreAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.DateTimeZoneHandling": [
+   7,
+   0
+  ],
+  "Newtonsoft.Json.JsonToken": [
+   39,
+   0
+  ],
+  "Newtonsoft.Json.PreserveReferencesHandling": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.JsonPropertyAttribute": [
+   1,
+   6
+  ],
+  "Newtonsoft.Json.JsonWriterException": [
+   3,
+   3
+  ],
+  "Newtonsoft.Json.DefaultJsonNameTable": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.JsonException": [
+   20,
+   2
+  ],
+  "Newtonsoft.Json.DefaultValueHandling": [
+   10,
+   0
+  ],
+  "Newtonsoft.Json.TypeNameHandling": [
+   10,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JObject": [
+   11,
+   26
+  ],
+  "Newtonsoft.Json.Linq.MergeNullValueHandling": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Linq.IJEnumerable<T>": [
+   3,
+   1
+  ],
+  "Newtonsoft.Json.Linq.JArray": [
+   8,
+   19
+  ],
+  "Newtonsoft.Json.Linq.MergeArrayHandling": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JConstructor": [
+   6,
+   16
+  ],
+  "Newtonsoft.Json.Linq.JContainer": [
+   14,
+   26
+  ],
+  "Newtonsoft.Json.Linq.JTokenWriter": [
+   4,
+   16
+  ],
+  "Newtonsoft.Json.Linq.CommentHandling": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Linq.LineInfoHandling": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JsonSelectSettings": [
+   16,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JsonLoadSettings": [
+   6,
+   3
+  ],
+  "Newtonsoft.Json.Linq.JToken": [
+   44,
+   46
+  ],
+  "Newtonsoft.Json.Linq.JValue": [
+   14,
+   15
+  ],
+  "Newtonsoft.Json.Linq.JTokenEqualityComparer": [
+   1,
+   1
+  ],
+  "Newtonsoft.Json.Linq.JsonCloneSettings": [
+   8,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JTokenReader": [
+   3,
+   13
+  ],
+  "Newtonsoft.Json.Linq.JProperty": [
+   12,
+   20
+  ],
+  "Newtonsoft.Json.Linq.JEnumerable<T>": [
+   5,
+   4
+  ],
+  "Newtonsoft.Json.Linq.JPropertyDescriptor": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Linq.Extensions": [
+   3,
+   11
+  ],
+  "Newtonsoft.Json.Linq.JRaw": [
+   2,
+   7
+  ],
+  "Newtonsoft.Json.Linq.JsonMergeSettings": [
+   5,
+   2
+  ],
+  "Newtonsoft.Json.Linq.JTokenType": [
+   15,
+   0
+  ],
+  "Newtonsoft.Json.Linq.DuplicatePropertyNameHandling": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JPropertyKeyedCollection": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Converters.CustomCreationConverter<T>": [
+   0,
+   7
+  ],
+  "Newtonsoft.Json.Converters.EntityKeyMemberConverter": [
+   1,
+   13
+  ],
+  "Newtonsoft.Json.Converters.DataSetConverter": [
+   1,
+   8
+  ],
+  "Newtonsoft.Json.Converters.IsoDateTimeConverter": [
+   0,
+   9
+  ],
+  "Newtonsoft.Json.Converters.ExpandoObjectConverter": [
+   1,
+   8
+  ],
+  "Newtonsoft.Json.Converters.BsonObjectIdConverter": [
+   1,
+   9
+  ],
+  "Newtonsoft.Json.Converters.XmlDocumentWrapper": [
+   1,
+   7
+  ],
+  "Newtonsoft.Json.Converters.XmlElementWrapper": [
+   2,
+   3
+  ],
+  "Newtonsoft.Json.Converters.XmlDeclarationWrapper": [
+   2,
+   2
+  ],
+  "Newtonsoft.Json.Converters.XmlDocumentTypeWrapper": [
+   2,
+   2
+  ],
+  "Newtonsoft.Json.Converters.XmlNodeWrapper": [
+   5,
+   5
+  ],
+  "Newtonsoft.Json.Converters.IXmlDocument": [
+   3,
+   2
+  ],
+  "Newtonsoft.Json.Converters.IXmlDeclaration": [
+   3,
+   1
+  ],
+  "Newtonsoft.Json.Converters.IXmlDocumentType": [
+   3,
+   1
+  ],
+  "Newtonsoft.Json.Converters.IXmlElement": [
+   6,
+   1
+  ],
+  "Newtonsoft.Json.Converters.IXmlNode": [
+   15,
+   0
+  ],
+  "Newtonsoft.Json.Converters.XDeclarationWrapper": [
+   1,
+   2
+  ],
+  "Newtonsoft.Json.Converters.XDocumentTypeWrapper": [
+   2,
+   2
+  ],
+  "Newtonsoft.Json.Converters.XDocumentWrapper": [
+   2,
+   11
+  ],
+  "Newtonsoft.Json.Converters.XTextWrapper": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Converters.XCommentWrapper": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Converters.XProcessingInstructionWrapper": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Converters.XContainerWrapper": [
+   6,
+   10
+  ],
+  "Newtonsoft.Json.Converters.XObjectWrapper": [
+   9,
+   2
+  ],
+  "Newtonsoft.Json.Converters.XAttributeWrapper": [
+   3,
+   3
+  ],
+  "Newtonsoft.Json.Converters.XElementWrapper": [
+   3,
+   7
+  ],
+  "Newtonsoft.Json.Converters.XmlNodeConverter": [
+   6,
+   22
+  ],
+  "Newtonsoft.Json.Converters.DateTimeConverterBase": [
+   3,
+   1
+  ],
+  "Newtonsoft.Json.Converters.VersionConverter": [
+   0,
+   7
+  ],
+  "Newtonsoft.Json.Converters.UnionConverter": [
+   1,
+   28
+  ],
+  "Newtonsoft.Json.Converters.JavaScriptDateTimeConverter": [
+   0,
+   10
+  ],
+  "Newtonsoft.Json.Converters.DiscriminatedUnionConverter": [
+   1,
+   17
+  ],
+  "Newtonsoft.Json.Converters.DataTableConverter": [
+   2,
+   10
+  ],
+  "Newtonsoft.Json.Converters.BinaryConverter": [
+   1,
+   11
+  ],
+  "Newtonsoft.Json.Converters.UnixDateTimeConverter": [
+   0,
+   8
+  ],
+  "Newtonsoft.Json.Converters.RegexConverter": [
+   1,
+   9
+  ],
+  "Newtonsoft.Json.Converters.StringEnumConverter": [
+   0,
+   16
+  ],
+  "Newtonsoft.Json.Converters.KeyValuePairConverter": [
+   1,
+   15
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaResolver": [
+   4,
+   1
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaModel": [
+   2,
+   5
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaWriter": [
+   1,
+   11
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaModelBuilder": [
+   1,
+   4
+  ],
+  "Newtonsoft.Json.Schema.JsonSchema": [
+   9,
+   12
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaNode": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaType": [
+   7,
+   0
+  ],
+  "Newtonsoft.Json.Schema.Extensions": [
+   0,
+   7
+  ],
+  "Newtonsoft.Json.Schema.ValidationEventHandler": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaGenerator": [
+   1,
+   30
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaException": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaNodeCollection": [
+   1,
+   1
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaConstants": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Schema.UndefinedSchemaIdHandling": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.Schema.JsonSchemaBuilder": [
+   2,
+   12
+  ],
+  "Newtonsoft.Json.Schema.ValidationEventArgs": [
+   3,
+   2
+  ],
+  "Newtonsoft.Json.Utilities.ValidationUtils": [
+   46,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.ParserTimeZone": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.DateTimeParser": [
+   1,
+   1
+  ],
+  "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute": [
+   0,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.BufferUtils": [
+   4,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.JavaScriptUtils": [
+   6,
+   10
+  ],
+  "Newtonsoft.Json.Utilities.ReflectionMember": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.ReflectionObject": [
+   4,
+   10
+  ],
+  "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.DynamicUtils": [
+   2,
+   5
+  ],
+  "Newtonsoft.Json.Utilities.NoThrowGetBinderMember": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Utilities.NoThrowSetBinderMember": [
+   1,
+   2
+  ],
+  "Newtonsoft.Json.Utilities.NoThrowExpressionVisitor": [
+   3,
+   0
+  ],
+  "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes": [
+   16,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.DynamicReflectionDelegateFactory": [
+   2,
+   9
+  ],
+  "Newtonsoft.Json.Utilities.TypeExtensions": [
+   27,
+   2
+  ],
+  "Newtonsoft.Json.Utilities.StringUtils": [
+   67,
+   2
+  ],
+  "Newtonsoft.Json.Utilities.AsyncUtils": [
+   10,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.MiscellaneousUtils": [
+   76,
+   3
+  ],
+  "Newtonsoft.Json.Utilities.Creator<T>": [
+   0,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.DynamicProxy<T>": [
+   4,
+   2
+  ],
+  "Newtonsoft.Json.Utilities.ReflectionDelegateFactory": [
+   15,
+   5
+  ],
+  "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.StringReference": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.StringReferenceExtensions": [
+   1,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.ReflectionUtils": [
+   29,
+   11
+  ],
+  "Newtonsoft.Json.Utilities.DateTimeUtils": [
+   16,
+   10
+  ],
+  "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.IWrappedCollection": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.CollectionWrapper<T>": [
+   1,
+   5
+  ],
+  "Newtonsoft.Json.Utilities.CollectionUtils": [
+   21,
+   4
+  ],
+  "Newtonsoft.Json.Utilities.Base64Encoder": [
+   1,
+   2
+  ],
+  "Newtonsoft.Json.Utilities.MemoryAdapter": [
+   3,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.ExpressionReflectionDelegateFactory": [
+   1,
+   9
+  ],
+  "Newtonsoft.Json.Utilities.FSharpFunction": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.FSharpUtils": [
+   4,
+   7
+  ],
+  "Newtonsoft.Json.Utilities.BoxedPrimitives": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.MethodCall<T, TResult>": [
+   11,
+   0
+  ],
+  "System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute": [
+   0,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.StructMultiKey<T1, T2>": [
+   7,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.ImmutableCollectionsUtils": [
+   2,
+   5
+  ],
+  "Newtonsoft.Json.Utilities.PrimitiveTypeCode": [
+   13,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.TypeInformation": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.ParseResult": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.ConvertUtils": [
+   19,
+   13
+  ],
+  "Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory": [
+   2,
+   8
+  ],
+  "Newtonsoft.Json.Utilities.EnumUtils": [
+   6,
+   11
+  ],
+  "Newtonsoft.Json.Utilities.EnumInfo": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.ILGeneratorExtensions": [
+   1,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.StringBuffer": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Utilities.DynamicProxyMetaObject<T>": [
+   3,
+   5
+  ],
+  "Newtonsoft.Json.Utilities.BidirectionalDictionary<TFirst, TSecond>": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.JsonTokenUtils": [
+   6,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.IWrappedDictionary": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.DictionaryWrapper<TKey, TValue>": [
+   1,
+   3
+  ],
+  "System.Diagnostics.CodeAnalysis.FeatureGuardAttribute": [
+   0,
+   0
+  ],
+  "Newtonsoft.Json.Utilities.ThreadSafeStore<TKey, TValue>": [
+   10,
+   1
+  ],
+  "Newtonsoft.Json.Utilities.MathUtils": [
+   7,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.ReflectionAttributeProvider": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Serialization.DynamicValueProvider": [
+   1,
+   7
+  ],
+  "Newtonsoft.Json.Serialization.JsonSerializerInternalReader": [
+   3,
+   63
+  ],
+  "Newtonsoft.Json.Serialization.MemoryTraceWriter": [
+   0,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.IContractResolver": [
+   9,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.JsonTypeReflector": [
+   22,
+   19
+  ],
+  "Newtonsoft.Json.Serialization.SnakeCaseNamingStrategy": [
+   0,
+   2
+  ],
+  "Newtonsoft.Json.Serialization.JsonArrayContract": [
+   3,
+   16
+  ],
+  "Newtonsoft.Json.Serialization.JsonDynamicContract": [
+   3,
+   11
+  ],
+  "Newtonsoft.Json.Serialization.IValueProvider": [
+   7,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonISerializableContract": [
+   5,
+   5
+  ],
+  "Newtonsoft.Json.Serialization.ReflectionValueProvider": [
+   1,
+   5
+  ],
+  "Newtonsoft.Json.Serialization.JsonFormatterConverter": [
+   1,
+   7
+  ],
+  "Newtonsoft.Json.Serialization.ErrorContext": [
+   5,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.DefaultReferenceResolver": [
+   1,
+   5
+  ],
+  "Newtonsoft.Json.Serialization.ObjectConstructor<T>": [
+   18,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.DefaultContractResolver": [
+   10,
+   67
+  ],
+  "Newtonsoft.Json.Serialization.IReferenceResolver": [
+   6,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonContainerContract": [
+   7,
+   8
+  ],
+  "Newtonsoft.Json.Serialization.SerializationBinderAdapter": [
+   2,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.ErrorEventArgs": [
+   4,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.CamelCaseNamingStrategy": [
+   3,
+   2
+  ],
+  "Newtonsoft.Json.Serialization.JsonLinqContract": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Serialization.CachedAttributeGetter<T>": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Serialization.ITraceWriter": [
+   8,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonSerializerInternalWriter": [
+   4,
+   43
+  ],
+  "Newtonsoft.Json.Serialization.NamingStrategy": [
+   10,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonContractType": [
+   13,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonContract": [
+   20,
+   12
+  ],
+  "Newtonsoft.Json.Serialization.SerializationCallback": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.SerializationErrorCallback": [
+   3,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.ExtensionDataSetter": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.ExtensionDataGetter": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonPropertyCollection": [
+   4,
+   6
+  ],
+  "Newtonsoft.Json.Serialization.DefaultNamingStrategy": [
+   0,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.JsonSerializerProxy": [
+   5,
+   31
+  ],
+  "Newtonsoft.Json.Serialization.JsonProperty": [
+   8,
+   15
+  ],
+  "Newtonsoft.Json.Serialization.OnErrorAttribute": [
+   1,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.ExpressionValueProvider": [
+   0,
+   7
+  ],
+  "Newtonsoft.Json.Serialization.TraceJsonWriter": [
+   1,
+   4
+  ],
+  "Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver": [
+   0,
+   7
+  ],
+  "Newtonsoft.Json.Serialization.DiagnosticsTraceWriter": [
+   0,
+   1
+  ],
+  "Newtonsoft.Json.Serialization.ISerializationBinder": [
+   8,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonSerializerInternalBase": [
+   4,
+   15
+  ],
+  "Newtonsoft.Json.Serialization.TraceJsonReader": [
+   1,
+   6
+  ],
+  "Newtonsoft.Json.Serialization.IAttributeProvider": [
+   2,
+   0
+  ],
+  "Newtonsoft.Json.Serialization.JsonObjectContract": [
+   5,
+   18
+  ],
+  "Newtonsoft.Json.Serialization.JsonPrimitiveContract": [
+   4,
+   6
+  ],
+  "Newtonsoft.Json.Serialization.JsonStringContract": [
+   2,
+   4
+  ],
+  "Newtonsoft.Json.Serialization.JsonDictionaryContract": [
+   3,
+   15
+  ],
+  "Newtonsoft.Json.Serialization.DefaultSerializationBinder": [
+   1,
+   7
+  ],
+  "Newtonsoft.Json.Serialization.KebabCaseNamingStrategy": [
+   0,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonToken": [
+   8,
+   1
+  ],
+  "Newtonsoft.Json.Bson.BsonObject": [
+   2,
+   4
+  ],
+  "Newtonsoft.Json.Bson.BsonArray": [
+   2,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonEmpty": [
+   1,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonValue": [
+   5,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonBoolean": [
+   2,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonString": [
+   5,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonBinary": [
+   2,
+   3
+  ],
+  "Newtonsoft.Json.Bson.BsonRegex": [
+   2,
+   3
+  ],
+  "Newtonsoft.Json.Bson.BsonProperty": [
+   2,
+   2
+  ],
+  "Newtonsoft.Json.Bson.BsonBinaryType": [
+   3,
+   0
+  ],
+  "Newtonsoft.Json.Bson.BsonReader": [
+   0,
+   10
+  ],
+  "Newtonsoft.Json.Bson.BsonWriter": [
+   2,
+   18
+  ],
+  "Newtonsoft.Json.Bson.BsonType": [
+   12,
+   0
+  ],
+  "Newtonsoft.Json.Bson.BsonBinaryWriter": [
+   1,
+   13
+  ],
+  "Newtonsoft.Json.Bson.BsonObjectId": [
+   1,
+   1
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.ArrayMultipleIndexFilter": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.ScanFilter": [
+   1,
+   5
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.ScanMultipleFilter": [
+   1,
+   5
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.QueryScanFilter": [
+   1,
+   5
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.ArrayIndexFilter": [
+   1,
+   7
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.PathFilter": [
+   12,
+   7
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.QueryOperator": [
+   4,
+   0
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.QueryExpression": [
+   5,
+   3
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.CompositeExpression": [
+   1,
+   4
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.BooleanQueryExpression": [
+   1,
+   13
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.RootFilter": [
+   1,
+   3
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.JPath": [
+   2,
+   20
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.FieldFilter": [
+   1,
+   6
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.QueryFilter": [
+   1,
+   4
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.ArraySliceFilter": [
+   1,
+   7
+  ],
+  "Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter": [
+   1,
+   6
+  ]
+ },
+ "scc": [
+  [
+   "Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory",
+   "Newtonsoft.Json.Serialization.TraceJsonWriter",
+   "Newtonsoft.Json.Serialization.TraceJsonReader",
+   "Newtonsoft.Json.Serialization.DefaultSerializationBinder",
+   "Newtonsoft.Json.Serialization.ReflectionValueProvider",
+   "Newtonsoft.Json.Converters.RegexConverter",
+   "Newtonsoft.Json.Serialization.ReflectionAttributeProvider",
+   "Newtonsoft.Json.Converters.KeyValuePairConverter",
+   "Newtonsoft.Json.Utilities.ILGeneratorExtensions",
+   "Newtonsoft.Json.Utilities.DynamicReflectionDelegateFactory",
+   "Newtonsoft.Json.Serialization.DynamicValueProvider",
+   "Newtonsoft.Json.Converters.DiscriminatedUnionConverter",
+   "Newtonsoft.Json.Converters.ExpandoObjectConverter",
+   "Newtonsoft.Json.Serialization.JsonSerializerInternalBase",
+   "Newtonsoft.Json.Serialization.JsonStringContract",
+   "Newtonsoft.Json.Serialization.JsonSerializerInternalWriter",
+   "Newtonsoft.Json.Converters.EntityKeyMemberConverter",
+   "Newtonsoft.Json.Bson.BsonBinaryWriter",
+   "Newtonsoft.Json.Bson.BsonWriter",
+   "Newtonsoft.Json.Converters.BsonObjectIdConverter",
+   "Newtonsoft.Json.Converters.DataTableConverter",
+   "Newtonsoft.Json.Converters.DataSetConverter",
+   "Newtonsoft.Json.Converters.UnionConverter",
+   "Newtonsoft.Json.Utilities.ReflectionObject",
+   "Newtonsoft.Json.Converters.BinaryConverter",
+   "Newtonsoft.Json.Serialization.JsonLinqContract",
+   "Newtonsoft.Json.Serialization.DefaultContractResolver",
+   "Newtonsoft.Json.Utilities.DictionaryWrapper<TKey, TValue>",
+   "Newtonsoft.Json.Serialization.JsonDictionaryContract",
+   "Newtonsoft.Json.Serialization.JsonPrimitiveContract",
+   "Newtonsoft.Json.Utilities.MemoryAdapter",
+   "Newtonsoft.Json.Utilities.FSharpUtils",
+   "Newtonsoft.Json.Utilities.ImmutableCollectionsUtils",
+   "Newtonsoft.Json.Utilities.CollectionWrapper<T>",
+   "Newtonsoft.Json.Serialization.JsonArrayContract",
+   "Newtonsoft.Json.Utilities.NoThrowSetBinderMember",
+   "Newtonsoft.Json.Utilities.ReflectionDelegateFactory",
+   "Newtonsoft.Json.Utilities.DynamicUtils",
+   "Newtonsoft.Json.Utilities.NoThrowGetBinderMember",
+   "Newtonsoft.Json.Serialization.JsonDynamicContract",
+   "Newtonsoft.Json.Utilities.EnumUtils",
+   "Newtonsoft.Json.Serialization.JsonISerializableContract",
+   "Newtonsoft.Json.Serialization.JsonFormatterConverter",
+   "Newtonsoft.Json.Linq.JsonPath.BooleanQueryExpression",
+   "Newtonsoft.Json.Linq.JsonPath.ArraySliceFilter",
+   "Newtonsoft.Json.Linq.JsonPath.ArrayMultipleIndexFilter",
+   "Newtonsoft.Json.Linq.JsonPath.FieldFilter",
+   "Newtonsoft.Json.Linq.JsonPath.ArrayIndexFilter",
+   "Newtonsoft.Json.Linq.JsonPath.RootFilter",
+   "Newtonsoft.Json.Linq.JsonPath.QueryFilter",
+   "Newtonsoft.Json.Linq.JsonPath.CompositeExpression",
+   "Newtonsoft.Json.Linq.JsonPath.ScanFilter",
+   "Newtonsoft.Json.Linq.JsonPath.QueryExpression",
+   "Newtonsoft.Json.Linq.JsonPath.QueryScanFilter",
+   "Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter",
+   "Newtonsoft.Json.Linq.JsonPath.PathFilter",
+   "Newtonsoft.Json.Linq.JsonPath.ScanMultipleFilter",
+   "Newtonsoft.Json.Linq.JsonPath.JPath",
+   "Newtonsoft.Json.Linq.JPropertyDescriptor",
+   "Newtonsoft.Json.Linq.JPropertyKeyedCollection",
+   "Newtonsoft.Json.Linq.JRaw",
+   "Newtonsoft.Json.Linq.JTokenReader",
+   "Newtonsoft.Json.Linq.JTokenWriter",
+   "Newtonsoft.Json.Linq.JArray",
+   "Newtonsoft.Json.Linq.JConstructor",
+   "Newtonsoft.Json.Linq.JContainer",
+   "Newtonsoft.Json.Utilities.DynamicProxyMetaObject<T>",
+   "Newtonsoft.Json.Utilities.DynamicProxy<T>",
+   "Newtonsoft.Json.Linq.JValue",
+   "Newtonsoft.Json.Linq.IJEnumerable<T>",
+   "Newtonsoft.Json.Linq.Extensions",
+   "Newtonsoft.Json.Linq.JEnumerable<T>",
+   "Newtonsoft.Json.Linq.JObject",
+   "Newtonsoft.Json.Linq.JProperty",
+   "Newtonsoft.Json.Linq.JTokenEqualityComparer",
+   "Newtonsoft.Json.Linq.JToken",
+   "Newtonsoft.Json.JsonSerializationException",
+   "Newtonsoft.Json.Serialization.JsonPropertyCollection",
+   "Newtonsoft.Json.Serialization.JsonProperty",
+   "Newtonsoft.Json.Serialization.JsonContainerContract",
+   "Newtonsoft.Json.Serialization.JsonObjectContract",
+   "Newtonsoft.Json.Serialization.JsonSerializerInternalReader",
+   "Newtonsoft.Json.Serialization.JsonSerializerProxy",
+   "Newtonsoft.Json.Serialization.DefaultReferenceResolver",
+   "Newtonsoft.Json.JsonReaderException",
+   "Newtonsoft.Json.Utilities.StringBuffer",
+   "Newtonsoft.Json.JsonTextReader",
+   "Newtonsoft.Json.JsonConverterCollection",
+   "Newtonsoft.Json.JsonSerializer",
+   "Newtonsoft.Json.Converters.XmlDocumentTypeWrapper",
+   "Newtonsoft.Json.Converters.XmlElementWrapper",
+   "Newtonsoft.Json.Converters.XmlNodeWrapper",
+   "Newtonsoft.Json.Converters.XmlDeclarationWrapper",
+   "Newtonsoft.Json.Converters.XmlDocumentWrapper",
+   "Newtonsoft.Json.Converters.XDeclarationWrapper",
+   "Newtonsoft.Json.Converters.XTextWrapper",
+   "Newtonsoft.Json.Converters.XDocumentTypeWrapper",
+   "Newtonsoft.Json.Converters.XCommentWrapper",
+   "Newtonsoft.Json.Converters.XAttributeWrapper",
+   "Newtonsoft.Json.Converters.XElementWrapper",
+   "Newtonsoft.Json.Converters.XContainerWrapper",
+   "Newtonsoft.Json.Converters.XProcessingInstructionWrapper",
+   "Newtonsoft.Json.Converters.XObjectWrapper",
+   "Newtonsoft.Json.Converters.XDocumentWrapper",
+   "Newtonsoft.Json.Converters.XmlNodeConverter",
+   "Newtonsoft.Json.Utilities.CollectionUtils",
+   "Newtonsoft.Json.Utilities.ReflectionUtils",
+   "Newtonsoft.Json.Utilities.TypeExtensions",
+   "Newtonsoft.Json.Serialization.JsonContract",
+   "Newtonsoft.Json.Serialization.IContractResolver",
+   "Newtonsoft.Json.JsonSerializerSettings",
+   "Newtonsoft.Json.JsonConvert",
+   "Newtonsoft.Json.JsonException",
+   "Newtonsoft.Json.JsonWriterException",
+   "Newtonsoft.Json.Utilities.Base64Encoder",
+   "Newtonsoft.Json.JsonTextWriter",
+   "Newtonsoft.Json.Utilities.DateTimeUtils",
+   "Newtonsoft.Json.Utilities.JavaScriptUtils",
+   "Newtonsoft.Json.JsonPosition",
+   "Newtonsoft.Json.JsonWriter",
+   "Newtonsoft.Json.JsonConverter",
+   "Newtonsoft.Json.Serialization.CachedAttributeGetter<T>",
+   "Newtonsoft.Json.Serialization.JsonTypeReflector",
+   "Newtonsoft.Json.Utilities.ConvertUtils",
+   "Newtonsoft.Json.Utilities.MiscellaneousUtils",
+   "Newtonsoft.Json.Utilities.AsyncUtils",
+   "Newtonsoft.Json.JsonReader"
+  ],
+  [
+   "Newtonsoft.Json.Schema.JsonSchemaWriter",
+   "Newtonsoft.Json.Schema.JsonSchemaBuilder",
+   "Newtonsoft.Json.Schema.JsonSchema",
+   "Newtonsoft.Json.Schema.JsonSchemaResolver"
+  ]
+ ]
+}

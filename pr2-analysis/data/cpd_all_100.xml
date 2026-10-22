@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.7.0"
+         timestamp="2026-10-10T18:54:43.647492014+09:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="Src/Newtonsoft.Json/Bson/BsonBinaryType.cs"
+         totalNumberOfTokens="60"/>
+   <file path="Src/Newtonsoft.Json/Bson/BsonBinaryWriter.cs"
+         totalNumberOfTokens="1402"/>
+   <file path="Src/Newtonsoft.Json/Bson/BsonObjectId.cs"
+         totalNumberOfTokens="89"/>
+   <file path="Src/Newtonsoft.Json/Bson/BsonReader.cs"
+         totalNumberOfTokens="3054"/>
+   <file path="Src/Newtonsoft.Json/Bson/BsonToken.cs"
+         totalNumberOfTokens="586"/>
+   <file path="Src/Newtonsoft.Json/Bson/BsonType.cs"
+         totalNumberOfTokens="98"/>
+   <file path="Src/Newtonsoft.Json/Bson/BsonWriter.cs"
+         totalNumberOfTokens="1471"/>
+   <file path="Src/Newtonsoft.Json/ConstructorHandling.cs"
+         totalNumberOfTokens="20"/>
+   <file path="Src/Newtonsoft.Json/Converters/BinaryConverter.cs"
+         totalNumberOfTokens="713"/>
+   <file path="Src/Newtonsoft.Json/Converters/BsonObjectIdConverter.cs"
+         totalNumberOfTokens="190"/>
+   <file path="Src/Newtonsoft.Json/Converters/CustomCreationConverter.cs"
+         totalNumberOfTokens="192"/>
+   <file path="Src/Newtonsoft.Json/Converters/DataSetConverter.cs"
+         totalNumberOfTokens="365"/>
+   <file path="Src/Newtonsoft.Json/Converters/DataTableConverter.cs"
+         totalNumberOfTokens="967"/>
+   <file path="Src/Newtonsoft.Json/Converters/DateTimeConverterBase.cs"
+         totalNumberOfTokens="80"/>
+   <file path="Src/Newtonsoft.Json/Converters/DiscriminatedUnionConverter.cs"
+         totalNumberOfTokens="1324"/>
+   <file path="Src/Newtonsoft.Json/Converters/EntityKeyMemberConverter.cs"
+         totalNumberOfTokens="933"/>
+   <file path="Src/Newtonsoft.Json/Converters/ExpandoObjectConverter.cs"
+         totalNumberOfTokens="441"/>
+   <file path="Src/Newtonsoft.Json/Converters/IsoDateTimeConverter.cs"
+         totalNumberOfTokens="627"/>
+   <file path="Src/Newtonsoft.Json/Converters/JavaScriptDateTimeConverter.cs"
+         totalNumberOfTokens="342"/>
+   <file path="Src/Newtonsoft.Json/Converters/KeyValuePairConverter.cs"
+         totalNumberOfTokens="662"/>
+   <file path="Src/Newtonsoft.Json/Converters/RegexConverter.cs"
+         totalNumberOfTokens="838"/>
+   <file path="Src/Newtonsoft.Json/Converters/StringEnumConverter.cs"
+         totalNumberOfTokens="777"/>
+   <file path="Src/Newtonsoft.Json/Converters/UnionConverter.cs"
+         totalNumberOfTokens="2654"/>
+   <file path="Src/Newtonsoft.Json/Converters/UnixDateTimeConverter.cs"
+         totalNumberOfTokens="460"/>
+   <file path="Src/Newtonsoft.Json/Converters/VersionConverter.cs"
+         totalNumberOfTokens="241"/>
+   <file path="Src/Newtonsoft.Json/Converters/XmlNodeConverter.cs"
+         totalNumberOfTokens="9228"/>
+   <file path="Src/Newtonsoft.Json/DateFormatHandling.cs"
+         totalNumberOfTokens="16"/>
+   <file path="Src/Newtonsoft.Json/DateParseHandling.cs"
+         totalNumberOfTokens="26"/>
+   <file path="Src/Newtonsoft.Json/DateTimeZoneHandling.cs"
+         totalNumberOfTokens="31"/>
+   <file path="Src/Newtonsoft.Json/DefaultJsonNameTable.cs"
+         totalNumberOfTokens="756"/>
+   <file path="Src/Newtonsoft.Json/DefaultValueHandling.cs"
+         totalNumberOfTokens="41"/>
+   <file path="Src/Newtonsoft.Json/FloatFormatHandling.cs"
+         totalNumberOfTokens="27"/>
+   <file path="Src/Newtonsoft.Json/FloatParseHandling.cs"
+         totalNumberOfTokens="20"/>
+   <file path="Src/Newtonsoft.Json/FormatterAssemblyStyle.cs"
+         totalNumberOfTokens="30"/>
+   <file path="Src/Newtonsoft.Json/Formatting.cs"
+         totalNumberOfTokens="20"/>
+   <file path="Src/Newtonsoft.Json/IArrayPool.cs"
+         totalNumberOfTokens="33"/>
+   <file path="Src/Newtonsoft.Json/IJsonLineInfo.cs"
+         totalNumberOfTokens="30"/>
+   <file path="Src/Newtonsoft.Json/JsonArrayAttribute.cs"
+         totalNumberOfTokens="87"/>
+   <file path="Src/Newtonsoft.Json/JsonConstructorAttribute.cs"
+         totalNumberOfTokens="31"/>
+   <file path="Src/Newtonsoft.Json/JsonContainerAttribute.cs"
+         totalNumberOfTokens="276"/>
+   <file path="Src/Newtonsoft.Json/JsonConvert.cs"
+         totalNumberOfTokens="3716"/>
+   <file path="Src/Newtonsoft.Json/JsonConverter.cs"
+         totalNumberOfTokens="335"/>
+   <file path="Src/Newtonsoft.Json/JsonConverterAttribute.cs"
+         totalNumberOfTokens="142"/>
+   <file path="Src/Newtonsoft.Json/JsonConverterCollection.cs"
+         totalNumberOfTokens="40"/>
+   <file path="Src/Newtonsoft.Json/JsonDictionaryAttribute.cs"
+         totalNumberOfTokens="54"/>
+   <file path="Src/Newtonsoft.Json/JsonException.cs"
+         totalNumberOfTokens="150"/>
+   <file path="Src/Newtonsoft.Json/JsonExtensionDataAttribute.cs"
+         totalNumberOfTokens="64"/>
+   <file path="Src/Newtonsoft.Json/JsonIgnoreAttribute.cs"
+         totalNumberOfTokens="47"/>
+   <file path="Src/Newtonsoft.Json/JsonNameTable.cs"
+         totalNumberOfTokens="30"/>
+   <file path="Src/Newtonsoft.Json/JsonObjectAttribute.cs"
+         totalNumberOfTokens="167"/>
+   <file path="Src/Newtonsoft.Json/JsonPosition.cs"
+         totalNumberOfTokens="692"/>
+   <file path="Src/Newtonsoft.Json/JsonPropertyAttribute.cs"
+         totalNumberOfTokens="384"/>
+   <file path="Src/Newtonsoft.Json/JsonReader.Async.cs"
+         totalNumberOfTokens="731"/>
+   <file path="Src/Newtonsoft.Json/JsonReader.cs"
+         totalNumberOfTokens="4380"/>
+   <file path="Src/Newtonsoft.Json/JsonReaderException.cs"
+         totalNumberOfTokens="309"/>
+   <file path="Src/Newtonsoft.Json/JsonRequiredAttribute.cs"
+         totalNumberOfTokens="47"/>
+   <file path="Src/Newtonsoft.Json/JsonSerializationException.cs"
+         totalNumberOfTokens="309"/>
+   <file path="Src/Newtonsoft.Json/JsonSerializer.cs"
+         totalNumberOfTokens="3754"/>
+   <file path="Src/Newtonsoft.Json/JsonSerializerSettings.cs"
+         totalNumberOfTokens="1293"/>
+   <file path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"
+         totalNumberOfTokens="7234"/>
+   <file path="Src/Newtonsoft.Json/JsonTextReader.cs"
+         totalNumberOfTokens="9571"/>
+   <file path="Src/Newtonsoft.Json/JsonTextWriter.Async.cs"
+         totalNumberOfTokens="5413"/>
+   <file path="Src/Newtonsoft.Json/JsonTextWriter.cs"
+         totalNumberOfTokens="2967"/>
+   <file path="Src/Newtonsoft.Json/JsonToken.cs"
+         totalNumberOfTokens="99"/>
+   <file path="Src/Newtonsoft.Json/JsonValidatingReader.cs"
+         totalNumberOfTokens="4012"/>
+   <file path="Src/Newtonsoft.Json/JsonWriter.Async.cs"
+         totalNumberOfTokens="5939"/>
+   <file path="Src/Newtonsoft.Json/JsonWriter.cs"
+         totalNumberOfTokens="6010"/>
+   <file path="Src/Newtonsoft.Json/JsonWriterException.cs"
+         totalNumberOfTokens="203"/>
+   <file path="Src/Newtonsoft.Json/Linq/CommentHandling.cs"
+         totalNumberOfTokens="22"/>
+   <file path="Src/Newtonsoft.Json/Linq/DuplicatePropertyNameHandling.cs"
+         totalNumberOfTokens="26"/>
+   <file path="Src/Newtonsoft.Json/Linq/Extensions.cs"
+         totalNumberOfTokens="1202"/>
+   <file path="Src/Newtonsoft.Json/Linq/IJEnumerable.cs"
+         totalNumberOfTokens="50"/>
+   <file path="Src/Newtonsoft.Json/Linq/JArray.Async.cs"
+         totalNumberOfTokens="327"/>
+   <file path="Src/Newtonsoft.Json/Linq/JArray.cs"
+         totalNumberOfTokens="1073"/>
+   <file path="Src/Newtonsoft.Json/Linq/JConstructor.Async.cs"
+         totalNumberOfTokens="340"/>
+   <file path="Src/Newtonsoft.Json/Linq/JConstructor.cs"
+         totalNumberOfTokens="789"/>
+   <file path="Src/Newtonsoft.Json/Linq/JContainer.Async.cs"
+         totalNumberOfTokens="756"/>
+   <file path="Src/Newtonsoft.Json/Linq/JContainer.cs"
+         totalNumberOfTokens="4719"/>
+   <file path="Src/Newtonsoft.Json/Linq/JEnumerable.cs"
+         totalNumberOfTokens="301"/>
+   <file path="Src/Newtonsoft.Json/Linq/JObject.Async.cs"
+         totalNumberOfTokens="467"/>
+   <file path="Src/Newtonsoft.Json/Linq/JObject.cs"
+         totalNumberOfTokens="2861"/>
+   <file path="Src/Newtonsoft.Json/Linq/JProperty.Async.cs"
+         totalNumberOfTokens="435"/>
+   <file path="Src/Newtonsoft.Json/Linq/JProperty.cs"
+         totalNumberOfTokens="1296"/>
+   <file path="Src/Newtonsoft.Json/Linq/JPropertyDescriptor.cs"
+         totalNumberOfTokens="210"/>
+   <file path="Src/Newtonsoft.Json/Linq/JPropertyKeyedCollection.cs"
+         totalNumberOfTokens="951"/>
+   <file path="Src/Newtonsoft.Json/Linq/JRaw.Async.cs"
+         totalNumberOfTokens="111"/>
+   <file path="Src/Newtonsoft.Json/Linq/JRaw.cs"
+         totalNumberOfTokens="156"/>
+   <file path="Src/Newtonsoft.Json/Linq/JToken.Async.cs"
+         totalNumberOfTokens="689"/>
+   <file path="Src/Newtonsoft.Json/Linq/JToken.cs"
+         totalNumberOfTokens="10097"/>
+   <file path="Src/Newtonsoft.Json/Linq/JTokenEqualityComparer.cs"
+         totalNumberOfTokens="78"/>
+   <file path="Src/Newtonsoft.Json/Linq/JTokenReader.cs"
+         totalNumberOfTokens="1174"/>
+   <file path="Src/Newtonsoft.Json/Linq/JTokenType.cs"
+         totalNumberOfTokens="86"/>
+   <file path="Src/Newtonsoft.Json/Linq/JTokenWriter.Async.cs"
+         totalNumberOfTokens="91"/>
+   <file path="Src/Newtonsoft.Json/Linq/JTokenWriter.cs"
+         totalNumberOfTokens="1827"/>
+   <file path="Src/Newtonsoft.Json/Linq/JValue.Async.cs"
+         totalNumberOfTokens="652"/>
+   <file path="Src/Newtonsoft.Json/Linq/JValue.cs"
+         totalNumberOfTokens="4741"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonCloneSettings.cs"
+         totalNumberOfTokens="51"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonLoadSettings.cs"
+         totalNumberOfTokens="183"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonMergeSettings.cs"
+         totalNumberOfTokens="171"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/ArrayIndexFilter.cs"
+         totalNumberOfTokens="179"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/ArrayMultipleIndexFilter.cs"
+         totalNumberOfTokens="112"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/ArraySliceFilter.cs"
+         totalNumberOfTokens="464"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/FieldFilter.cs"
+         totalNumberOfTokens="217"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/FieldMultipleFilter.cs"
+         totalNumberOfTokens="236"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/JPath.cs"
+         totalNumberOfTokens="3207"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/PathFilter.cs"
+         totalNumberOfTokens="318"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/QueryExpression.cs"
+         totalNumberOfTokens="1434"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/QueryFilter.cs"
+         totalNumberOfTokens="103"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/QueryScanFilter.cs"
+         totalNumberOfTokens="138"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/RootFilter.cs"
+         totalNumberOfTokens="72"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/ScanFilter.cs"
+         totalNumberOfTokens="167"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonPath/ScanMultipleFilter.cs"
+         totalNumberOfTokens="153"/>
+   <file path="Src/Newtonsoft.Json/Linq/JsonSelectSettings.cs"
+         totalNumberOfTokens="39"/>
+   <file path="Src/Newtonsoft.Json/Linq/LineInfoHandling.cs"
+         totalNumberOfTokens="22"/>
+   <file path="Src/Newtonsoft.Json/Linq/MergeArrayHandling.cs"
+         totalNumberOfTokens="30"/>
+   <file path="Src/Newtonsoft.Json/Linq/MergeNullValueHandling.cs"
+         totalNumberOfTokens="28"/>
+   <file path="Src/Newtonsoft.Json/MemberSerialization.cs"
+         totalNumberOfTokens="43"/>
+   <file path="Src/Newtonsoft.Json/MetadataPropertyHandling.cs"
+         totalNumberOfTokens="39"/>
+   <file path="Src/Newtonsoft.Json/MissingMemberHandling.cs"
+         totalNumberOfTokens="35"/>
+   <file path="Src/Newtonsoft.Json/NullValueHandling.cs"
+         totalNumberOfTokens="20"/>
+   <file path="Src/Newtonsoft.Json/ObjectCreationHandling.cs"
+         totalNumberOfTokens="24"/>
+   <file path="Src/Newtonsoft.Json/PreserveReferencesHandling.cs"
+         totalNumberOfTokens="48"/>
+   <file path="Src/Newtonsoft.Json/Properties/AssemblyInfo.cs"
+         totalNumberOfTokens="139"/>
+   <file path="Src/Newtonsoft.Json/ReferenceLoopHandling.cs"
+         totalNumberOfTokens="39"/>
+   <file path="Src/Newtonsoft.Json/Required.cs"
+         totalNumberOfTokens="28"/>
+   <file path="Src/Newtonsoft.Json/Schema/Extensions.cs"
+         totalNumberOfTokens="367"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchema.cs"
+         totalNumberOfTokens="781"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaBuilder.cs"
+         totalNumberOfTokens="2263"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaConstants.cs"
+         totalNumberOfTokens="341"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaException.cs"
+         totalNumberOfTokens="156"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaGenerator.cs"
+         totalNumberOfTokens="2166"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaModel.cs"
+         totalNumberOfTokens="697"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaModelBuilder.cs"
+         totalNumberOfTokens="869"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaNode.cs"
+         totalNumberOfTokens="359"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaNodeCollection.cs"
+         totalNumberOfTokens="54"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaResolver.cs"
+         totalNumberOfTokens="150"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaType.cs"
+         totalNumberOfTokens="75"/>
+   <file path="Src/Newtonsoft.Json/Schema/JsonSchemaWriter.cs"
+         totalNumberOfTokens="1316"/>
+   <file path="Src/Newtonsoft.Json/Schema/UndefinedSchemaIdHandling.cs"
+         totalNumberOfTokens="37"/>
+   <file path="Src/Newtonsoft.Json/Schema/ValidationEventArgs.cs"
+         totalNumberOfTokens="88"/>
+   <file path="Src/Newtonsoft.Json/Schema/ValidationEventHandler.cs"
+         totalNumberOfTokens="32"/>
+   <file path="Src/Newtonsoft.Json/Serialization/CachedAttributeGetter.cs"
+         totalNumberOfTokens="109"/>
+   <file path="Src/Newtonsoft.Json/Serialization/CamelCaseNamingStrategy.cs"
+         totalNumberOfTokens="92"/>
+   <file path="Src/Newtonsoft.Json/Serialization/CamelCasePropertyNamesContractResolver.cs"
+         totalNumberOfTokens="300"/>
+   <file path="Src/Newtonsoft.Json/Serialization/DefaultContractResolver.cs"
+         totalNumberOfTokens="7446"/>
+   <file path="Src/Newtonsoft.Json/Serialization/DefaultNamingStrategy.cs"
+         totalNumberOfTokens="28"/>
+   <file path="Src/Newtonsoft.Json/Serialization/DefaultReferenceResolver.cs"
+         totalNumberOfTokens="246"/>
+   <file path="Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs"
+         totalNumberOfTokens="750"/>
+   <file path="Src/Newtonsoft.Json/Serialization/DiagnosticsTraceWriter.cs"
+         totalNumberOfTokens="227"/>
+   <file path="Src/Newtonsoft.Json/Serialization/DynamicValueProvider.cs"
+         totalNumberOfTokens="329"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ErrorContext.cs"
+         totalNumberOfTokens="101"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ErrorEventArgs.cs"
+         totalNumberOfTokens="55"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ExpressionValueProvider.cs"
+         totalNumberOfTokens="329"/>
+   <file path="Src/Newtonsoft.Json/Serialization/FormatterConverter.cs"
+         totalNumberOfTokens="651"/>
+   <file path="Src/Newtonsoft.Json/Serialization/IAttributeProvider.cs"
+         totalNumberOfTokens="48"/>
+   <file path="Src/Newtonsoft.Json/Serialization/IContractResolver.cs"
+         totalNumberOfTokens="25"/>
+   <file path="Src/Newtonsoft.Json/Serialization/IReferenceResolver.cs"
+         totalNumberOfTokens="58"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ISerializationBinder.cs"
+         totalNumberOfTokens="58"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ITraceWriter.cs"
+         totalNumberOfTokens="48"/>
+   <file path="Src/Newtonsoft.Json/Serialization/IValueProvider.cs"
+         totalNumberOfTokens="34"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonArrayContract.cs"
+         totalNumberOfTokens="1398"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonContainerContract.cs"
+         totalNumberOfTokens="269"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonContract.cs"
+         totalNumberOfTokens="924"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonDictionaryContract.cs"
+         totalNumberOfTokens="935"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonDynamicContract.cs"
+         totalNumberOfTokens="531"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonFormatterConverter.cs"
+         totalNumberOfTokens="588"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonISerializableContract.cs"
+         totalNumberOfTokens="91"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonLinqContract.cs"
+         totalNumberOfTokens="61"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonObjectContract.cs"
+         totalNumberOfTokens="468"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonPrimitiveContract.cs"
+         totalNumberOfTokens="323"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonProperty.cs"
+         totalNumberOfTokens="620"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonPropertyCollection.cs"
+         totalNumberOfTokens="563"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalBase.cs"
+         totalNumberOfTokens="534"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs"
+         totalNumberOfTokens="13573"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs"
+         totalNumberOfTokens="6547"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonSerializerProxy.cs"
+         totalNumberOfTokens="1010"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonStringContract.cs"
+         totalNumberOfTokens="61"/>
+   <file path="Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs"
+         totalNumberOfTokens="2314"/>
+   <file path="Src/Newtonsoft.Json/Serialization/KebabCaseNamingStrategy.cs"
+         totalNumberOfTokens="91"/>
+   <file path="Src/Newtonsoft.Json/Serialization/MemoryTraceWriter.cs"
+         totalNumberOfTokens="278"/>
+   <file path="Src/Newtonsoft.Json/Serialization/NamingStrategy.cs"
+         totalNumberOfTokens="270"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ObjectConstructor.cs"
+         totalNumberOfTokens="26"/>
+   <file path="Src/Newtonsoft.Json/Serialization/OnErrorAttribute.cs"
+         totalNumberOfTokens="33"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ReflectionAttributeProvider.cs"
+         totalNumberOfTokens="119"/>
+   <file path="Src/Newtonsoft.Json/Serialization/ReflectionValueProvider.cs"
+         totalNumberOfTokens="213"/>
+   <file path="Src/Newtonsoft.Json/Serialization/SerializationBinderAdapter.cs"
+         totalNumberOfTokens="116"/>
+   <file path="Src/Newtonsoft.Json/Serialization/SnakeCaseNamingStrategy.cs"
+         totalNumberOfTokens="92"/>
+   <file path="Src/Newtonsoft.Json/Serialization/TraceJsonReader.cs"
+         totalNumberOfTokens="528"/>
+   <file path="Src/Newtonsoft.Json/Serialization/TraceJsonWriter.cs"
+         totalNumberOfTokens="2323"/>
+   <file path="Src/Newtonsoft.Json/SerializationBinder.cs"
+         totalNumberOfTokens="69"/>
+   <file path="Src/Newtonsoft.Json/StringEscapeHandling.cs"
+         totalNumberOfTokens="24"/>
+   <file path="Src/Newtonsoft.Json/TraceLevel.cs"
+         totalNumberOfTokens="39"/>
+   <file path="Src/Newtonsoft.Json/TypeNameAssemblyFormatHandling.cs"
+         totalNumberOfTokens="20"/>
+   <file path="Src/Newtonsoft.Json/TypeNameHandling.cs"
+         totalNumberOfTokens="47"/>
+   <file path="Src/Newtonsoft.Json/Utilities/AsyncUtils.cs"
+         totalNumberOfTokens="501"/>
+   <file path="Src/Newtonsoft.Json/Utilities/Base64Encoder.cs"
+         totalNumberOfTokens="874"/>
+   <file path="Src/Newtonsoft.Json/Utilities/BidirectionalDictionary.cs"
+         totalNumberOfTokens="370"/>
+   <file path="Src/Newtonsoft.Json/Utilities/BoxedPrimitives.cs"
+         totalNumberOfTokens="632"/>
+   <file path="Src/Newtonsoft.Json/Utilities/CollectionUtils.cs"
+         totalNumberOfTokens="1516"/>
+   <file path="Src/Newtonsoft.Json/Utilities/CollectionWrapper.cs"
+         totalNumberOfTokens="1008"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ConvertUtils.cs"
+         totalNumberOfTokens="7469"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DateTimeParser.cs"
+         totalNumberOfTokens="1113"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DateTimeUtils.cs"
+         totalNumberOfTokens="3932"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DictionaryWrapper.cs"
+         totalNumberOfTokens="2194"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DynamicProxy.cs"
+         totalNumberOfTokens="373"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DynamicProxyMetaObject.cs"
+         totalNumberOfTokens="1993"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DynamicReflectionDelegateFactory.cs"
+         totalNumberOfTokens="2261"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DynamicUtils.cs"
+         totalNumberOfTokens="1134"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DynamicallyAccessedMemberTypes.cs"
+         totalNumberOfTokens="84"/>
+   <file path="Src/Newtonsoft.Json/Utilities/DynamicallyAccessedMembersAttribute.cs"
+         totalNumberOfTokens="81"/>
+   <file path="Src/Newtonsoft.Json/Utilities/EnumInfo.cs"
+         totalNumberOfTokens="80"/>
+   <file path="Src/Newtonsoft.Json/Utilities/EnumUtils.cs"
+         totalNumberOfTokens="1972"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ExpressionReflectionDelegateFactory.cs"
+         totalNumberOfTokens="2031"/>
+   <file path="Src/Newtonsoft.Json/Utilities/FSharpUtils.cs"
+         totalNumberOfTokens="1237"/>
+   <file path="Src/Newtonsoft.Json/Utilities/FeatureGuardAttribute.cs"
+         totalNumberOfTokens="53"/>
+   <file path="Src/Newtonsoft.Json/Utilities/FeatureSwitchDefinitionAttribute.cs"
+         totalNumberOfTokens="49"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ILGeneratorExtensions.cs"
+         totalNumberOfTokens="424"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ImmutableCollectionsUtils.cs"
+         totalNumberOfTokens="962"/>
+   <file path="Src/Newtonsoft.Json/Utilities/JavaScriptUtils.cs"
+         totalNumberOfTokens="2858"/>
+   <file path="Src/Newtonsoft.Json/Utilities/JsonTokenUtils.cs"
+         totalNumberOfTokens="158"/>
+   <file path="Src/Newtonsoft.Json/Utilities/LateBoundReflectionDelegateFactory.cs"
+         totalNumberOfTokens="553"/>
+   <file path="Src/Newtonsoft.Json/Utilities/LinqBridge.cs"
+         totalNumberOfTokens="11228"/>
+   <file path="Src/Newtonsoft.Json/Utilities/MathUtils.cs"
+         totalNumberOfTokens="540"/>
+   <file path="Src/Newtonsoft.Json/Utilities/MemoryAdapter.cs"
+         totalNumberOfTokens="315"/>
+   <file path="Src/Newtonsoft.Json/Utilities/MethodBinder.cs"
+         totalNumberOfTokens="1230"/>
+   <file path="Src/Newtonsoft.Json/Utilities/MethodCall.cs"
+         totalNumberOfTokens="31"/>
+   <file path="Src/Newtonsoft.Json/Utilities/MiscellaneousUtils.cs"
+         totalNumberOfTokens="718"/>
+   <file path="Src/Newtonsoft.Json/Utilities/NullableAttributes.cs"
+         totalNumberOfTokens="187"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ReflectionDelegateFactory.cs"
+         totalNumberOfTokens="421"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ReflectionObject.cs"
+         totalNumberOfTokens="807"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ReflectionUtils.cs"
+         totalNumberOfTokens="5003"/>
+   <file path="Src/Newtonsoft.Json/Utilities/RequiresDynamicCodeAttribute.cs"
+         totalNumberOfTokens="67"/>
+   <file path="Src/Newtonsoft.Json/Utilities/RequiresUnreferencedCodeAttribute.cs"
+         totalNumberOfTokens="67"/>
+   <file path="Src/Newtonsoft.Json/Utilities/StringBuffer.cs"
+         totalNumberOfTokens="370"/>
+   <file path="Src/Newtonsoft.Json/Utilities/StringReference.cs"
+         totalNumberOfTokens="361"/>
+   <file path="Src/Newtonsoft.Json/Utilities/StringUtils.cs"
+         totalNumberOfTokens="1658"/>
+   <file path="Src/Newtonsoft.Json/Utilities/StructMultiKey.cs"
+         totalNumberOfTokens="166"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ThreadSafeStore.cs"
+         totalNumberOfTokens="325"/>
+   <file path="Src/Newtonsoft.Json/Utilities/TypeExtensions.cs"
+         totalNumberOfTokens="2843"/>
+   <file path="Src/Newtonsoft.Json/Utilities/UnconditionalSuppressMessageAttribute.cs"
+         totalNumberOfTokens="107"/>
+   <file path="Src/Newtonsoft.Json/Utilities/ValidationUtils.cs"
+         totalNumberOfTokens="65"/>
+   <file path="Src/Newtonsoft.Json/WriteState.cs"
+         totalNumberOfTokens="43"/>
+   <duplication lines="107" tokens="339">
+      <file begintoken="197366"
+            column="41"
+            endcolumn="45"
+            endline="1429"
+            endtoken="197704"
+            line="1323"
+            path="Src/Newtonsoft.Json/Utilities/ConvertUtils.cs"/>
+      <file begintoken="197947"
+            column="43"
+            endcolumn="45"
+            endline="1597"
+            endtoken="198285"
+            line="1491"
+            path="Src/Newtonsoft.Json/Utilities/ConvertUtils.cs"/>
+      <codefragment><![CDATA[            int exponentFromMantissa = 0;
+            for (; i < end; i++)
+            {
+                char c = chars[i];
+                switch (c)
+                {
+                    case '.':
+                        if (i == start)
+                        {
+                            return ParseResult.Invalid;
+                        }
+                        if (i + 1 == end)
+                        {
+                            return ParseResult.Invalid;
+                        }
+
+                        if (numDecimalStart != end)
+                        {
+                            // multiple decimal points
+                            return ParseResult.Invalid;
+                        }
+
+                        numDecimalStart = i + 1;
+                        break;
+                    case 'e':
+                    case 'E':
+                        if (i == start)
+                        {
+                            return ParseResult.Invalid;
+                        }
+                        if (i == numDecimalStart)
+                        {
+                            // E follows decimal point
+                            return ParseResult.Invalid;
+                        }
+                        i++;
+                        if (i == end)
+                        {
+                            return ParseResult.Invalid;
+                        }
+
+                        if (numDecimalStart < end)
+                        {
+                            numDecimalEnd = i - 1;
+                        }
+
+                        c = chars[i];
+                        bool exponentNegative = false;
+                        switch (c)
+                        {
+                            case '-':
+                                exponentNegative = true;
+                                i++;
+                                break;
+                            case '+':
+                                i++;
+                                break;
+                        }
+
+                        // parse 3 digit
+                        for (; i < end; i++)
+                        {
+                            c = chars[i];
+                            if (c < '0' || c > '9')
+                            {
+                                return ParseResult.Invalid;
+                            }
+
+                            int newExponent = (10 * exponent) + (c - '0');
+                            // stops updating exponent when overflowing
+                            if (exponent < newExponent)
+                            {
+                                exponent = newExponent;
+                            }
+                        }
+
+                        if (exponentNegative)
+                        {
+                            exponent = -exponent;
+                        }
+                        break;
+                    default:
+                        if (c < '0' || c > '9')
+                        {
+                            return ParseResult.Invalid;
+                        }
+
+                        if (i == start && c == '0')
+                        {
+                            i++;
+                            if (i != end)
+                            {
+                                c = chars[i];
+                                if (c == '.')
+                                {
+                                    goto case '.';
+                                }
+                                if (c == 'e' || c == 'E')
+                                {
+                                    goto case 'E';
+                                }
+
+                                return ParseResult.Invalid;
+                            }
+                        }
+
+                        if (mantissaDigits < 19)
+]]></codefragment>
+   </duplication>
+   <duplication lines="52" tokens="212">
+      <file begintoken="50822"
+            column="76"
+            endcolumn="27"
+            endline="1303"
+            endtoken="51033"
+            line="1252"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="52451"
+            column="74"
+            endcolumn="27"
+            endline="1677"
+            endtoken="52662"
+            line="1626"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[                                return await ParseNumberNaNAsync(readType, cancellationToken).ConfigureAwait(false);
+                            case 'n':
+                                await HandleNullAsync(cancellationToken).ConfigureAwait(false);
+                                return null;
+                            case '/':
+                                await ParseCommentAsync(false, cancellationToken).ConfigureAwait(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                await ProcessCarriageReturnAsync(false, cancellationToken).ConfigureAwait(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    await ReadFinishedAsync(cancellationToken).ConfigureAwait(false);
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+
+        private async Task<object?> ReadNumberValueAsync(ReadType readType, CancellationToken cancellationToken)
+]]></codefragment>
+   </duplication>
+   <duplication lines="47" tokens="185">
+      <file begintoken="50846"
+            column="44"
+            endcolumn="10"
+            endline="1301"
+            endtoken="51030"
+            line="1255"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="51368"
+            column="45"
+            endcolumn="10"
+            endline="1415"
+            endtoken="51552"
+            line="1369"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="51938"
+            column="46"
+            endcolumn="10"
+            endline="1551"
+            endtoken="52122"
+            line="1505"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="52475"
+            column="44"
+            endcolumn="10"
+            endline="1675"
+            endtoken="52659"
+            line="1629"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[                                return null;
+                            case '/':
+                                await ParseCommentAsync(false, cancellationToken).ConfigureAwait(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                await ProcessCarriageReturnAsync(false, cancellationToken).ConfigureAwait(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    await ReadFinishedAsync(cancellationToken).ConfigureAwait(false);
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+]]></codefragment>
+   </duplication>
+   <duplication lines="50" tokens="176">
+      <file begintoken="55038"
+            column="63"
+            endcolumn="24"
+            endline="603"
+            endtoken="55213"
+            line="554"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="55544"
+            column="63"
+            endcolumn="24"
+            endline="733"
+            endtoken="55719"
+            line="684"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                                return ReadArrayIntoByteArray();
+                            case 'n':
+                                HandleNull();
+                                return null;
+                            case '/':
+                                ParseComment(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                ProcessCarriageReturn(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    ReadFinished();
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+
+        private object? ReadStringValue(ReadType readType)
+]]></codefragment>
+   </duplication>
+   <duplication lines="47" tokens="165">
+      <file begintoken="55049"
+            column="44"
+            endcolumn="24"
+            endline="603"
+            endtoken="55213"
+            line="557"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56614"
+            column="45"
+            endcolumn="24"
+            endline="1019"
+            endtoken="56778"
+            line="973"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                                return null;
+                            case '/':
+                                ParseComment(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                ProcessCarriageReturn(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    ReadFinished();
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+
+        private object? ReadStringValue(ReadType readType)
+]]></codefragment>
+   </duplication>
+   <duplication lines="47" tokens="165">
+      <file begintoken="55555"
+            column="44"
+            endcolumn="24"
+            endline="733"
+            endtoken="55719"
+            line="687"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56614"
+            column="45"
+            endcolumn="24"
+            endline="1019"
+            endtoken="56778"
+            line="973"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                                return null;
+                            case '/':
+                                ParseComment(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                ProcessCarriageReturn(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    ReadFinished();
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+
+        private object? FinishReadQuotedStringValue(ReadType readType)
+]]></codefragment>
+   </duplication>
+   <duplication lines="47" tokens="163">
+      <file begintoken="55049"
+            column="44"
+            endcolumn="16"
+            endline="603"
+            endtoken="55211"
+            line="557"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56155"
+            column="46"
+            endcolumn="16"
+            endline="891"
+            endtoken="56317"
+            line="845"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56614"
+            column="45"
+            endcolumn="16"
+            endline="1019"
+            endtoken="56776"
+            line="973"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                                return null;
+                            case '/':
+                                ParseComment(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                ProcessCarriageReturn(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    ReadFinished();
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+
+        private object? ReadStringValue(ReadType readType)
+]]></codefragment>
+   </duplication>
+   <duplication lines="47" tokens="163">
+      <file begintoken="55555"
+            column="44"
+            endcolumn="16"
+            endline="733"
+            endtoken="55717"
+            line="687"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56155"
+            column="46"
+            endcolumn="16"
+            endline="891"
+            endtoken="56317"
+            line="845"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                                return null;
+                            case '/':
+                                ParseComment(false);
+                                break;
+                            case ',':
+                                ProcessValueComma();
+                                break;
+                            case ']':
+                                _charPos++;
+                                if (_currentState == State.Array || _currentState == State.ArrayStart || _currentState == State.PostValue)
+                                {
+                                    SetToken(JsonToken.EndArray);
+                                    return null;
+                                }
+                                throw CreateUnexpectedCharacterException(currentChar);
+                            case StringUtils.CarriageReturn:
+                                ProcessCarriageReturn(false);
+                                break;
+                            case StringUtils.LineFeed:
+                                ProcessLineFeed();
+                                break;
+                            case ' ':
+                            case StringUtils.Tab:
+                                // eat
+                                _charPos++;
+                                break;
+                            default:
+                                _charPos++;
+
+                                if (!char.IsWhiteSpace(currentChar))
+                                {
+                                    throw CreateUnexpectedCharacterException(currentChar);
+                                }
+
+                                // eat
+                                break;
+                        }
+                    }
+                case State.Finished:
+                    ReadFinished();
+                    return null;
+                default:
+                    throw JsonReaderException.Create(this, "Unexpected state: {0}.".FormatWith(CultureInfo.InvariantCulture, CurrentState));
+            }
+        }
+
+        private object? FinishReadQuotedStringValue(ReadType readType)
+]]></codefragment>
+   </duplication>
+   <duplication lines="37" tokens="161">
+      <file begintoken="50425"
+            column="57"
+            endcolumn="39"
+            endline="1203"
+            endtoken="50585"
+            line="1167"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="51039"
+            column="57"
+            endcolumn="39"
+            endline="1339"
+            endtoken="51199"
+            line="1303"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[        private async Task<object?> ReadStringValueAsync(ReadType readType, CancellationToken cancellationToken)
+        {
+            EnsureBuffer();
+            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (await ParsePostValueAsync(true, cancellationToken).ConfigureAwait(false))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (await ReadNullCharAsync(cancellationToken).ConfigureAwait(false))
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+
+                                break;
+                            case '"':
+                            case '\'':
+                                await ParseStringAsync(currentChar, readType, cancellationToken).ConfigureAwait(false);
+                                return FinishReadQuotedStringValue(readType);
+]]></codefragment>
+   </duplication>
+   <duplication lines="41" tokens="155">
+      <file begintoken="91510"
+            column="30"
+            endcolumn="68"
+            endline="120"
+            endtoken="91664"
+            line="80"
+            path="Src/Newtonsoft.Json/Linq/JContainer.Async.cs"/>
+      <file begintoken="94700"
+            column="25"
+            endcolumn="68"
+            endline="859"
+            endtoken="94854"
+            line="819"
+            path="Src/Newtonsoft.Json/Linq/JContainer.cs"/>
+      <codefragment><![CDATA[               switch (reader.TokenType)
+                {
+                    case JsonToken.None:
+                        // new reader. move to actual content
+                        break;
+                    case JsonToken.StartArray:
+                        JArray a = new JArray();
+                        a.SetLineInfo(lineInfo, settings);
+                        parent.Add(a);
+                        parent = a;
+                        break;
+
+                    case JsonToken.EndArray:
+                        if (parent == this)
+                        {
+                            return;
+                        }
+
+                        parent = parent.Parent;
+                        break;
+                    case JsonToken.StartObject:
+                        JObject o = new JObject();
+                        o.SetLineInfo(lineInfo, settings);
+                        parent.Add(o);
+                        parent = o;
+                        break;
+                    case JsonToken.EndObject:
+                        // The index is only needed while its JObject is being loaded.
+                        if (parent is JObject parentObject)
+                        {
+                            duplicatePropertyIndexes?.Remove(parentObject);
+                        }
+                        if (parent == this)
+                        {
+                            return;
+                        }
+
+                        parent = parent.Parent;
+                        break;
+                    case JsonToken.StartConstructor:
+                        JConstructor constructor = new JConstructor(reader.Value!.ToString()!);
+ ]]></codefragment>
+   </duplication>
+   <duplication lines="36" tokens="146">
+      <file begintoken="50429"
+            column="77"
+            endcolumn="68"
+            endline="1202"
+            endtoken="50574"
+            line="1167"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="51593"
+            column="57"
+            endcolumn="68"
+            endline="1465"
+            endtoken="51738"
+            line="1430"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[        private async Task<object?> ReadStringValueAsync(ReadType readType, CancellationToken cancellationToken)
+        {
+            EnsureBuffer();
+            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (await ParsePostValueAsync(true, cancellationToken).ConfigureAwait(false))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (await ReadNullCharAsync(cancellationToken).ConfigureAwait(false))
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+
+                                break;
+                            case '"':
+                            case '\'':
+                                await ParseStringAsync(currentChar, readType, cancellationToken).ConfigureAwait(false);
+]]></codefragment>
+   </duplication>
+   <duplication lines="36" tokens="146">
+      <file begintoken="51043"
+            column="77"
+            endcolumn="68"
+            endline="1338"
+            endtoken="51188"
+            line="1303"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="51593"
+            column="57"
+            endcolumn="68"
+            endline="1465"
+            endtoken="51738"
+            line="1430"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[        private async Task<object?> ReadNumberValueAsync(ReadType readType, CancellationToken cancellationToken)
+        {
+            EnsureBuffer();
+            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (await ParsePostValueAsync(true, cancellationToken).ConfigureAwait(false))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (await ReadNullCharAsync(cancellationToken).ConfigureAwait(false))
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+
+                                break;
+                            case '"':
+                            case '\'':
+                                await ParseStringAsync(currentChar, readType, cancellationToken).ConfigureAwait(false);
+]]></codefragment>
+   </duplication>
+   <duplication lines="43" tokens="145">
+      <file begintoken="219685"
+            column="25"
+            endcolumn="56"
+            endline="231"
+            endtoken="219829"
+            line="189"
+            path="Src/Newtonsoft.Json/Utilities/JavaScriptUtils.cs"/>
+      <file begintoken="221003"
+            column="17"
+            endcolumn="48"
+            endline="510"
+            endtoken="221147"
+            line="468"
+            path="Src/Newtonsoft.Json/Utilities/JavaScriptUtils.cs"/>
+      <codefragment><![CDATA[                        switch (c)
+                        {
+                            case '\t':
+                                escapedValue = @"\t";
+                                break;
+                            case '\n':
+                                escapedValue = @"\n";
+                                break;
+                            case '\r':
+                                escapedValue = @"\r";
+                                break;
+                            case '\f':
+                                escapedValue = @"\f";
+                                break;
+                            case '\b':
+                                escapedValue = @"\b";
+                                break;
+                            case '\\':
+                                escapedValue = @"\\";
+                                break;
+                            case '\u0085': // Next Line
+                                escapedValue = @"\u0085";
+                                break;
+                            case '\u2028': // Line Separator
+                                escapedValue = @"\u2028";
+                                break;
+                            case '\u2029': // Paragraph Separator
+                                escapedValue = @"\u2029";
+                                break;
+                            default:
+                                if (c < charEscapeFlags.Length || stringEscapeHandling == StringEscapeHandling.EscapeNonAscii)
+                                {
+                                    if (c == '\'' && stringEscapeHandling != StringEscapeHandling.EscapeHtml)
+                                    {
+                                        escapedValue = @"\'";
+                                    }
+                                    else if (c == '"' && stringEscapeHandling != StringEscapeHandling.EscapeHtml)
+                                    {
+                                        escapedValue = @"\""";
+                                    }
+                                    else
+                                    {
+                                        if (writeBuffer == null || writeBuffer.Length < UnicodeTextLength)
+]]></codefragment>
+   </duplication>
+   <duplication lines="46" tokens="136">
+      <file begintoken="47713"
+            column="120"
+            endcolumn="48"
+            endline="518"
+            endtoken="47848"
+            line="473"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="57475"
+            column="70"
+            endcolumn="48"
+            endline="1270"
+            endtoken="57610"
+            line="1225"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                                            writeChar = await ParseUnicodeAsync(cancellationToken).ConfigureAwait(false);
+
+                                            if (StringUtils.IsLowSurrogate(writeChar))
+                                            {
+                                                // a valid surrogate pair!
+                                            }
+                                            else if (StringUtils.IsHighSurrogate(writeChar))
+                                            {
+                                                // another high surrogate; replace current and start check over
+                                                highSurrogate = UnicodeReplacementChar;
+                                                anotherHighSurrogate = true;
+                                            }
+                                            else
+                                            {
+                                                // high surrogate not followed by low surrogate; original char is replaced
+                                                highSurrogate = UnicodeReplacementChar;
+                                            }
+
+                                            EnsureBufferNotEmpty();
+
+                                            WriteCharToBuffer(highSurrogate, lastWritePosition, escapeStartPos);
+                                            lastWritePosition = _charPos;
+                                        }
+                                        else
+                                        {
+                                            // there are not enough remaining chars for the low surrogate or is not follow by unicode sequence
+                                            // replace high surrogate and continue on as usual
+                                            writeChar = UnicodeReplacementChar;
+                                        }
+                                    } while (anotherHighSurrogate);
+                                }
+
+                                charPos = _charPos;
+                                break;
+                            default:
+                                _charPos = charPos;
+                                throw JsonReaderException.Create(this, "Bad JSON escape sequence: {0}.".FormatWith(CultureInfo.InvariantCulture, @"\" + currentChar));
+                        }
+
+                        EnsureBufferNotEmpty();
+                        WriteCharToBuffer(writeChar, lastWritePosition, escapeStartPos);
+
+                        lastWritePosition = charPos;
+                        break;
+                    case StringUtils.CarriageReturn:
+                        _charPos = charPos - 1;
+]]></codefragment>
+   </duplication>
+   <duplication lines="36" tokens="135">
+      <file begintoken="55215"
+            column="40"
+            endcolumn="39"
+            endline="638"
+            endtoken="55349"
+            line="603"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56366"
+            column="40"
+            endcolumn="39"
+            endline="943"
+            endtoken="56500"
+            line="908"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[        private object? ReadStringValue(ReadType readType)
+        {
+            EnsureBuffer();
+            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (ParsePostValue(true))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (ReadNullChar())
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+                                break;
+                            case '"':
+                            case '\'':
+                                ParseString(currentChar, readType);
+                                return FinishReadQuotedStringValue(readType);
+]]></codefragment>
+   </duplication>
+   <duplication lines="33" tokens="132">
+      <file begintoken="51609"
+            column="54"
+            endcolumn="78"
+            endline="1465"
+            endtoken="51740"
+            line="1433"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="52188"
+            column="35"
+            endcolumn="78"
+            endline="1603"
+            endtoken="52319"
+            line="1571"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (await ParsePostValueAsync(true, cancellationToken).ConfigureAwait(false))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (await ReadNullCharAsync(cancellationToken).ConfigureAwait(false))
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+
+                                break;
+                            case '"':
+                            case '\'':
+                                await ParseStringAsync(currentChar, ReadType.Read, cancellationToken).ConfigureAwait(false);
+]]></codefragment>
+   </duplication>
+   <duplication lines="33" tokens="130">
+      <file begintoken="50445"
+            column="54"
+            endcolumn="68"
+            endline="1202"
+            endtoken="50574"
+            line="1170"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="52188"
+            column="35"
+            endcolumn="68"
+            endline="1603"
+            endtoken="52317"
+            line="1571"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (await ParsePostValueAsync(true, cancellationToken).ConfigureAwait(false))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (await ReadNullCharAsync(cancellationToken).ConfigureAwait(false))
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+
+                                break;
+                            case '"':
+                            case '\'':
+                                await ParseStringAsync(currentChar, readType, cancellationToken).ConfigureAwait(false);
+]]></codefragment>
+   </duplication>
+   <duplication lines="33" tokens="130">
+      <file begintoken="51059"
+            column="54"
+            endcolumn="68"
+            endline="1338"
+            endtoken="51188"
+            line="1306"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="52188"
+            column="35"
+            endcolumn="68"
+            endline="1603"
+            endtoken="52317"
+            line="1571"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <codefragment><![CDATA[            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (await ParsePostValueAsync(true, cancellationToken).ConfigureAwait(false))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (await ReadNullCharAsync(cancellationToken).ConfigureAwait(false))
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+
+                                break;
+                            case '"':
+                            case '\'':
+                                await ParseStringAsync(currentChar, readType, cancellationToken).ConfigureAwait(false);
+]]></codefragment>
+   </duplication>
+   <duplication lines="35" tokens="128">
+      <file begintoken="55218"
+            column="58"
+            endcolumn="57"
+            endline="637"
+            endtoken="55345"
+            line="603"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="55848"
+            column="45"
+            endcolumn="57"
+            endline="804"
+            endtoken="55975"
+            line="770"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56369"
+            column="58"
+            endcolumn="57"
+            endline="942"
+            endtoken="56496"
+            line="908"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[        private object? ReadStringValue(ReadType readType)
+        {
+            EnsureBuffer();
+            MiscellaneousUtils.Assert(_chars != null);
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (ParsePostValue(true))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (ReadNullChar())
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+                                break;
+                            case '"':
+                            case '\'':
+                                ParseString(currentChar, readType);
+]]></codefragment>
+   </duplication>
+   <duplication lines="41" tokens="127">
+      <file begintoken="47486"
+            column="101"
+            endcolumn="44"
+            endline="451"
+            endtoken="47612"
+            line="411"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="57270"
+            column="49"
+            endcolumn="44"
+            endline="1203"
+            endtoken="57396"
+            line="1163"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[                        if (!await EnsureCharsAsync(0, true, cancellationToken).ConfigureAwait(false))
+                        {
+                            throw JsonReaderException.Create(this, "Unterminated string. Expected delimiter: {0}.".FormatWith(CultureInfo.InvariantCulture, quote));
+                        }
+
+                        // start of escape sequence
+                        int escapeStartPos = charPos - 1;
+
+                        char currentChar = _chars[charPos];
+                        charPos++;
+
+                        char writeChar;
+
+                        switch (currentChar)
+                        {
+                            case 'b':
+                                writeChar = '\b';
+                                break;
+                            case 't':
+                                writeChar = '\t';
+                                break;
+                            case 'n':
+                                writeChar = '\n';
+                                break;
+                            case 'f':
+                                writeChar = '\f';
+                                break;
+                            case 'r':
+                                writeChar = '\r';
+                                break;
+                            case '\\':
+                                writeChar = '\\';
+                                break;
+                            case '"':
+                            case '\'':
+                            case '/':
+                                writeChar = currentChar;
+                                break;
+                            case 'u':
+                                _charPos = charPos;
+                                writeChar = await ParseUnicodeAsync(cancellationToken).ConfigureAwait(false);
+]]></codefragment>
+   </duplication>
+   <duplication lines="32" tokens="123">
+      <file begintoken="149843"
+            column="62"
+            endcolumn="29"
+            endline="102"
+            endtoken="149965"
+            line="71"
+            path="Src/Newtonsoft.Json/Serialization/DynamicValueProvider.cs"/>
+      <file begintoken="150331"
+            column="65"
+            endcolumn="29"
+            endline="103"
+            endtoken="150453"
+            line="72"
+            path="Src/Newtonsoft.Json/Serialization/ExpressionValueProvider.cs"/>
+      <codefragment><![CDATA[                   _setter = DynamicReflectionDelegateFactory.Instance.CreateSet<object>(_memberInfo);
+                }
+
+#if DEBUG
+                // dynamic method doesn't check whether the type is 'legal' to set
+                // add this check for unit tests
+                if (value != null && !ReflectionUtils.GetMemberUnderlyingType(_memberInfo).IsAssignableFrom(value.GetType()))
+                {
+                    throw new JsonSerializationException("Incompatible value. Cannot set {0} to type {1}.".FormatWith(CultureInfo.InvariantCulture, _memberInfo, value.GetType()));
+                }
+#endif
+
+                _setter(target, value);
+            }
+            catch (Exception ex)
+            {
+                throw new JsonSerializationException("Error setting value to '{0}' on '{1}'.".FormatWith(CultureInfo.InvariantCulture, _memberInfo.Name, target.GetType()), ex);
+            }
+        }
+
+        /// <summary>
+        /// Gets the value.
+        /// </summary>
+        /// <param name="target">The target to get the value from.</param>
+        /// <returns>The value.</returns>
+        public object? GetValue(object target)
+        {
+            try
+            {
+                if (_getter == null)
+                {
+                    _getter = DynamicReflectionDelegateFactory.Instance.CreateGet<object>(_memberInfo);
+ ]]></codefragment>
+   </duplication>
+   <duplication lines="32" tokens="116">
+      <file begintoken="54813"
+            column="35"
+            endcolumn="67"
+            endline="533"
+            endtoken="54928"
+            line="502"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="55862"
+            column="54"
+            endcolumn="67"
+            endline="804"
+            endtoken="55977"
+            line="773"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[            bool isWrapped = false;
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (ParsePostValue(true))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (ReadNullChar())
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+                                break;
+                            case '"':
+                            case '\'':
+                                ParseString(currentChar, ReadType.ReadAsBytes);
+]]></codefragment>
+   </duplication>
+   <duplication lines="32" tokens="114">
+      <file begintoken="54813"
+            column="35"
+            endcolumn="57"
+            endline="533"
+            endtoken="54926"
+            line="502"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="55232"
+            column="54"
+            endcolumn="57"
+            endline="637"
+            endtoken="55345"
+            line="606"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <file begintoken="56383"
+            column="54"
+            endcolumn="57"
+            endline="942"
+            endtoken="56496"
+            line="911"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[            bool isWrapped = false;
+
+            switch (_currentState)
+            {
+                case State.PostValue:
+                    if (ParsePostValue(true))
+                    {
+                        return null;
+                    }
+                    goto case State.Start;
+                case State.Start:
+                case State.Property:
+                case State.Array:
+                case State.ArrayStart:
+                case State.Constructor:
+                case State.ConstructorStart:
+                    while (true)
+                    {
+                        char currentChar = _chars[_charPos];
+
+                        switch (currentChar)
+                        {
+                            case '\0':
+                                if (ReadNullChar())
+                                {
+                                    SetToken(JsonToken.None, null, false);
+                                    return null;
+                                }
+                                break;
+                            case '"':
+                            case '\'':
+                                ParseString(currentChar, ReadType.ReadAsBytes);
+]]></codefragment>
+   </duplication>
+   <duplication lines="32" tokens="107">
+      <file begintoken="48404"
+            column="85"
+            endcolumn="33"
+            endline="698"
+            endtoken="48510"
+            line="667"
+            path="Src/Newtonsoft.Json/JsonTextReader.Async.cs"/>
+      <file begintoken="61449"
+            column="33"
+            endcolumn="33"
+            endline="2301"
+            endtoken="61555"
+            line="2270"
+            path="Src/Newtonsoft.Json/JsonTextReader.cs"/>
+      <codefragment><![CDATA[            if (!await EnsureCharsAsync(1, false, cancellationToken).ConfigureAwait(false))
+            {
+                throw JsonReaderException.Create(this, "Unexpected end while parsing comment.");
+            }
+
+            bool singlelineComment;
+
+            if (_chars[_charPos] == '*')
+            {
+                singlelineComment = false;
+            }
+            else if (_chars[_charPos] == '/')
+            {
+                singlelineComment = true;
+            }
+            else
+            {
+                throw JsonReaderException.Create(this, "Error parsing comment. Expected: *, got {0}.".FormatWith(CultureInfo.InvariantCulture, _chars[_charPos]));
+            }
+
+            _charPos++;
+
+            int initialPosition = _charPos;
+
+            while (true)
+            {
+                switch (_chars[_charPos])
+                {
+                    case '\0':
+                        if (_charsUsed == _charPos)
+                        {
+                            if (await ReadDataAsync(true, cancellationToken).ConfigureAwait(false) == 0)
+]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="101">
+      <file begintoken="91807"
+            column="59"
+            endcolumn="59"
+            endline="162"
+            endtoken="91907"
+            line="146"
+            path="Src/Newtonsoft.Json/Linq/JContainer.Async.cs"/>
+      <file begintoken="94997"
+            column="54"
+            endcolumn="59"
+            endline="901"
+            endtoken="95097"
+            line="885"
+            path="Src/Newtonsoft.Json/Linq/JContainer.cs"/>
+      <codefragment><![CDATA[                           v = JValue.CreateComment(reader.Value!.ToString());
+                            v.SetLineInfo(lineInfo, settings);
+                            parent.Add(v);
+                        }
+                        break;
+                    case JsonToken.Null:
+                        v = JValue.CreateNull();
+                        v.SetLineInfo(lineInfo, settings);
+                        parent.Add(v);
+                        break;
+                    case JsonToken.Undefined:
+                        v = JValue.CreateUndefined();
+                        v.SetLineInfo(lineInfo, settings);
+                        parent.Add(v);
+                        break;
+                    case JsonToken.PropertyName:
+                        JProperty? property = ReadProperty(reader, settings, lineInfo, parent, ref duplicatePropertyIndexes);
+ ]]></codefragment>
+   </duplication>
+</pmd-cpd>

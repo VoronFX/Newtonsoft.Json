@@ -1,0 +1,51 @@
+@startuml f1_cycles
+skinparam defaultFontName "DejaVu Sans"
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam ArrowFontSize 12
+skinparam nodesep 50
+skinparam ranksep 80
+title Фрагмент 1. Зворотні залежності, що замикають пакети в єдиний цикл
+package "Core (шар 1)" {
+  component "JsonSerializer\nJsonSerializerSettings" as JS #FFD8A8
+  component "JsonReader\nJsonTextReader" as JR #FFD8A8
+  component "JsonConvert" as JC #FFD8A8
+  component "JsonValidatingReader\n[Obsolete]" as JVR #FFF4E6;line.dashed
+  component "DateFormatHandling, JsonToken,\nIArrayPool<T>, TypeNameAssemblyFormatHandling" as EN #FFF4E6
+}
+package "Serialization (шар 2)" {
+  component "DefaultContractResolver" as DCR #E8590C;line:C92A2A;line.bold
+  component "JsonTypeReflector" as JTR #FFA94D
+  component "IContractResolver, NamingStrategy,\nObjectConstructor<T>, ErrorEventArgs" as SI #FFD8A8
+}
+package "Utilities (шар 0)" {
+  component "ReflectionObject, FSharpUtils, DynamicUtils,\nImmutableCollectionsUtils, EnumUtils,\nDynamicReflectionDelegateFactory" as UT #FFA94D
+  component "JavaScriptUtils, DateTimeUtils,\nBufferUtils, StringBuffer, JsonTokenUtils" as UT2 #FFA94D
+}
+package "Converters (шар 3)" {
+  component "XmlNodeConverter, RegexConverter,\nDataSetConverter, … (11 шт.)" as CV #FFD8A8
+}
+package "Schema (шар 3) [Obsolete]" {
+  component "JsonSchema, JsonSchemaGenerator" as SC #FFF4E6;line.dashed
+}
+DCR -[#868E96]-> JTR
+JS -[#C92A2A,dashed,thickness=2]-> DCR : <color:#C92A2A>**23**</color>
+JS -[#C92A2A,dashed,thickness=2]-> SI
+JR -[#C92A2A,dashed,thickness=2]-> JTR
+UT -[#C92A2A,dashed,thickness=2]-> JTR : <color:#C92A2A>**15**</color>
+UT -[#C92A2A,dashed,thickness=2]-> SI
+UT2 -[#C92A2A,dashed,thickness=2]-> EN : <color:#C92A2A>**11**</color>
+DCR -[#C92A2A,dashed,thickness=2]-> CV : <color:#C92A2A>**11**</color>
+CV -[#868E96]-> DCR : 6
+JC -[#C92A2A,dashed,thickness=2]-> CV : <color:#C92A2A>**1**</color>
+JVR -[#C92A2A,dashed,thickness=2]-> SC : <color:#C92A2A>**8**</color>
+legend right
+<color:#C92A2A>- - →</color> залежність проти шарів або між рівноправними пакетами (89 пар від 30 типів)
+<color:#868E96>—→</color> допустима залежність
+Числа — кількість пар «тип → тип»: Core→Serialization 23,
+Utilities→Serialization 15, Utilities→Core 11, Serialization→Converters 11,
+Core→Schema 8 (через застарілий JsonValidatingReader), Core→Converters 1
+Без червоних ребер найбільша компонента сильної зв'язності
+зменшується зі 127 до 16 типів і не виходить за межі одного пакета
+endlegend
+@enduml

@@ -1,0 +1,63 @@
+@startuml components_packages
+skinparam defaultFontName "DejaVu Sans"
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam ArrowColor #868E96
+skinparam ArrowFontSize 11
+skinparam ComponentBorderColor #495057
+skinparam nodesep 40
+skinparam ranksep 70
+title Діаграма компонентів Src/Newtonsoft.Json (рівень пакетів)\nкоміт 52fa3aef; ребро = кількість пар «тип → тип» між пакетами (Roslyn)
+top to bottom direction
+package "Newtonsoft.Json.dll" {
+  component "**Utilities**\nReflectionUtils, ConvertUtils,\nStringUtils, MiscellaneousUtils…\n<size:10>58 типів · 10463 рядків · Ca+Ce=376</size>" as Utilities #FFA94D
+  component "**Core**\nJsonReader/Writer, JsonTextReader/Writer,\nJsonSerializer, JsonConvert, атрибути, enum\n<size:10>53 типів · 17286 рядків · Ca+Ce=415</size>" as Core #E8590C;line:C92A2A;line.bold
+  component "**Linq**\nJToken, JObject, JArray, JValue\n<size:10>26 типів · 9975 рядків · Ca+Ce=199</size>" as Linq #FFD8A8
+  component "**Linq.JsonPath**\nJPath, фільтри запитів\n<size:10>16 типів · 1628 рядків · Ca+Ce=65</size>" as Linq_JsonPath #FFF4E6
+  component "**Bson**\nBsonReader/Writer [Obsolete]\n<size:10>16 типів · 1775 рядків · Ca+Ce=21</size>" as Bson #FFF4E6;line.dashed;line:495057
+  component "**Serialization**\nконтракти, DefaultContractResolver,\nInternalReader/Writer\n<size:10>52 типів · 10235 рядків · Ca+Ce=345</size>" as Serialization #FFA94D
+  component "**Converters**\nJsonConverter-и (Xml, DataSet,\nRegex, Enum, Date, Union…)\n<size:10>38 типів · 4801 рядків · Ca+Ce=208</size>" as Converters #FFA94D
+  component "**Schema**\nJsonSchema* [Obsolete]\n<size:10>16 типів · 2162 рядків · Ca+Ce=65</size>" as Schema #FFF4E6;line.dashed;line:495057
+}
+Serialization -[#868E96,thickness=3]-> Utilities : 134
+Serialization -[#868E96,thickness=3]-> Core : 115
+Converters -[#868E96,thickness=3]-> Core : 103
+Converters -[#868E96,thickness=2]-> Utilities : 61
+Linq -[#868E96,thickness=2]-> Core : 61
+Core -[#868E96,thickness=2]-> Utilities : 58
+Linq -[#868E96,thickness=2]-> Utilities : 56
+Linq_JsonPath -[#868E96,thickness=2]-> Linq : 47
+Core -[#C92A2A,dashed,thickness=2]-> Serialization : <color:#C92A2A>**23**</color>
+Converters -[#868E96,thickness=1]-> Serialization : 22
+Schema -[#868E96,thickness=1]-> Utilities : 21
+Schema -[#868E96,thickness=1]-> Core : 17
+Utilities -[#C92A2A,dashed,thickness=2]-> Serialization : <color:#C92A2A>**15**</color>
+Serialization -[#C92A2A,dashed,thickness=2]-> Linq : <color:#C92A2A>**13**</color>
+Serialization -[#C92A2A,dashed,thickness=2]-> Converters : <color:#C92A2A>**11**</color>
+Utilities -[#C92A2A,dashed,thickness=2]-> Core : <color:#C92A2A>**11**</color>
+Bson -[#868E96,thickness=1]-> Utilities : 10
+Linq_JsonPath -[#868E96,thickness=1]-> Utilities : 10
+Schema -[#868E96,thickness=1]-> Serialization : 10
+Schema -[#868E96,thickness=1]-> Linq : 9
+Core -[#C92A2A,dashed,thickness=2]-> Schema : <color:#C92A2A>**8**</color>
+Bson -[#868E96,thickness=1]-> Core : 7
+Converters -[#868E96,thickness=1]-> Linq : 7
+Linq_JsonPath -[#868E96,thickness=1]-> Core : 7
+Core -[#C92A2A,dashed,thickness=2]-> Linq : <color:#C92A2A>**4**</color>
+Converters -[#868E96,thickness=1]-> Bson : 3
+Bson -[#C92A2A,dashed,thickness=2]-> Serialization : <color:#C92A2A>**1**</color>
+Core -[#C92A2A,dashed,thickness=2]-> Converters : <color:#C92A2A>**1**</color>
+Linq -[#C92A2A,dashed,thickness=2]-> Linq_JsonPath : <color:#C92A2A>**1**</color>
+Linq -[#C92A2A,dashed,thickness=2]-> Serialization : <color:#C92A2A>**1**</color>
+legend right
+|= Позначення |= Значення |
+|<#E8590C>      | хаб: Ca+Ce ≥ 400 пар залежностей (жирна червона рамка) |
+|<#FFA94D>      | 200–399 пар |
+|<#FFD8A8>      | 80–199 пар |
+|<#FFF4E6>      | < 80 пар |
+| <color:#868E96>—→</color> | залежність «згори вниз» за очікуваними шарами (товщина ~ кількість) |
+| <color:#C92A2A>- - →</color> | залежність проти шарів / між рівноправними пакетами (утворює цикл) |
+| пунктирна рамка | пакет повністю позначений [Obsolete] |
+| шари | Utilities(0) ← Core(1) ← Linq, Bson, Serialization(2) ← Linq.JsonPath, Converters, Schema(3) |
+endlegend
+@enduml

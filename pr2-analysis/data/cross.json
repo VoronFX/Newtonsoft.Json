@@ -1,0 +1,1535 @@
+[
+ {
+  "src": "Bson",
+  "dst": "Core",
+  "n": 7,
+  "kind": "down",
+  "examples": {
+   "BsonReader": [
+    "FloatParseHandling",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonToken"
+   ],
+   "BsonWriter": [
+    "JsonToken",
+    "JsonWriter",
+    "JsonWriterException"
+   ]
+  }
+ },
+ {
+  "src": "Bson",
+  "dst": "Serialization",
+  "n": 1,
+  "kind": "peer",
+  "examples": {
+   "BsonReader": [
+    "JsonTypeReflector"
+   ]
+  }
+ },
+ {
+  "src": "Bson",
+  "dst": "Utilities",
+  "n": 10,
+  "kind": "down",
+  "examples": {
+   "BsonReader": [
+    "DateTimeUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "BsonWriter": [
+    "DateTimeUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "BsonBinaryWriter": [
+    "DateTimeUtils",
+    "MathUtils",
+    "StringUtils"
+   ],
+   "BsonObjectId": [
+    "ValidationUtils"
+   ]
+  }
+ },
+ {
+  "src": "Converters",
+  "dst": "Bson",
+  "n": 3,
+  "kind": "down",
+  "examples": {
+   "BsonObjectIdConverter": [
+    "BsonObjectId",
+    "BsonWriter"
+   ],
+   "RegexConverter": [
+    "BsonWriter"
+   ]
+  }
+ },
+ {
+  "src": "Converters",
+  "dst": "Core",
+  "n": 103,
+  "kind": "down",
+  "examples": {
+   "CustomCreationConverter<T>": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "EntityKeyMemberConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "DataSetConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "IsoDateTimeConverter": [
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "ExpandoObjectConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "BsonObjectIdConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "XmlNodeConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "DateTimeConverterBase": [
+    "JsonConverter"
+   ],
+   "VersionConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "UnionConverter": [
+    "JsonConvert",
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter",
+    "MetadataPropertyHandling",
+    "TypeNameHandling"
+   ],
+   "JavaScriptDateTimeConverter": [
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "DiscriminatedUnionConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "DataTableConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter",
+    "NullValueHandling"
+   ],
+   "BinaryConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "UnixDateTimeConverter": [
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "RegexConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "StringEnumConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "KeyValuePairConverter": [
+    "JsonConverter",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter"
+   ]
+  }
+ },
+ {
+  "src": "Converters",
+  "dst": "Linq",
+  "n": 7,
+  "kind": "down",
+  "examples": {
+   "UnionConverter": [
+    "JObject",
+    "JProperty",
+    "JToken",
+    "JTokenType"
+   ],
+   "DiscriminatedUnionConverter": [
+    "JArray",
+    "JContainer",
+    "JToken"
+   ]
+  }
+ },
+ {
+  "src": "Converters",
+  "dst": "Serialization",
+  "n": 22,
+  "kind": "down",
+  "examples": {
+   "EntityKeyMemberConverter": [
+    "DefaultContractResolver",
+    "JsonSerializerInternalWriter",
+    "ObjectConstructor<T>"
+   ],
+   "DataSetConverter": [
+    "DefaultContractResolver"
+   ],
+   "XmlNodeConverter": [
+    "JsonTypeReflector"
+   ],
+   "UnionConverter": [
+    "IContractResolver",
+    "ISerializationBinder",
+    "JsonContract",
+    "JsonContractType",
+    "JsonTypeReflector",
+    "ObjectConstructor<T>"
+   ],
+   "DiscriminatedUnionConverter": [
+    "DefaultContractResolver"
+   ],
+   "DataTableConverter": [
+    "DefaultContractResolver"
+   ],
+   "BinaryConverter": [
+    "ObjectConstructor<T>"
+   ],
+   "RegexConverter": [
+    "DefaultContractResolver"
+   ],
+   "StringEnumConverter": [
+    "CamelCaseNamingStrategy",
+    "JsonTypeReflector",
+    "NamingStrategy"
+   ],
+   "KeyValuePairConverter": [
+    "DefaultContractResolver",
+    "IContractResolver",
+    "JsonContract",
+    "ObjectConstructor<T>"
+   ]
+  }
+ },
+ {
+  "src": "Converters",
+  "dst": "Utilities",
+  "n": 61,
+  "kind": "down",
+  "examples": {
+   "CustomCreationConverter<T>": [
+    "MiscellaneousUtils"
+   ],
+   "EntityKeyMemberConverter": [
+    "MiscellaneousUtils",
+    "ReflectionObject",
+    "StringUtils",
+    "TypeExtensions"
+   ],
+   "DataSetConverter": [
+    "MiscellaneousUtils"
+   ],
+   "IsoDateTimeConverter": [
+    "MiscellaneousUtils",
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "ExpandoObjectConverter": [
+    "JsonTokenUtils",
+    "StringUtils"
+   ],
+   "BsonObjectIdConverter": [
+    "StringUtils"
+   ],
+   "XDocumentWrapper": [
+    "MiscellaneousUtils"
+   ],
+   "XElementWrapper": [
+    "StringUtils"
+   ],
+   "XmlNodeConverter": [
+    "DateTimeUtils",
+    "JsonTokenUtils",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "TypeExtensions"
+   ],
+   "VersionConverter": [
+    "StringUtils"
+   ],
+   "UnionConverter": [
+    "ConvertUtils",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "ReflectionDelegateFactory",
+    "ReflectionUtils",
+    "StringUtils",
+    "StructMultiKey<T1, T2>",
+    "ThreadSafeStore<TKey, TValue>",
+    "TypeExtensions"
+   ],
+   "JavaScriptDateTimeConverter": [
+    "DateTimeUtils",
+    "JavaScriptUtils",
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "DiscriminatedUnionConverter": [
+    "FSharpFunction",
+    "FSharpUtils",
+    "MethodCall<T, TResult>",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ThreadSafeStore<TKey, TValue>",
+    "TypeExtensions"
+   ],
+   "DataTableConverter": [
+    "MiscellaneousUtils",
+    "StringUtils"
+   ],
+   "BinaryConverter": [
+    "MiscellaneousUtils",
+    "ReflectionObject",
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "UnixDateTimeConverter": [
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "RegexConverter": [
+    "MiscellaneousUtils"
+   ],
+   "StringEnumConverter": [
+    "ConvertUtils",
+    "EnumUtils",
+    "MiscellaneousUtils",
+    "ReflectionUtils",
+    "StringUtils",
+    "TypeExtensions",
+    "ValidationUtils"
+   ],
+   "KeyValuePairConverter": [
+    "MiscellaneousUtils",
+    "ReflectionObject",
+    "ReflectionUtils",
+    "ThreadSafeStore<TKey, TValue>",
+    "TypeExtensions"
+   ]
+  }
+ },
+ {
+  "src": "Core",
+  "dst": "Converters",
+  "n": 1,
+  "kind": "UP",
+  "examples": {
+   "JsonConvert": [
+    "XmlNodeConverter"
+   ]
+  }
+ },
+ {
+  "src": "Core",
+  "dst": "Linq",
+  "n": 4,
+  "kind": "UP",
+  "examples": {
+   "JsonValidatingReader": [
+    "JToken",
+    "JTokenType",
+    "JTokenWriter",
+    "JValue"
+   ]
+  }
+ },
+ {
+  "src": "Core",
+  "dst": "Schema",
+  "n": 8,
+  "kind": "UP",
+  "examples": {
+   "JsonValidatingReader": [
+    "JsonSchema",
+    "JsonSchemaException",
+    "JsonSchemaGenerator",
+    "JsonSchemaModel",
+    "JsonSchemaModelBuilder",
+    "JsonSchemaType",
+    "ValidationEventArgs",
+    "ValidationEventHandler"
+   ]
+  }
+ },
+ {
+  "src": "Core",
+  "dst": "Serialization",
+  "n": 23,
+  "kind": "UP",
+  "examples": {
+   "JsonReader": [
+    "JsonContract",
+    "JsonTypeReflector"
+   ],
+   "JsonTextReader": [
+    "JsonTypeReflector"
+   ],
+   "JsonSerializerSettings": [
+    "ErrorEventArgs",
+    "IContractResolver",
+    "IReferenceResolver",
+    "ISerializationBinder",
+    "ITraceWriter",
+    "SerializationBinderAdapter"
+   ],
+   "JsonContainerAttribute": [
+    "NamingStrategy"
+   ],
+   "JsonSerializer": [
+    "DefaultContractResolver",
+    "DefaultReferenceResolver",
+    "DefaultSerializationBinder",
+    "ErrorEventArgs",
+    "IContractResolver",
+    "IReferenceResolver",
+    "ISerializationBinder",
+    "ITraceWriter",
+    "JsonSerializerInternalReader",
+    "JsonSerializerInternalWriter",
+    "SerializationBinderAdapter",
+    "TraceJsonReader",
+    "TraceJsonWriter"
+   ]
+  }
+ },
+ {
+  "src": "Core",
+  "dst": "Utilities",
+  "n": 58,
+  "kind": "down",
+  "examples": {
+   "JsonReader": [
+    "AsyncUtils",
+    "CollectionUtils",
+    "ConvertUtils",
+    "DateTimeUtils",
+    "JsonTokenUtils",
+    "ParseResult",
+    "StringUtils"
+   ],
+   "JsonWriter": [
+    "AsyncUtils",
+    "ConvertUtils",
+    "DateTimeUtils",
+    "EnumInfo",
+    "EnumUtils",
+    "JavaScriptUtils",
+    "JsonTokenUtils",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "StringUtils",
+    "TypeInformation",
+    "ValidationUtils"
+   ],
+   "JsonTextReader": [
+    "AsyncUtils",
+    "BoxedPrimitives",
+    "BufferUtils",
+    "CollectionUtils",
+    "ConvertUtils",
+    "DateTimeUtils",
+    "MiscellaneousUtils",
+    "ParseResult",
+    "StringBuffer",
+    "StringReference",
+    "StringUtils"
+   ],
+   "JsonConvert": [
+    "ConvertUtils",
+    "DateTimeUtils",
+    "JavaScriptUtils",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JsonConverter<T>": [
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "JsonTextWriter": [
+    "AsyncUtils",
+    "Base64Encoder",
+    "BufferUtils",
+    "ConvertUtils",
+    "DateTimeUtils",
+    "JavaScriptUtils",
+    "MathUtils",
+    "MiscellaneousUtils",
+    "StringUtils"
+   ],
+   "JsonSerializer": [
+    "CollectionUtils",
+    "MiscellaneousUtils",
+    "ValidationUtils"
+   ],
+   "JsonPosition": [
+    "JavaScriptUtils",
+    "MathUtils",
+    "StringUtils"
+   ],
+   "JsonValidatingReader": [
+    "CollectionUtils",
+    "JsonTokenUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ]
+  }
+ },
+ {
+  "src": "Linq",
+  "dst": "Core",
+  "n": 61,
+  "kind": "down",
+  "examples": {
+   "JObject": [
+    "IJsonLineInfo",
+    "JsonConverter",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonSerializer",
+    "JsonTextReader",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JArray": [
+    "IJsonLineInfo",
+    "JsonConverter",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonSerializer",
+    "JsonTextReader",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JConstructor": [
+    "IJsonLineInfo",
+    "JsonConverter",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JContainer": [
+    "IJsonLineInfo",
+    "JsonException",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JTokenWriter": [
+    "JsonReader",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JToken": [
+    "Formatting",
+    "IJsonLineInfo",
+    "JsonContainerType",
+    "JsonConvert",
+    "JsonConverter",
+    "JsonException",
+    "JsonPosition",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonSerializer",
+    "JsonTextReader",
+    "JsonTextWriter",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JValue": [
+    "JsonConverter",
+    "JsonSerializer",
+    "JsonWriter"
+   ],
+   "JTokenReader": [
+    "IJsonLineInfo",
+    "JsonReader",
+    "JsonToken"
+   ],
+   "JProperty": [
+    "IJsonLineInfo",
+    "JsonConverter",
+    "JsonException",
+    "JsonReader",
+    "JsonReaderException",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JRaw": [
+    "JsonReader",
+    "JsonTextWriter",
+    "JsonWriter"
+   ]
+  }
+ },
+ {
+  "src": "Linq",
+  "dst": "Linq.JsonPath",
+  "n": 1,
+  "kind": "UP",
+  "examples": {
+   "JToken": [
+    "JPath"
+   ]
+  }
+ },
+ {
+  "src": "Linq",
+  "dst": "Serialization",
+  "n": 1,
+  "kind": "peer",
+  "examples": {
+   "JToken": [
+    "JsonSerializerProxy"
+   ]
+  }
+ },
+ {
+  "src": "Linq",
+  "dst": "Utilities",
+  "n": 56,
+  "kind": "down",
+  "examples": {
+   "JObject": [
+    "AsyncUtils",
+    "DynamicProxy<T>",
+    "DynamicProxyMetaObject<T>",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JArray": [
+    "CollectionUtils",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JConstructor": [
+    "CollectionUtils",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JContainer": [
+    "CollectionUtils",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JTokenWriter": [
+    "AsyncUtils",
+    "DateTimeUtils",
+    "ValidationUtils"
+   ],
+   "JToken": [
+    "CollectionUtils",
+    "ConvertUtils",
+    "DynamicProxy<T>",
+    "DynamicProxyMetaObject<T>",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "RequiresDynamicCodeAttribute",
+    "RequiresUnreferencedCodeAttribute",
+    "StringUtils",
+    "TypeExtensions",
+    "UnconditionalSuppressMessageAttribute",
+    "ValidationUtils"
+   ],
+   "JValue": [
+    "AsyncUtils",
+    "BoxedPrimitives",
+    "ConvertUtils",
+    "DynamicProxy<T>",
+    "DynamicProxyMetaObject<T>",
+    "MathUtils",
+    "MiscellaneousUtils",
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "JTokenReader": [
+    "DateTimeUtils",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JProperty": [
+    "AsyncUtils",
+    "MiscellaneousUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JEnumerable<T>": [
+    "ValidationUtils"
+   ],
+   "Extensions": [
+    "ConvertUtils",
+    "ReflectionUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JPropertyKeyedCollection": [
+    "CollectionUtils"
+   ]
+  }
+ },
+ {
+  "src": "Linq.JsonPath",
+  "dst": "Core",
+  "n": 7,
+  "kind": "down",
+  "examples": {
+   "ArrayIndexFilter": [
+    "JsonException"
+   ],
+   "PathFilter": [
+    "JsonException"
+   ],
+   "BooleanQueryExpression": [
+    "DateFormatHandling"
+   ],
+   "JPath": [
+    "JsonException"
+   ],
+   "FieldFilter": [
+    "JsonException"
+   ],
+   "ArraySliceFilter": [
+    "JsonException"
+   ],
+   "FieldMultipleFilter": [
+    "JsonException"
+   ]
+  }
+ },
+ {
+  "src": "Linq.JsonPath",
+  "dst": "Linq",
+  "n": 47,
+  "kind": "down",
+  "examples": {
+   "ArrayMultipleIndexFilter": [
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "ScanFilter": [
+    "JContainer",
+    "JProperty",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "ScanMultipleFilter": [
+    "JContainer",
+    "JProperty",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "QueryScanFilter": [
+    "JContainer",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "ArrayIndexFilter": [
+    "JArray",
+    "JConstructor",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "PathFilter": [
+    "JArray",
+    "JConstructor",
+    "JContainer",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "QueryExpression": [
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "CompositeExpression": [
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "BooleanQueryExpression": [
+    "JToken",
+    "JTokenType",
+    "JValue",
+    "JsonSelectSettings"
+   ],
+   "RootFilter": [
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "JPath": [
+    "JToken",
+    "JValue",
+    "JsonSelectSettings"
+   ],
+   "FieldFilter": [
+    "JObject",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "QueryFilter": [
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "ArraySliceFilter": [
+    "JArray",
+    "JContainer",
+    "JToken",
+    "JsonSelectSettings"
+   ],
+   "FieldMultipleFilter": [
+    "JObject",
+    "JToken",
+    "JsonSelectSettings"
+   ]
+  }
+ },
+ {
+  "src": "Linq.JsonPath",
+  "dst": "Utilities",
+  "n": 10,
+  "kind": "down",
+  "examples": {
+   "ArrayIndexFilter": [
+    "StringUtils"
+   ],
+   "PathFilter": [
+    "StringUtils"
+   ],
+   "BooleanQueryExpression": [
+    "CollectionUtils",
+    "DateTimeUtils",
+    "MiscellaneousUtils",
+    "StringUtils"
+   ],
+   "JPath": [
+    "ValidationUtils"
+   ],
+   "FieldFilter": [
+    "StringUtils"
+   ],
+   "ArraySliceFilter": [
+    "StringUtils"
+   ],
+   "FieldMultipleFilter": [
+    "StringUtils"
+   ]
+  }
+ },
+ {
+  "src": "Schema",
+  "dst": "Core",
+  "n": 17,
+  "kind": "down",
+  "examples": {
+   "JsonSchemaWriter": [
+    "JsonWriter"
+   ],
+   "JsonSchema": [
+    "Formatting",
+    "JsonReader",
+    "JsonTextReader",
+    "JsonTextWriter",
+    "JsonWriter"
+   ],
+   "Extensions": [
+    "JsonValidatingReader"
+   ],
+   "JsonSchemaGenerator": [
+    "DefaultValueHandling",
+    "JsonArrayAttribute",
+    "JsonContainerAttribute",
+    "JsonConverter",
+    "JsonException",
+    "NullValueHandling",
+    "Required"
+   ],
+   "JsonSchemaException": [
+    "JsonException"
+   ],
+   "JsonSchemaBuilder": [
+    "JsonException",
+    "JsonReader"
+   ]
+  }
+ },
+ {
+  "src": "Schema",
+  "dst": "Linq",
+  "n": 9,
+  "kind": "down",
+  "examples": {
+   "JsonSchemaModel": [
+    "JToken"
+   ],
+   "JsonSchemaWriter": [
+    "JToken"
+   ],
+   "JsonSchema": [
+    "JToken"
+   ],
+   "Extensions": [
+    "JToken"
+   ],
+   "JsonSchemaGenerator": [
+    "JToken"
+   ],
+   "JsonSchemaBuilder": [
+    "JObject",
+    "JProperty",
+    "JToken",
+    "JTokenType"
+   ]
+  }
+ },
+ {
+  "src": "Schema",
+  "dst": "Serialization",
+  "n": 10,
+  "kind": "down",
+  "examples": {
+   "JsonSchemaWriter": [
+    "JsonTypeReflector"
+   ],
+   "JsonSchemaGenerator": [
+    "DefaultContractResolver",
+    "IContractResolver",
+    "JsonContract",
+    "JsonContractType",
+    "JsonISerializableContract",
+    "JsonObjectContract",
+    "JsonProperty",
+    "JsonTypeReflector"
+   ],
+   "JsonSchemaBuilder": [
+    "JsonTypeReflector"
+   ]
+  }
+ },
+ {
+  "src": "Schema",
+  "dst": "Utilities",
+  "n": 21,
+  "kind": "down",
+  "examples": {
+   "JsonSchemaModel": [
+    "CollectionUtils",
+    "MathUtils"
+   ],
+   "JsonSchemaWriter": [
+    "EnumUtils",
+    "MiscellaneousUtils",
+    "ValidationUtils"
+   ],
+   "JsonSchema": [
+    "MiscellaneousUtils",
+    "ValidationUtils"
+   ],
+   "Extensions": [
+    "MiscellaneousUtils",
+    "ValidationUtils"
+   ],
+   "JsonSchemaGenerator": [
+    "ConvertUtils",
+    "DynamicallyAccessedMemberTypes",
+    "EnumInfo",
+    "EnumUtils",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "ReflectionUtils",
+    "StringUtils",
+    "TypeExtensions",
+    "ValidationUtils"
+   ],
+   "JsonSchemaBuilder": [
+    "StringUtils"
+   ],
+   "ValidationEventArgs": [
+    "ValidationUtils"
+   ]
+  }
+ },
+ {
+  "src": "Serialization",
+  "dst": "Converters",
+  "n": 11,
+  "kind": "UP",
+  "examples": {
+   "DefaultContractResolver": [
+    "BinaryConverter",
+    "BsonObjectIdConverter",
+    "DataSetConverter",
+    "DataTableConverter",
+    "DiscriminatedUnionConverter",
+    "EntityKeyMemberConverter",
+    "ExpandoObjectConverter",
+    "KeyValuePairConverter",
+    "RegexConverter",
+    "UnionConverter",
+    "XmlNodeConverter"
+   ]
+  }
+ },
+ {
+  "src": "Serialization",
+  "dst": "Core",
+  "n": 115,
+  "kind": "down",
+  "examples": {
+   "DynamicValueProvider": [
+    "JsonSerializationException"
+   ],
+   "JsonSerializerInternalReader": [
+    "ConstructorHandling",
+    "DefaultValueHandling",
+    "IJsonLineInfo",
+    "JsonConverter",
+    "JsonPosition",
+    "JsonReader",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonToken",
+    "JsonWriter",
+    "MetadataPropertyHandling",
+    "MissingMemberHandling",
+    "NullValueHandling",
+    "ObjectCreationHandling",
+    "Required",
+    "TypeNameHandling"
+   ],
+   "JsonTypeReflector": [
+    "JsonContainerAttribute",
+    "JsonConverter",
+    "JsonConverterAttribute",
+    "JsonException",
+    "JsonObjectAttribute",
+    "MemberSerialization"
+   ],
+   "ReflectionValueProvider": [
+    "JsonSerializationException"
+   ],
+   "DefaultReferenceResolver": [
+    "JsonException"
+   ],
+   "DefaultContractResolver": [
+    "DefaultJsonNameTable",
+    "DefaultValueHandling",
+    "JsonArrayAttribute",
+    "JsonConstructorAttribute",
+    "JsonContainerAttribute",
+    "JsonConverter",
+    "JsonDictionaryAttribute",
+    "JsonException",
+    "JsonExtensionDataAttribute",
+    "JsonIgnoreAttribute",
+    "JsonObjectAttribute",
+    "JsonPropertyAttribute",
+    "JsonRequiredAttribute",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "MemberSerialization",
+    "Required"
+   ],
+   "JsonContainerContract": [
+    "JsonContainerAttribute",
+    "JsonConverter",
+    "ReferenceLoopHandling",
+    "TypeNameHandling"
+   ],
+   "JsonSerializerInternalWriter": [
+    "DefaultValueHandling",
+    "JsonConverter",
+    "JsonPosition",
+    "JsonSerializationException",
+    "JsonSerializer",
+    "JsonWriter",
+    "NullValueHandling",
+    "PreserveReferencesHandling",
+    "ReferenceLoopHandling",
+    "Required",
+    "TypeNameHandling",
+    "WriteState"
+   ],
+   "JsonContract": [
+    "JsonConverter",
+    "ReadType"
+   ],
+   "JsonPropertyCollection": [
+    "JsonSerializationException"
+   ],
+   "JsonSerializerProxy": [
+    "ConstructorHandling",
+    "DateFormatHandling",
+    "DateParseHandling",
+    "DateTimeZoneHandling",
+    "DefaultValueHandling",
+    "FloatFormatHandling",
+    "FloatParseHandling",
+    "Formatting",
+    "JsonConverterCollection",
+    "JsonReader",
+    "JsonSerializer",
+    "JsonWriter",
+    "MetadataPropertyHandling",
+    "MissingMemberHandling",
+    "NullValueHandling",
+    "ObjectCreationHandling",
+    "PreserveReferencesHandling",
+    "ReferenceLoopHandling",
+    "StringEscapeHandling",
+    "TypeNameAssemblyFormatHandling",
+    "TypeNameHandling"
+   ],
+   "JsonProperty": [
+    "DefaultValueHandling",
+    "JsonConverter",
+    "JsonWriter",
+    "NullValueHandling",
+    "ObjectCreationHandling",
+    "ReferenceLoopHandling",
+    "Required",
+    "TypeNameHandling"
+   ],
+   "ExpressionValueProvider": [
+    "JsonSerializationException"
+   ],
+   "TraceJsonWriter": [
+    "Formatting",
+    "JsonTextWriter",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "CamelCasePropertyNamesContractResolver": [
+    "DefaultJsonNameTable"
+   ],
+   "JsonSerializerInternalBase": [
+    "IJsonLineInfo",
+    "JsonException",
+    "JsonPosition",
+    "JsonSerializer",
+    "NullValueHandling"
+   ],
+   "TraceJsonReader": [
+    "Formatting",
+    "IJsonLineInfo",
+    "JsonReader",
+    "JsonTextWriter",
+    "JsonToken",
+    "JsonWriter"
+   ],
+   "JsonObjectContract": [
+    "DefaultValueHandling",
+    "JsonException",
+    "MemberSerialization",
+    "MissingMemberHandling",
+    "NullValueHandling",
+    "Required"
+   ],
+   "JsonPrimitiveContract": [
+    "ReadType"
+   ],
+   "DefaultSerializationBinder": [
+    "JsonSerializationException"
+   ]
+  }
+ },
+ {
+  "src": "Serialization",
+  "dst": "Linq",
+  "n": 13,
+  "kind": "peer",
+  "examples": {
+   "JsonSerializerInternalReader": [
+    "JObject",
+    "JProperty",
+    "JRaw",
+    "JToken",
+    "JTokenReader",
+    "JTokenType",
+    "JTokenWriter",
+    "JValue"
+   ],
+   "JsonFormatterConverter": [
+    "JToken",
+    "JValue"
+   ],
+   "DefaultContractResolver": [
+    "JToken"
+   ],
+   "JsonSerializerInternalWriter": [
+    "JToken"
+   ],
+   "JsonObjectContract": [
+    "JToken"
+   ]
+  }
+ },
+ {
+  "src": "Serialization",
+  "dst": "Utilities",
+  "n": 134,
+  "kind": "down",
+  "examples": {
+   "ReflectionAttributeProvider": [
+    "ReflectionUtils",
+    "ValidationUtils"
+   ],
+   "DynamicValueProvider": [
+    "DynamicReflectionDelegateFactory",
+    "MiscellaneousUtils",
+    "ReflectionDelegateFactory",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JsonSerializerInternalReader": [
+    "CollectionUtils",
+    "ConvertUtils",
+    "DateTimeUtils",
+    "EnumUtils",
+    "IWrappedCollection",
+    "IWrappedDictionary",
+    "JsonTokenUtils",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "ReflectionUtils",
+    "StringUtils",
+    "StructMultiKey<T1, T2>",
+    "TypeExtensions",
+    "ValidationUtils"
+   ],
+   "JsonTypeReflector": [
+    "DynamicReflectionDelegateFactory",
+    "DynamicallyAccessedMemberTypes",
+    "LateBoundReflectionDelegateFactory",
+    "MiscellaneousUtils",
+    "ReflectionDelegateFactory",
+    "ReflectionObject",
+    "ReflectionUtils",
+    "StringUtils",
+    "ThreadSafeStore<TKey, TValue>",
+    "TypeExtensions"
+   ],
+   "SnakeCaseNamingStrategy": [
+    "StringUtils"
+   ],
+   "JsonArrayContract": [
+    "CollectionUtils",
+    "CollectionWrapper<T>",
+    "DynamicallyAccessedMemberTypes",
+    "FSharpUtils",
+    "IWrappedCollection",
+    "ImmutableCollectionsUtils",
+    "MemoryAdapter",
+    "MiscellaneousUtils",
+    "ReflectionDelegateFactory",
+    "ReflectionUtils",
+    "TypeExtensions"
+   ],
+   "JsonDynamicContract": [
+    "DynamicUtils",
+    "MiscellaneousUtils",
+    "NoThrowExpressionVisitor",
+    "NoThrowGetBinderMember",
+    "NoThrowSetBinderMember",
+    "ThreadSafeStore<TKey, TValue>",
+    "ValidationUtils"
+   ],
+   "JsonISerializableContract": [
+    "MiscellaneousUtils"
+   ],
+   "ReflectionValueProvider": [
+    "ReflectionUtils",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "JsonFormatterConverter": [
+    "MiscellaneousUtils",
+    "ValidationUtils"
+   ],
+   "DefaultReferenceResolver": [
+    "BidirectionalDictionary<TFirst, TSecond>"
+   ],
+   "DefaultContractResolver": [
+    "CollectionUtils",
+    "ConvertUtils",
+    "FSharpUtils",
+    "MemoryAdapter",
+    "MethodCall<T, TResult>",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "ReflectionDelegateFactory",
+    "ReflectionUtils",
+    "StringUtils",
+    "ThreadSafeStore<TKey, TValue>",
+    "TypeExtensions",
+    "ValidationUtils"
+   ],
+   "JsonContainerContract": [
+    "MiscellaneousUtils",
+    "TypeExtensions"
+   ],
+   "CamelCaseNamingStrategy": [
+    "StringUtils"
+   ],
+   "JsonLinqContract": [
+    "MiscellaneousUtils"
+   ],
+   "CachedAttributeGetter<T>": [
+    "MiscellaneousUtils",
+    "ThreadSafeStore<TKey, TValue>"
+   ],
+   "JsonSerializerInternalWriter": [
+    "CollectionUtils",
+    "DateTimeUtils",
+    "DynamicUtils",
+    "EnumUtils",
+    "IWrappedCollection",
+    "IWrappedDictionary",
+    "MemoryAdapter",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode",
+    "ReflectionUtils",
+    "StringUtils"
+   ],
+   "JsonContract": [
+    "ConvertUtils",
+    "DynamicallyAccessedMemberTypes",
+    "MiscellaneousUtils",
+    "ReflectionUtils",
+    "TypeExtensions",
+    "ValidationUtils"
+   ],
+   "JsonPropertyCollection": [
+    "MiscellaneousUtils",
+    "StringUtils",
+    "TypeExtensions",
+    "ValidationUtils"
+   ],
+   "JsonSerializerProxy": [
+    "MiscellaneousUtils",
+    "ValidationUtils"
+   ],
+   "JsonProperty": [
+    "DynamicallyAccessedMemberTypes",
+    "JavaScriptUtils",
+    "MiscellaneousUtils",
+    "ReflectionUtils"
+   ],
+   "ExpressionValueProvider": [
+    "ExpressionReflectionDelegateFactory",
+    "MiscellaneousUtils",
+    "ReflectionDelegateFactory",
+    "StringUtils",
+    "ValidationUtils"
+   ],
+   "CamelCasePropertyNamesContractResolver": [
+    "MiscellaneousUtils",
+    "StructMultiKey<T1, T2>"
+   ],
+   "JsonSerializerInternalBase": [
+    "BidirectionalDictionary<TFirst, TSecond>",
+    "ValidationUtils"
+   ],
+   "JsonObjectContract": [
+    "MiscellaneousUtils",
+    "StringUtils"
+   ],
+   "JsonPrimitiveContract": [
+    "ConvertUtils",
+    "MiscellaneousUtils",
+    "PrimitiveTypeCode"
+   ],
+   "JsonStringContract": [
+    "MiscellaneousUtils"
+   ],
+   "JsonDictionaryContract": [
+    "CollectionUtils",
+    "DictionaryWrapper<TKey, TValue>",
+    "DynamicallyAccessedMemberTypes",
+    "FSharpUtils",
+    "IWrappedDictionary",
+    "ImmutableCollectionsUtils",
+    "MiscellaneousUtils",
+    "ReflectionDelegateFactory",
+    "ReflectionUtils",
+    "TypeExtensions"
+   ],
+   "DefaultSerializationBinder": [
+    "MiscellaneousUtils",
+    "ReflectionUtils",
+    "StringUtils",
+    "StructMultiKey<T1, T2>",
+    "ThreadSafeStore<TKey, TValue>"
+   ],
+   "KebabCaseNamingStrategy": [
+    "StringUtils"
+   ]
+  }
+ },
+ {
+  "src": "Utilities",
+  "dst": "Core",
+  "n": 11,
+  "kind": "UP",
+  "examples": {
+   "BufferUtils": [
+    "IArrayPool<T>"
+   ],
+   "JavaScriptUtils": [
+    "IArrayPool<T>",
+    "JsonReader",
+    "JsonTextWriter",
+    "JsonToken",
+    "StringEscapeHandling"
+   ],
+   "ReflectionUtils": [
+    "TypeNameAssemblyFormatHandling"
+   ],
+   "DateTimeUtils": [
+    "DateFormatHandling",
+    "DateTimeZoneHandling"
+   ],
+   "StringBuffer": [
+    "IArrayPool<T>"
+   ],
+   "JsonTokenUtils": [
+    "JsonToken"
+   ]
+  }
+ },
+ {
+  "src": "Utilities",
+  "dst": "Serialization",
+  "n": 15,
+  "kind": "UP",
+  "examples": {
+   "ReflectionObject": [
+    "JsonTypeReflector",
+    "ObjectConstructor<T>"
+   ],
+   "DynamicUtils": [
+    "JsonTypeReflector"
+   ],
+   "DynamicReflectionDelegateFactory": [
+    "ObjectConstructor<T>"
+   ],
+   "ReflectionDelegateFactory": [
+    "ObjectConstructor<T>"
+   ],
+   "ReflectionUtils": [
+    "ISerializationBinder"
+   ],
+   "ExpressionReflectionDelegateFactory": [
+    "ObjectConstructor<T>"
+   ],
+   "FSharpUtils": [
+    "JsonTypeReflector",
+    "ObjectConstructor<T>"
+   ],
+   "ImmutableCollectionsUtils": [
+    "JsonTypeReflector",
+    "ObjectConstructor<T>"
+   ],
+   "ConvertUtils": [
+    "JsonTypeReflector"
+   ],
+   "LateBoundReflectionDelegateFactory": [
+    "ObjectConstructor<T>"
+   ],
+   "EnumUtils": [
+    "CamelCaseNamingStrategy",
+    "NamingStrategy"
+   ]
+  }
+ }
+]

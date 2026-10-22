@@ -1,0 +1,31 @@
+@startuml f2_god
+skinparam defaultFontName "DejaVu Sans"
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam ArrowFontSize 10
+title Фрагмент 2. Оточення кандидатів у God Object (Ca — вхідні, Ce — вихідні типи)
+left to right direction
+package "Споживачі DefaultContractResolver (Ca = 10)" {
+  component "JsonSerializer" as a1
+  component "JsonSerializerInternalReader" as a2
+  component "CamelCasePropertyNamesContractResolver" as a3
+  component "6 конвертерів\n(DataSet, DataTable, Regex,\nKeyValuePair, EntityKeyMember,\nDiscriminatedUnion)" as a4 #FFD8A8
+  component "JsonSchemaGenerator [Obsolete]" as a5 #FFF4E6;line.dashed
+}
+component "**DefaultContractResolver**\n48 методів (26 публічних/virtual)\n1 705 рядків, LCOM-HS 0,99\nCa+Ce = 77 (11× медіани 7)" as DCR #E8590C;line:C92A2A;line.bold
+package "Залежності DefaultContractResolver (Ce = 67)" {
+  component "Serialization: 25 типів\n(9 видів контрактів, JsonProperty,\nJsonTypeReflector, NamingStrategy…)" as d1
+  component "Core: 17 типів\n(атрибути [JsonProperty], [JsonObject]…)" as d2
+  component "Utilities: 13 типів" as d3
+  component "Converters: 11 конкретних\nконвертерів (BuiltInConverters)" as d4 #FFD8A8
+}
+a1 --> DCR
+a2 --> DCR
+a3 -[#1C7ED6]-|> DCR
+a4 --> DCR
+a5 --> DCR
+DCR --> d1
+DCR --> d2
+DCR --> d3
+DCR -[#C92A2A,dashed,thickness=2]-> d4 : <color:#C92A2A>цикл з Converters</color>
+@enduml
