@@ -104,7 +104,7 @@ namespace Newtonsoft.Json.Utilities
             MethodBase? creator,
             params string[] memberNames)
         {
-            ReflectionDelegateFactory delegateFactory = JsonTypeReflector.ReflectionDelegateFactory;
+            ReflectionDelegateFactory delegateFactory = ReflectionEnvironment.ReflectionDelegateFactory;
 
             ObjectConstructor<object>? creatorConstructor = null;
             if (creator != null)

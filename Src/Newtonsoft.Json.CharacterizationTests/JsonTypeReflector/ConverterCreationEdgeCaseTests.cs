@@ -1,5 +1,6 @@
 using System;
 using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json.Utilities;
 using NUnit.Framework;
 
 namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
@@ -142,10 +143,10 @@ namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
         [Test]
         public void WorksIdenticallyWithLateBoundFactory()
         {
-            bool original = JsonTypeReflector.DynamicCodeGeneration;
+            bool original = ReflectionEnvironment.DynamicCodeGeneration;
             try
             {
-                JsonTypeReflector.SetDynamicCodeGeneration(false);
+                ReflectionEnvironment.SetDynamicCodeGeneration(false);
                 // делегат із CreatorCache звертається до ReflectionDelegateFactory під час КОЖНОГО виклику
                 // з параметрами, тож параметризований конструктор тут створює вже LateBound-фабрика
                 var converter = (ConvParamsArray)JsonTypeReflector.CreateJsonConverterInstance(typeof(ConvParamsArray), new object[] { new[] { "x" } });
@@ -153,7 +154,7 @@ namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
             }
             finally
             {
-                JsonTypeReflector.SetDynamicCodeGeneration(original);
+                ReflectionEnvironment.SetDynamicCodeGeneration(original);
             }
         }
     }

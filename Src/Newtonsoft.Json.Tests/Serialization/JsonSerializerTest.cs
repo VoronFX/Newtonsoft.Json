@@ -4093,7 +4093,7 @@ Path '', line 1, position 1.");
         {
             try
             {
-                JsonTypeReflector.SetFullyTrusted(false);
+                ReflectionEnvironment.SetFullyTrusted(false);
                 ISerializableTestObject value = new ISerializableTestObject("string!", 0, default(DateTimeOffset), null);
 
                 string json = JsonConvert.SerializeObject(value, new JsonSerializerSettings
@@ -4119,7 +4119,7 @@ Path '', line 1, position 1.");
             }
             finally
             {
-                JsonTypeReflector.SetFullyTrusted(null);
+                ReflectionEnvironment.SetFullyTrusted(null);
             }
         }
 
@@ -4130,7 +4130,7 @@ Path '', line 1, position 1.");
             {
                 ExceptionAssert.Throws<JsonSerializationException>(() =>
                 {
-                    JsonTypeReflector.SetFullyTrusted(false);
+                    ReflectionEnvironment.SetFullyTrusted(false);
 
                     JsonConvert.DeserializeObject<ISerializableTestObject>("{booleanValue:true}");
                 }, @"Type 'Newtonsoft.Json.Tests.TestObjects.ISerializableTestObject' implements ISerializable but cannot be deserialized using the ISerializable interface because the current application is not fully trusted and ISerializable can expose secure data." + Environment.NewLine +
@@ -4139,7 +4139,7 @@ Path '', line 1, position 1.");
             }
             finally
             {
-                JsonTypeReflector.SetFullyTrusted(null);
+                ReflectionEnvironment.SetFullyTrusted(null);
             }
         }
 
@@ -4150,7 +4150,7 @@ Path '', line 1, position 1.");
             {
                 ExceptionAssert.Throws<JsonSerializationException>(() =>
                 {
-                    JsonTypeReflector.SetFullyTrusted(false);
+                    ReflectionEnvironment.SetFullyTrusted(false);
                     ISerializableTestObject value = new ISerializableTestObject("string!", 0, default(DateTimeOffset), null);
 
                     JsonConvert.SerializeObject(value);
@@ -4160,7 +4160,7 @@ Path '', line 1, position 1.");
             }
             finally
             {
-                JsonTypeReflector.SetFullyTrusted(null);
+                ReflectionEnvironment.SetFullyTrusted(null);
             }
         }
 #endif
@@ -6823,7 +6823,7 @@ This is just junk, though.";
         {
             try
             {
-                JsonTypeReflector.SetFullyTrusted(false);
+                ReflectionEnvironment.SetFullyTrusted(false);
 
                 var tuple = new MyTuplePartial<int>(500);
                 var json = JsonConvert.SerializeObject(tuple);
@@ -6833,7 +6833,7 @@ This is just junk, though.";
             }
             finally
             {
-                JsonTypeReflector.SetFullyTrusted(true);
+                ReflectionEnvironment.SetFullyTrusted(true);
             }
         }
 #endif

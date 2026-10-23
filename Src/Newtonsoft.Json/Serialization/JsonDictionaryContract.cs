@@ -84,7 +84,7 @@ namespace Newtonsoft.Json.Serialization
             {
                 if (_parameterizedCreator == null && _parameterizedConstructor != null)
                 {
-                    _parameterizedCreator = JsonTypeReflector.ReflectionDelegateFactory.CreateParameterizedConstructor(_parameterizedConstructor);
+                    _parameterizedCreator = ReflectionEnvironment.ReflectionDelegateFactory.CreateParameterizedConstructor(_parameterizedConstructor);
                 }
 
                 return _parameterizedCreator;
@@ -232,7 +232,7 @@ namespace Newtonsoft.Json.Serialization
                 _genericWrapperType = typeof(DictionaryWrapper<,>).MakeGenericType(DictionaryKeyType!, DictionaryValueType!);
 
                 ConstructorInfo genericWrapperConstructor = _genericWrapperType.GetConstructor(new[] { _genericCollectionDefinitionType! })!;
-                _genericWrapperCreator = JsonTypeReflector.ReflectionDelegateFactory.CreateParameterizedConstructor(genericWrapperConstructor);
+                _genericWrapperCreator = ReflectionEnvironment.ReflectionDelegateFactory.CreateParameterizedConstructor(genericWrapperConstructor);
             }
 
             return (IWrappedDictionary)_genericWrapperCreator(dictionary);
@@ -245,7 +245,7 @@ namespace Newtonsoft.Json.Serialization
             {
                 Type temporaryDictionaryType = typeof(Dictionary<,>).MakeGenericType(DictionaryKeyType ?? typeof(object), DictionaryValueType ?? typeof(object));
 
-                _genericTemporaryDictionaryCreator = JsonTypeReflector.ReflectionDelegateFactory.CreateDefaultConstructor<object>(temporaryDictionaryType);
+                _genericTemporaryDictionaryCreator = ReflectionEnvironment.ReflectionDelegateFactory.CreateDefaultConstructor<object>(temporaryDictionaryType);
             }
 
             return (IDictionary)_genericTemporaryDictionaryCreator();

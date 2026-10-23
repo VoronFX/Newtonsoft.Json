@@ -29,7 +29,7 @@ namespace Newtonsoft.Json.Converters
             public UnionCase(Type type, ConstructorInfo constructor)
             {
                 Type = type;
-                Constructor = JsonTypeReflector.ReflectionDelegateFactory.CreateParameterizedConstructor(constructor);
+                Constructor = ReflectionEnvironment.ReflectionDelegateFactory.CreateParameterizedConstructor(constructor);
                 AcceptsNull = IsNullableParameter(constructor.GetParameters()[0]);
             }
         }
@@ -141,7 +141,7 @@ namespace Newtonsoft.Json.Converters
                 }
             }
 
-            return new Union(JsonTypeReflector.ReflectionDelegateFactory.CreateGet<object>(property), orderedCases, nullableCase);
+            return new Union(ReflectionEnvironment.ReflectionDelegateFactory.CreateGet<object>(property), orderedCases, nullableCase);
         }
 
         private static bool IsNullableParameter(ParameterInfo parameter)

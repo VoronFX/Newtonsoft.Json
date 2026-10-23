@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
 {
-    /// <summary>Константи метаданих і прапорці середовища виконання JsonTypeReflector.</summary>
+    /// <summary>Константи метаданих JsonTypeReflector і прапорці середовища виконання (ReflectionEnvironment).</summary>
     [TestFixture]
     [NonParallelizable] // тести змінюють статичний стан прапорців
     public class ConstantsAndEnvironmentTests
@@ -12,13 +12,13 @@ namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
         private bool _originalDynamicCodeGeneration;
 
         [SetUp]
-        public void RememberState() => _originalDynamicCodeGeneration = JsonTypeReflector.DynamicCodeGeneration;
+        public void RememberState() => _originalDynamicCodeGeneration = ReflectionEnvironment.DynamicCodeGeneration;
 
         [TearDown]
         public void RestoreState()
         {
-            JsonTypeReflector.SetDynamicCodeGeneration(_originalDynamicCodeGeneration);
-            JsonTypeReflector.SetFullyTrusted(null);
+            ReflectionEnvironment.SetDynamicCodeGeneration(_originalDynamicCodeGeneration);
+            ReflectionEnvironment.SetFullyTrusted(null);
         }
 
         [Test]
@@ -43,39 +43,39 @@ namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
         public void DynamicCodeGeneration_OnJitRuntime_IsTrue()
         {
             // net8.0: значення береться з RuntimeFeature.IsDynamicCodeCompiled
-            JsonTypeReflector.SetDynamicCodeGeneration(true);
-            Assert.That(JsonTypeReflector.DynamicCodeGeneration, Is.True);
+            ReflectionEnvironment.SetDynamicCodeGeneration(true);
+            Assert.That(ReflectionEnvironment.DynamicCodeGeneration, Is.True);
         }
 
         [Test]
         public void ReflectionDelegateFactory_WhenDynamicCodeAllowed_IsDynamicFactory()
         {
-            JsonTypeReflector.SetDynamicCodeGeneration(true);
-            Assert.That(JsonTypeReflector.ReflectionDelegateFactory, Is.SameAs(DynamicReflectionDelegateFactory.Instance));
+            ReflectionEnvironment.SetDynamicCodeGeneration(true);
+            Assert.That(ReflectionEnvironment.ReflectionDelegateFactory, Is.SameAs(DynamicReflectionDelegateFactory.Instance));
         }
 
         [Test]
         public void ReflectionDelegateFactory_WhenDynamicCodeDisabled_FallsBackToLateBoundFactory()
         {
-            JsonTypeReflector.SetDynamicCodeGeneration(false);
-            Assert.That(JsonTypeReflector.ReflectionDelegateFactory, Is.SameAs(LateBoundReflectionDelegateFactory.Instance));
+            ReflectionEnvironment.SetDynamicCodeGeneration(false);
+            Assert.That(ReflectionEnvironment.ReflectionDelegateFactory, Is.SameAs(LateBoundReflectionDelegateFactory.Instance));
         }
 
         [Test]
         public void FullyTrusted_ByDefault_IsTrueOnHomogenousAppDomain()
         {
-            JsonTypeReflector.SetFullyTrusted(null);
-            Assert.That(JsonTypeReflector.FullyTrusted, Is.True);
+            ReflectionEnvironment.SetFullyTrusted(null);
+            Assert.That(ReflectionEnvironment.FullyTrusted, Is.True);
         }
 
         [Test]
         public void FullyTrusted_WhenOverridden_ReturnsOverride_AndNullRestoresDetection()
         {
-            JsonTypeReflector.SetFullyTrusted(false);
-            Assert.That(JsonTypeReflector.FullyTrusted, Is.False);
+            ReflectionEnvironment.SetFullyTrusted(false);
+            Assert.That(ReflectionEnvironment.FullyTrusted, Is.False);
 
-            JsonTypeReflector.SetFullyTrusted(null);
-            Assert.That(JsonTypeReflector.FullyTrusted, Is.True);
+            ReflectionEnvironment.SetFullyTrusted(null);
+            Assert.That(ReflectionEnvironment.FullyTrusted, Is.True);
         }
 
         [Test]
@@ -83,8 +83,8 @@ namespace Newtonsoft.Json.CharacterizationTests.JsonTypeReflectorTests
         {
             // Після першого обчислення значення зберігається в статичному полі;
             // повернутися до автоматичного визначення неможливо (сетер приймає лише bool).
-            bool first = JsonTypeReflector.DynamicCodeGeneration;
-            Assert.That(JsonTypeReflector.DynamicCodeGeneration, Is.EqualTo(first));
+            bool first = ReflectionEnvironment.DynamicCodeGeneration;
+            Assert.That(ReflectionEnvironment.DynamicCodeGeneration, Is.EqualTo(first));
         }
     }
 }

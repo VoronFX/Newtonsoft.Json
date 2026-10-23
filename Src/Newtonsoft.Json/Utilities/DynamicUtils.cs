@@ -37,7 +37,6 @@ using Microsoft.CSharp.RuntimeBinder;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Globalization;
-using Newtonsoft.Json.Serialization;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 
@@ -112,10 +111,10 @@ namespace Newtonsoft.Json.Utilities
                 Type csharpArgumentInfoTypeEnumerableType = typeof(IEnumerable<>).MakeGenericType(csharpArgumentInfoType);
 
                 MethodInfo getMemberMethod = binderType.GetMethod("GetMember", new[] { csharpBinderFlagsType, typeof(string), typeof(Type), csharpArgumentInfoTypeEnumerableType })!;
-                _getMemberCall = JsonTypeReflector.ReflectionDelegateFactory.CreateMethodCall<object?>(getMemberMethod);
+                _getMemberCall = ReflectionEnvironment.ReflectionDelegateFactory.CreateMethodCall<object?>(getMemberMethod);
 
                 MethodInfo setMemberMethod = binderType.GetMethod("SetMember", new[] { csharpBinderFlagsType, typeof(string), typeof(Type), csharpArgumentInfoTypeEnumerableType })!;
-                _setMemberCall = JsonTypeReflector.ReflectionDelegateFactory.CreateMethodCall<object?>(setMemberMethod);
+                _setMemberCall = ReflectionEnvironment.ReflectionDelegateFactory.CreateMethodCall<object?>(setMemberMethod);
             }
 #endif
 

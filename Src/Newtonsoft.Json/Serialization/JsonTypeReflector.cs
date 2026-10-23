@@ -28,12 +28,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
 using System.Reflection;
-using System.Security;
-#if HAVE_CAS
-using System.Security.Permissions;
-#endif
 using Newtonsoft.Json.Utilities;
-using System.Runtime.CompilerServices;
 using System.Diagnostics.CodeAnalysis;
 
 using System.Runtime.Serialization;
@@ -42,9 +37,6 @@ namespace Newtonsoft.Json.Serialization
 {
     internal static class JsonTypeReflector
     {
-        private static bool? _dynamicCodeGeneration;
-        private static bool? _fullyTrusted;
-
         public const string IdPropertyName = "$id";
         public const string RefPropertyName = "$ref";
         public const string TypePropertyName = "$type";
@@ -247,7 +239,7 @@ namespace Newtonsoft.Json.Serialization
             Type type)
         {
             Func<object>? defaultConstructor = (ReflectionUtils.HasDefaultConstructor(type, false))
-                ? ReflectionDelegateFactory.CreateDefaultConstructor<object>(type)
+                ? ReflectionEnvironment.ReflectionDelegateFactory.CreateDefaultConstructor<object>(type)
                 : null;
 
             return (parameters) =>
@@ -283,7 +275,7 @@ namespace Newtonsoft.Json.Serialization
             ConstructorInfo constructorInfo = type.GetConstructor(parameterTypes)
                 ?? throw new JsonException("No matching parameterized constructor found for '{0}'.".FormatWith(CultureInfo.InvariantCulture, type));
 
-            ObjectConstructor<object> parameterizedConstructor = ReflectionDelegateFactory.CreateParameterizedConstructor(constructorInfo);
+            ObjectConstructor<object> parameterizedConstructor = ReflectionEnvironment.ReflectionDelegateFactory.CreateParameterizedConstructor(constructorInfo);
             return parameterizedConstructor(parameters);
         }
 
@@ -433,98 +425,6 @@ namespace Newtonsoft.Json.Serialization
             }
 
             return ReflectionUtils.GetAttribute<T>(provider, true);
-        }
-
-#if DEBUG
-        internal static void SetFullyTrusted(bool? fullyTrusted)
-        {
-            _fullyTrusted = fullyTrusted;
-        }
-
-        internal static void SetDynamicCodeGeneration(bool dynamicCodeGeneration)
-        {
-            _dynamicCodeGeneration = dynamicCodeGeneration;
-        }
-#endif
-
-        public static bool DynamicCodeGeneration
-        {
-#if HAVE_SECURITY_SAFE_CRITICAL_ATTRIBUTE
-            [SecuritySafeCritical]
-#endif
-            get
-            {
-                if (_dynamicCodeGeneration == null)
-                {
-#if HAVE_DYNAMIC_CODE_COMPILED
-                    _dynamicCodeGeneration = RuntimeFeature.IsDynamicCodeCompiled;
-#elif HAVE_CAS
-                    try
-                    {
-                        new ReflectionPermission(ReflectionPermissionFlag.MemberAccess).Demand();
-                        new ReflectionPermission(ReflectionPermissionFlag.RestrictedMemberAccess).Demand();
-                        new SecurityPermission(SecurityPermissionFlag.SkipVerification).Demand();
-                        new SecurityPermission(SecurityPermissionFlag.UnmanagedCode).Demand();
-                        new SecurityPermission(PermissionState.Unrestricted).Demand();
-                        _dynamicCodeGeneration = true;
-                    }
-                    catch (Exception)
-                    {
-                        _dynamicCodeGeneration = false;
-                    }
-#else
-                    _dynamicCodeGeneration = false;
-#endif
-                }
-
-                return _dynamicCodeGeneration.GetValueOrDefault();
-            }
-        }
-
-        public static bool FullyTrusted
-        {
-            get
-            {
-                if (_fullyTrusted == null)
-                {
-#if (DOTNET || PORTABLE || PORTABLE40)
-                    _fullyTrusted = true;
-#elif !(NET20 || NET35 || PORTABLE40)
-                    AppDomain appDomain = AppDomain.CurrentDomain;
-
-                    _fullyTrusted = appDomain.IsHomogenous && appDomain.IsFullyTrusted;
-#else
-                    try
-                    {
-                        new SecurityPermission(PermissionState.Unrestricted).Demand();
-                        _fullyTrusted = true;
-                    }
-                    catch (Exception)
-                    {
-                        _fullyTrusted = false;
-                    }
-#endif
-                }
-
-                return _fullyTrusted.GetValueOrDefault();
-            }
-        }
-
-        public static ReflectionDelegateFactory ReflectionDelegateFactory
-        {
-            get
-            {
-#if !(PORTABLE40 || PORTABLE || DOTNET || NETSTANDARD2_0)
-                if (DynamicCodeGeneration)
-                {
-                    return DynamicReflectionDelegateFactory.Instance;
-                }
-
-                return LateBoundReflectionDelegateFactory.Instance;
-#else
-                return ExpressionReflectionDelegateFactory.Instance;
-#endif
-            }
         }
     }
 }
