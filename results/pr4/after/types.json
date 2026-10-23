@@ -1,0 +1,295 @@
+[
+  {
+    "type": "Newtonsoft.Json.Serialization.AssociatedMetadataTypeResolver",
+    "file": "AssociatedMetadataTypeResolver.cs",
+    "kind": "class",
+    "baseType": "object",
+    "methodsAnalysed": 2,
+    "ordinaryMethods": 2,
+    "properties": 0,
+    "fields": [
+      "_metadataTypeAttributeReflectionObject"
+    ],
+    "autoProps": [],
+    "inheritedAttrs": [],
+    "lcomHS": 1,
+    "lcom4": 2,
+    "comps": [
+      [
+        "GetAssociatedMetadataType"
+      ],
+      [
+        "FindMetadataClassType"
+      ]
+    ],
+    "ceInternal": 6,
+    "ceExternal": 3,
+    "ceTypes": [
+      "Newtonsoft.Json.Utilities.MiscellaneousUtils",
+      "Newtonsoft.Json.Utilities.ReflectionObject",
+      "Newtonsoft.Json.Utilities.ReflectionUtils",
+      "Newtonsoft.Json.Utilities.ThreadSafeStore\u003CTKey, TValue\u003E",
+      "System.Attribute",
+      "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+      "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+      "System.StringComparison",
+      "System.Type"
+    ],
+    "ca": 1,
+    "caTypes": [
+      "Newtonsoft.Json.Serialization.JsonTypeReflector"
+    ],
+    "nonPrivateMethods": [
+      "GetAssociatedMetadataType"
+    ],
+    "unusedAttrs": []
+  },
+  {
+    "type": "Newtonsoft.Json.Serialization.AssociatedMetadataTypeResolver.Cache",
+    "file": "AssociatedMetadataTypeResolver.cs",
+    "kind": "class",
+    "baseType": "object",
+    "methodsAnalysed": 0,
+    "ordinaryMethods": 0,
+    "properties": 0,
+    "fields": [
+      "Instance"
+    ],
+    "autoProps": [],
+    "inheritedAttrs": [],
+    "lcomHS": null,
+    "lcom4": 0,
+    "comps": [],
+    "ceInternal": 5,
+    "ceExternal": 1,
+    "ceTypes": [
+      "Newtonsoft.Json.Serialization.AssociatedMetadataTypeResolver",
+      "Newtonsoft.Json.Utilities.MiscellaneousUtils",
+      "Newtonsoft.Json.Utilities.ThreadSafeStore\u003CTKey, TValue\u003E",
+      "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+      "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+      "System.Type"
+    ],
+    "ca": 1,
+    "caTypes": [
+      "Newtonsoft.Json.Serialization.AssociatedMetadataTypeResolver"
+    ],
+    "nonPrivateMethods": [],
+    "unusedAttrs": [
+      "Instance"
+    ]
+  },
+  {
+    "type": "Newtonsoft.Json.Serialization.JsonTypeReflector",
+    "file": "JsonTypeReflector.cs",
+    "kind": "class",
+    "baseType": "object",
+    "methodsAnalysed": 17,
+    "ordinaryMethods": 17,
+    "properties": 0,
+    "fields": [],
+    "autoProps": [],
+    "inheritedAttrs": [],
+    "lcomHS": null,
+    "lcom4": 7,
+    "comps": [
+      [
+        "GetCachedAttribute",
+        "GetDataContractAttribute",
+        "GetObjectMemberSerialization",
+        "GetJsonConverter",
+        "CreateJsonConverterInstance",
+        "IsSerializable"
+      ],
+      [
+        "CanTypeDescriptorConvertString"
+      ],
+      [
+        "GetDataMemberAttribute"
+      ],
+      [
+        "CreateNamingStrategyInstance",
+        "GetContainerNamingStrategy"
+      ],
+      [
+        "GetCreator",
+        "CreateWithParameterizedConstructor",
+        "GetConstructorParameterTypes"
+      ],
+      [
+        "GetAttribute",
+        "GetAttribute",
+        "GetAttribute"
+      ],
+      [
+        "IsNonSerializable"
+      ]
+    ],
+    "ceInternal": 21,
+    "ceExternal": 18,
+    "ceTypes": [
+      "Newtonsoft.Json.JsonContainerAttribute",
+      "Newtonsoft.Json.JsonConverter",
+      "Newtonsoft.Json.JsonConverterAttribute",
+      "Newtonsoft.Json.JsonException",
+      "Newtonsoft.Json.JsonObjectAttribute",
+      "Newtonsoft.Json.MemberSerialization",
+      "Newtonsoft.Json.Serialization.AssociatedMetadataTypeResolver",
+      "Newtonsoft.Json.Serialization.CachedAttributeGetter\u003CT\u003E",
+      "Newtonsoft.Json.Serialization.NamingStrategy",
+      "Newtonsoft.Json.Serialization.ObjectConstructor\u003CT\u003E",
+      "Newtonsoft.Json.Utilities.MiscellaneousUtils",
+      "Newtonsoft.Json.Utilities.ReflectionDelegateFactory",
+      "Newtonsoft.Json.Utilities.ReflectionEnvironment",
+      "Newtonsoft.Json.Utilities.ReflectionUtils",
+      "Newtonsoft.Json.Utilities.StringUtils",
+      "Newtonsoft.Json.Utilities.ThreadSafeStore\u003CTKey, TValue\u003E",
+      "Newtonsoft.Json.Utilities.TypeExtensions",
+      "System.Attribute",
+      "System.ComponentModel.TypeConverter",
+      "System.ComponentModel.TypeDescriptor",
+      "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+      "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+      "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+      "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+      "System.Exception",
+      "System.Func\u003CT, TResult\u003E",
+      "System.Func\u003CTResult\u003E",
+      "System.Globalization.CultureInfo",
+      "System.InvalidOperationException",
+      "System.NonSerializedAttribute",
+      "System.Reflection.ConstructorInfo",
+      "System.Reflection.MemberInfo",
+      "System.Reflection.MemberTypes",
+      "System.Reflection.PropertyInfo",
+      "System.Runtime.Serialization.DataContractAttribute",
+      "System.Runtime.Serialization.DataMemberAttribute",
+      "System.SerializableAttribute",
+      "System.StringComparison",
+      "System.Type"
+    ],
+    "ca": 15,
+    "caTypes": [
+      "Newtonsoft.Json.JsonReader",
+      "Newtonsoft.Json.JsonTextReader",
+      "Newtonsoft.Json.Bson.BsonReader",
+      "Newtonsoft.Json.Converters.StringEnumConverter",
+      "Newtonsoft.Json.Converters.UnionConverter",
+      "Newtonsoft.Json.Converters.XmlNodeConverter",
+      "Newtonsoft.Json.Schema.JsonSchemaBuilder",
+      "Newtonsoft.Json.Schema.JsonSchemaGenerator",
+      "Newtonsoft.Json.Schema.JsonSchemaWriter",
+      "Newtonsoft.Json.Serialization.CachedAttributeGetter\u003CT\u003E",
+      "Newtonsoft.Json.Serialization.DefaultContractResolver",
+      "Newtonsoft.Json.Serialization.JsonContainerContract",
+      "Newtonsoft.Json.Serialization.JsonDictionaryContract",
+      "Newtonsoft.Json.Serialization.JsonSerializerInternalReader",
+      "Newtonsoft.Json.Serialization.JsonSerializerInternalWriter"
+    ],
+    "nonPrivateMethods": [
+      "GetCachedAttribute",
+      "CanTypeDescriptorConvertString",
+      "GetDataContractAttribute",
+      "GetDataMemberAttribute",
+      "GetObjectMemberSerialization",
+      "GetJsonConverter",
+      "CreateJsonConverterInstance",
+      "CreateNamingStrategyInstance",
+      "GetContainerNamingStrategy",
+      "IsNonSerializable",
+      "IsSerializable",
+      "GetAttribute"
+    ],
+    "unusedAttrs": []
+  },
+  {
+    "type": "Newtonsoft.Json.Serialization.JsonTypeReflector.CreatorCache",
+    "file": "JsonTypeReflector.cs",
+    "kind": "class",
+    "baseType": "object",
+    "methodsAnalysed": 0,
+    "ordinaryMethods": 0,
+    "properties": 0,
+    "fields": [
+      "Instance"
+    ],
+    "autoProps": [],
+    "inheritedAttrs": [],
+    "lcomHS": null,
+    "lcom4": 0,
+    "comps": [],
+    "ceInternal": 5,
+    "ceExternal": 2,
+    "ceTypes": [
+      "Newtonsoft.Json.Serialization.JsonTypeReflector",
+      "Newtonsoft.Json.Utilities.MiscellaneousUtils",
+      "Newtonsoft.Json.Utilities.ThreadSafeStore\u003CTKey, TValue\u003E",
+      "System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute",
+      "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+      "System.Func\u003CT, TResult\u003E",
+      "System.Type"
+    ],
+    "ca": 1,
+    "caTypes": [
+      "Newtonsoft.Json.Serialization.JsonTypeReflector"
+    ],
+    "nonPrivateMethods": [],
+    "unusedAttrs": [
+      "Instance"
+    ]
+  },
+  {
+    "type": "Newtonsoft.Json.Utilities.ReflectionEnvironment",
+    "file": "ReflectionEnvironment.cs",
+    "kind": "class",
+    "baseType": "object",
+    "methodsAnalysed": 3,
+    "ordinaryMethods": 0,
+    "properties": 3,
+    "fields": [
+      "_dynamicCodeGeneration",
+      "_fullyTrusted"
+    ],
+    "autoProps": [],
+    "inheritedAttrs": [],
+    "lcomHS": 1,
+    "lcom4": 2,
+    "comps": [
+      [
+        "DynamicCodeGeneration",
+        "ReflectionDelegateFactory"
+      ],
+      [
+        "FullyTrusted"
+      ]
+    ],
+    "ceInternal": 3,
+    "ceExternal": 2,
+    "ceTypes": [
+      "Newtonsoft.Json.Utilities.DynamicReflectionDelegateFactory",
+      "Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory",
+      "Newtonsoft.Json.Utilities.ReflectionDelegateFactory",
+      "System.AppDomain",
+      "System.Security.SecuritySafeCriticalAttribute"
+    ],
+    "ca": 14,
+    "caTypes": [
+      "Newtonsoft.Json.Converters.UnionConverter",
+      "Newtonsoft.Json.Converters.UnionConverter.UnionCase",
+      "Newtonsoft.Json.Serialization.DefaultContractResolver",
+      "Newtonsoft.Json.Serialization.JsonArrayContract",
+      "Newtonsoft.Json.Serialization.JsonDictionaryContract",
+      "Newtonsoft.Json.Serialization.JsonObjectContract",
+      "Newtonsoft.Json.Serialization.JsonSerializerInternalReader",
+      "Newtonsoft.Json.Serialization.JsonSerializerInternalWriter",
+      "Newtonsoft.Json.Serialization.JsonTypeReflector",
+      "Newtonsoft.Json.Utilities.ConvertUtils",
+      "Newtonsoft.Json.Utilities.DynamicUtils.BinderWrapper",
+      "Newtonsoft.Json.Utilities.FSharpUtils",
+      "Newtonsoft.Json.Utilities.ImmutableCollectionsUtils",
+      "Newtonsoft.Json.Utilities.ReflectionObject"
+    ],
+    "nonPrivateMethods": [],
+    "unusedAttrs": []
+  }
+]

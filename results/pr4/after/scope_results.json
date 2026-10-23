@@ -1,0 +1,578 @@
+[
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 37,
+  "rule": "CA1505",
+  "message": "'AssociatedMetadataTypeResolver' has a maintainability index of '67'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 37,
+  "rule": "CA1506",
+  "message": "'AssociatedMetadataTypeResolver' is coupled with '11' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 41,
+  "rule": "CA1505",
+  "message": "'Cache' has a maintainability index of '75'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 41,
+  "rule": "CA1506",
+  "message": "'Cache' is coupled with '6' different types from '3' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 43,
+  "rule": "CA1505",
+  "message": "'Instance' has a maintainability index of '89'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 43,
+  "rule": "IDE0090",
+  "message": "'new' expression can be simplified"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 50,
+  "rule": "CA1505",
+  "message": "'GetAssociatedMetadataType' has a maintainability index of '81'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 50,
+  "rule": "CA1506",
+  "message": "'GetAssociatedMetadataType' is coupled with '6' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 57,
+  "rule": "CA1502",
+  "message": "'FindMetadataClassType' has a cyclomatic complexity of '4'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 57,
+  "rule": "CA1505",
+  "message": "'FindMetadataClassType' has a maintainability index of '61'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 57,
+  "rule": "CA1506",
+  "message": "'FindMetadataClassType' is coupled with '9' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/AssociatedMetadataTypeResolver.cs",
+  "line": 71,
+  "rule": "IDE0074",
+  "message": "Use compound assignment"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 27,
+  "rule": "IDE0005",
+  "message": "Using directive is unnecessary."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 38,
+  "rule": "CA1505",
+  "message": "'JsonTypeReflector' has a maintainability index of '65'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 38,
+  "rule": "CA1506",
+  "message": "'JsonTypeReflector' is coupled with '41' different types from '10' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 40,
+  "rule": "CA1505",
+  "message": "'IdPropertyName' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 41,
+  "rule": "CA1505",
+  "message": "'RefPropertyName' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 42,
+  "rule": "CA1505",
+  "message": "'TypePropertyName' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 43,
+  "rule": "CA1505",
+  "message": "'ValuePropertyName' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 44,
+  "rule": "CA1505",
+  "message": "'ArrayValuesPropertyName' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 46,
+  "rule": "CA1505",
+  "message": "'ShouldSerializePrefix' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 47,
+  "rule": "CA1505",
+  "message": "'SpecifiedPostfix' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 49,
+  "rule": "CA1505",
+  "message": "'ConcurrentDictionaryTypeName' has a maintainability index of '93'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 53,
+  "rule": "CA1505",
+  "message": "'CreatorCache' has a maintainability index of '75'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 53,
+  "rule": "CA1506",
+  "message": "'CreatorCache' is coupled with '6' different types from '3' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 55,
+  "rule": "CA1505",
+  "message": "'Instance' has a maintainability index of '89'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 55,
+  "rule": "IDE0055",
+  "message": "Fix formatting"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 56,
+  "rule": "IDE0090",
+  "message": "'new' expression can be simplified"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 61,
+  "rule": "CA1505",
+  "message": "'GetCachedAttribute' has a maintainability index of '82'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 61,
+  "rule": "CA1506",
+  "message": "'GetCachedAttribute' is coupled with '4' different types from '3' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 68,
+  "rule": "CA1502",
+  "message": "'CanTypeDescriptorConvertString' has a cyclomatic complexity of '6'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 68,
+  "rule": "CA1505",
+  "message": "'CanTypeDescriptorConvertString' has a maintainability index of '61'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 68,
+  "rule": "CA1506",
+  "message": "'CanTypeDescriptorConvertString' is coupled with '6' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 97,
+  "rule": "CA1502",
+  "message": "'GetDataContractAttribute' has a cyclomatic complexity of '3'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 97,
+  "rule": "CA1505",
+  "message": "'GetDataContractAttribute' has a maintainability index of '65'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 97,
+  "rule": "CA1506",
+  "message": "'GetDataContractAttribute' is coupled with '7' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 118,
+  "rule": "CA1502",
+  "message": "'GetDataMemberAttribute' has a cyclomatic complexity of '8'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 118,
+  "rule": "CA1505",
+  "message": "'GetDataMemberAttribute' has a maintainability index of '56'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 118,
+  "rule": "CA1506",
+  "message": "'GetDataMemberAttribute' is coupled with '11' different types from '6' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 156,
+  "rule": "CA1502",
+  "message": "'GetObjectMemberSerialization' has a cyclomatic complexity of '5'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 156,
+  "rule": "CA1505",
+  "message": "'GetObjectMemberSerialization' has a maintainability index of '62'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 156,
+  "rule": "CA1506",
+  "message": "'GetObjectMemberSerialization' is coupled with '7' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 185,
+  "rule": "CA1502",
+  "message": "'GetJsonConverter' has a cyclomatic complexity of '2'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 185,
+  "rule": "CA1505",
+  "message": "'GetJsonConverter' has a maintainability index of '70'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 185,
+  "rule": "CA1506",
+  "message": "'GetJsonConverter' is coupled with '6' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 189,
+  "rule": "IDE0046",
+  "message": "'if' statement can be simplified"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 205,
+  "rule": "CA1505",
+  "message": "'CreateJsonConverterInstance' has a maintainability index of '75'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 205,
+  "rule": "CA1506",
+  "message": "'CreateJsonConverterInstance' is coupled with '8' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 213,
+  "rule": "CA1505",
+  "message": "'CreateNamingStrategyInstance' has a maintainability index of '75'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 213,
+  "rule": "CA1506",
+  "message": "'CreateNamingStrategyInstance' is coupled with '8' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 221,
+  "rule": "CA1502",
+  "message": "'GetContainerNamingStrategy' has a cyclomatic complexity of '3'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 221,
+  "rule": "CA1505",
+  "message": "'GetContainerNamingStrategy' has a maintainability index of '67'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 221,
+  "rule": "CA1506",
+  "message": "'GetContainerNamingStrategy' is coupled with '6' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 237,
+  "rule": "CA1502",
+  "message": "'GetCreator' has a cyclomatic complexity of '4'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 237,
+  "rule": "CA1505",
+  "message": "'GetCreator' has a maintainability index of '61'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 237,
+  "rule": "CA1506",
+  "message": "'GetCreator' is coupled with '14' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 241,
+  "rule": "IDE0047",
+  "message": "Parentheses can be removed"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 254,
+  "rule": "IDE0046",
+  "message": "'if' statement can be simplified"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 269,
+  "rule": "CA1502",
+  "message": "'CreateWithParameterizedConstructor' has a cyclomatic complexity of '2'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 269,
+  "rule": "CA1505",
+  "message": "'CreateWithParameterizedConstructor' has a maintainability index of '70'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 269,
+  "rule": "CA1506",
+  "message": "'CreateWithParameterizedConstructor' is coupled with '14' different types from '7' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 282,
+  "rule": "CA1502",
+  "message": "'GetConstructorParameterTypes' has a cyclomatic complexity of '3'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 282,
+  "rule": "CA1505",
+  "message": "'GetConstructorParameterTypes' has a maintainability index of '70'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 282,
+  "rule": "CA1506",
+  "message": "'GetConstructorParameterTypes' is coupled with '3' different types from '1' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 296,
+  "rule": "CA1502",
+  "message": "'GetAttribute' has a cyclomatic complexity of '6'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 296,
+  "rule": "CA1505",
+  "message": "'GetAttribute' has a maintainability index of '58'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 296,
+  "rule": "CA1506",
+  "message": "'GetAttribute' is coupled with '8' different types from '5' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 332,
+  "rule": "CA1502",
+  "message": "'GetAttribute' has a cyclomatic complexity of '9'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 332,
+  "rule": "CA1505",
+  "message": "'GetAttribute' has a maintainability index of '53'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 332,
+  "rule": "CA1506",
+  "message": "'GetAttribute' is coupled with '8' different types from '6' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 380,
+  "rule": "CA1505",
+  "message": "'IsNonSerializable' has a maintainability index of '91'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 380,
+  "rule": "CA1506",
+  "message": "'IsNonSerializable' is coupled with '2' different types from '2' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 384,
+  "rule": "IDE0047",
+  "message": "Parentheses can be removed"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 397,
+  "rule": "CA1505",
+  "message": "'IsSerializable' has a maintainability index of '91'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 397,
+  "rule": "CA1506",
+  "message": "'IsSerializable' is coupled with '2' different types from '2' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 401,
+  "rule": "IDE0047",
+  "message": "Parentheses can be removed"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 415,
+  "rule": "CA1502",
+  "message": "'GetAttribute' has a cyclomatic complexity of '3'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 415,
+  "rule": "CA1505",
+  "message": "'GetAttribute' has a maintainability index of '69'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 415,
+  "rule": "CA1506",
+  "message": "'GetAttribute' is coupled with '6' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+  "line": 422,
+  "rule": "IDE0046",
+  "message": "'if' statement can be simplified"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 40,
+  "rule": "CA1505",
+  "message": "'ReflectionEnvironment' has a maintainability index of '75'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 40,
+  "rule": "CA1506",
+  "message": "'ReflectionEnvironment' is coupled with '7' different types from '4' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 57,
+  "rule": "CA1505",
+  "message": "'DynamicCodeGeneration' has a maintainability index of '76'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 62,
+  "rule": "CA1502",
+  "message": "'get_DynamicCodeGeneration' has a cyclomatic complexity of '2'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 62,
+  "rule": "CA1505",
+  "message": "'get_DynamicCodeGeneration' has a maintainability index of '76'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 62,
+  "rule": "CA1506",
+  "message": "'get_DynamicCodeGeneration' is coupled with '3' different types from '3' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 91,
+  "rule": "CA1505",
+  "message": "'FullyTrusted' has a maintainability index of '73'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 93,
+  "rule": "CA1502",
+  "message": "'get_FullyTrusted' has a cyclomatic complexity of '3'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 93,
+  "rule": "CA1505",
+  "message": "'get_FullyTrusted' has a maintainability index of '73'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 93,
+  "rule": "CA1506",
+  "message": "'get_FullyTrusted' is coupled with '2' different types from '1' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 97,
+  "rule": "IDE0047",
+  "message": "Parentheses can be removed"
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 120,
+  "rule": "CA1505",
+  "message": "'ReflectionDelegateFactory' has a maintainability index of '82'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 122,
+  "rule": "CA1502",
+  "message": "'get_ReflectionDelegateFactory' has a cyclomatic complexity of '2'. Rewrite or refactor the code to decrease its complexity below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 122,
+  "rule": "CA1505",
+  "message": "'get_ReflectionDelegateFactory' has a maintainability index of '82'. Rewrite or refactor the code to increase its maintainability index (MI) above '99'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 122,
+  "rule": "CA1506",
+  "message": "'get_ReflectionDelegateFactory' is coupled with '3' different types from '1' different namespaces. Rewrite or refactor the code to decrease its class coupling below '2'."
+ },
+ {
+  "file": "Src/Newtonsoft.Json/Utilities/ReflectionEnvironment.cs",
+  "line": 125,
+  "rule": "IDE0046",
+  "message": "'if' statement can be simplified"
+ }
+]
