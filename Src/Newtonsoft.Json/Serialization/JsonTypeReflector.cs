@@ -74,7 +74,7 @@ namespace Newtonsoft.Json.Serialization
         [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
         private static class AssociatedMetadataTypesCache
         {
-            internal static readonly ThreadSafeStore<Type, Type?> Instance = new ThreadSafeStore<Type, Type?>(GetAssociateMetadataTypeFromAttribute);
+            internal static readonly ThreadSafeStore<Type, Type?> Instance = new ThreadSafeStore<Type, Type?>(FindMetadataClassType);
         }
 
         private static ReflectionObject? _metadataTypeAttributeReflectionObject;
@@ -319,7 +319,7 @@ namespace Newtonsoft.Json.Serialization
 
         [RequiresUnreferencedCode(MiscellaneousUtils.TrimWarning)]
         [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
-        private static Type? GetAssociateMetadataTypeFromAttribute(Type type)
+        private static Type? FindMetadataClassType(Type type)
         {
             Attribute[] customAttributes = ReflectionUtils.GetAttributes(type, null, true);
 
