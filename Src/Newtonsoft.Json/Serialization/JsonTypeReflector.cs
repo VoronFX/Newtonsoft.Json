@@ -36,11 +36,6 @@ using Newtonsoft.Json.Utilities;
 using System.Runtime.CompilerServices;
 using System.Diagnostics.CodeAnalysis;
 
-#if !HAVE_LINQ
-using Newtonsoft.Json.Utilities.LinqBridge;
-#else
-using System.Linq;
-#endif
 using System.Runtime.Serialization;
 
 namespace Newtonsoft.Json.Serialization
@@ -276,26 +271,7 @@ namespace Newtonsoft.Json.Serialization
                 {
                     if (parameters != null)
                     {
-                        Type[] paramTypes = parameters.Select(param =>
-                        {
-                            if (param == null)
-                            {
-                                throw new InvalidOperationException("Cannot pass a null parameter to the constructor.");
-                            }
-
-                            return param.GetType();
-                        }).ToArray();
-                        ConstructorInfo? parameterizedConstructorInfo = type.GetConstructor(paramTypes);
-
-                        if (parameterizedConstructorInfo != null)
-                        {
-                            ObjectConstructor<object> parameterizedConstructor = ReflectionDelegateFactory.CreateParameterizedConstructor(parameterizedConstructorInfo);
-                            return parameterizedConstructor(parameters);
-                        }
-                        else
-                        {
-                            throw new JsonException("No matching parameterized constructor found for '{0}'.".FormatWith(CultureInfo.InvariantCulture, type));
-                        }
+                        return CreateWithParameterizedConstructor(type, parameters);
                     }
 
                     if (defaultConstructor == null)
@@ -310,6 +286,32 @@ namespace Newtonsoft.Json.Serialization
                     throw new JsonException("Error creating '{0}'.".FormatWith(CultureInfo.InvariantCulture, type), ex);
                 }
             };
+        }
+
+        [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
+        private static object CreateWithParameterizedConstructor(
+            [DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes.PublicConstructors)]
+            Type type,
+            object[] parameters)
+        {
+            Type[] parameterTypes = GetConstructorParameterTypes(parameters);
+            ConstructorInfo constructorInfo = type.GetConstructor(parameterTypes)
+                ?? throw new JsonException("No matching parameterized constructor found for '{0}'.".FormatWith(CultureInfo.InvariantCulture, type));
+
+            ObjectConstructor<object> parameterizedConstructor = ReflectionDelegateFactory.CreateParameterizedConstructor(constructorInfo);
+            return parameterizedConstructor(parameters);
+        }
+
+        private static Type[] GetConstructorParameterTypes(object[] parameters)
+        {
+            Type[] parameterTypes = new Type[parameters.Length];
+            for (int i = 0; i < parameters.Length; i++)
+            {
+                object parameter = parameters[i] ?? throw new InvalidOperationException("Cannot pass a null parameter to the constructor.");
+                parameterTypes[i] = parameter.GetType();
+            }
+
+            return parameterTypes;
         }
 
 #if !(NET20 || DOTNET)
