@@ -207,11 +207,7 @@ namespace Newtonsoft.Json.Serialization
 
             if (converterAttribute != null)
             {
-                Func<object[]?, object> creator = CreatorCache.Instance.Get(converterAttribute.ConverterType);
-                if (creator != null)
-                {
-                    return (JsonConverter)creator(converterAttribute.ConverterParameters);
-                }
+                return CreateJsonConverterInstance(converterAttribute.ConverterType, converterAttribute.ConverterParameters);
             }
 
             return null;
