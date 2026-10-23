@@ -64,17 +64,6 @@ namespace Newtonsoft.Json.Serialization
                 new ThreadSafeStore<Type, Func<object[]?, object>>(GetCreator);
         }
 
-#if !(NET20 || DOTNET)
-        [RequiresUnreferencedCode(MiscellaneousUtils.TrimWarning)]
-        [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
-        private static class AssociatedMetadataTypesCache
-        {
-            internal static readonly ThreadSafeStore<Type, Type?> Instance = new ThreadSafeStore<Type, Type?>(FindMetadataClassType);
-        }
-
-        private static ReflectionObject? _metadataTypeAttributeReflectionObject;
-#endif
-
         [RequiresUnreferencedCode(MiscellaneousUtils.TrimWarning)]
         [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
         public static T? GetCachedAttribute<T>(object attributeProvider) where T : Attribute
@@ -310,43 +299,6 @@ namespace Newtonsoft.Json.Serialization
             return parameterTypes;
         }
 
-#if !(NET20 || DOTNET)
-        [RequiresUnreferencedCode(MiscellaneousUtils.TrimWarning)]
-        [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
-        private static Type? GetAssociatedMetadataType(Type type)
-        {
-            return AssociatedMetadataTypesCache.Instance.Get(type);
-        }
-
-        [RequiresUnreferencedCode(MiscellaneousUtils.TrimWarning)]
-        [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
-        private static Type? FindMetadataClassType(Type type)
-        {
-            Attribute[] customAttributes = ReflectionUtils.GetAttributes(type, null, true);
-
-            foreach (Attribute attribute in customAttributes)
-            {
-                Type attributeType = attribute.GetType();
-
-                // only test on attribute type name
-                // attribute assembly could change because of type forwarding, etc
-                if (string.Equals(attributeType.FullName, "System.ComponentModel.DataAnnotations.MetadataTypeAttribute", StringComparison.Ordinal))
-                {
-                    const string metadataClassTypeName = "MetadataClassType";
-
-                    if (_metadataTypeAttributeReflectionObject == null)
-                    {
-                        _metadataTypeAttributeReflectionObject = ReflectionObject.Create(attributeType, metadataClassTypeName);
-                    }
-
-                    return (Type?)_metadataTypeAttributeReflectionObject.GetValue(attribute, metadataClassTypeName);
-                }
-            }
-
-            return null;
-        }
-#endif
-
         [RequiresUnreferencedCode(MiscellaneousUtils.TrimWarning)]
         [RequiresDynamicCode(MiscellaneousUtils.AotWarning)]
         private static T? GetAttribute<T>([DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes.Interfaces)] Type type) where T : Attribute
@@ -354,7 +306,7 @@ namespace Newtonsoft.Json.Serialization
             T? attribute;
 
 #if !(NET20 || DOTNET)
-            Type? metadataType = GetAssociatedMetadataType(type);
+            Type? metadataType = AssociatedMetadataTypeResolver.GetAssociatedMetadataType(type);
             if (metadataType != null)
             {
                 attribute = ReflectionUtils.GetAttribute<T>(metadataType, true);
@@ -390,7 +342,7 @@ namespace Newtonsoft.Json.Serialization
             T? attribute;
 
 #if !(NET20 || DOTNET)
-            Type? metadataType = GetAssociatedMetadataType(memberInfo.DeclaringType!);
+            Type? metadataType = AssociatedMetadataTypeResolver.GetAssociatedMetadataType(memberInfo.DeclaringType!);
             if (metadataType != null)
             {
                 MemberInfo? metadataTypeMemberInfo = ReflectionUtils.GetMemberInfoFromType(metadataType, memberInfo);
